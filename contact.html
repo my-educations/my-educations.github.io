@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="styles.css" rel="stylesheet">
-        <title>Little Puppy</title>
+        <title>Contact</title>
+        <script src="greet.js"></script>
     </head>
     <body>
         <div class="w3-top">
@@ -23,21 +24,34 @@
                 <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
               </div>
             </div>
-            <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
-                <input name="q" type="text">
-                <input type="submit" value="Search">
-            </form>
+            <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
           </div>
         </div>
 
-        <div class="w3-content" style="max-width:2000px;margin-top:46px">
-          <div class="mySlides w3-display-container w3-center" style="display: block;">
-            <img src="https://dogtime.com/assets/uploads/2018/10/puppies-cover-1280x720.jpg" style="width:100%">
-                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                    <h3>Little Puppy</h3>
-                    <p>Welcome to my WebPage!</p>
-                </div>
-          </div>
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h2 class="w3-wide w3-center">Contact</h2>
+            <p class="w3-opacity w3-center"><i>Leave a message!</i></p>
+            <div class="w3-row w3-padding-32">
+              <div class="w3-col m6 w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i>Adress: Boston, NY, USA<br>
+                <i class="fa fa-phone" style="width:30px"></i>Tel.: 555-1234<br>
+                <i class="fa fa-envelope" style="width:30px"></i>Email: jetrobert19@mail.com<br>
+              </div>
+              <div class="w3-col m6">
+                <form onsubmit="greet(); return false;">
+                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                      <input class="w3-input w3-border" type="text" id="contact-name" placeholder="Name" required="" name="Name">
+                    </div>
+                    <div class="w3-half">
+                      <input class="w3-input w3-border" type="text" placeholder="Email" required="" name="Email">
+                    </div>
+                  </div>
+                  <input class="w3-input w3-border" type="text" placeholder="Message" required="" name="Message">
+                  <button class="w3-button w3-black w3-section w3-right" type="submit">Send</button>
+                </form>
+              </div>
+            </div>
         </div>
 
         <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
