@@ -7,8 +7,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="styles.css" rel="stylesheet">
-        <title>Contact</title>
-        <script src="greet.js"></script>
+        <title>{% block title %}{% endblock %}</title>
     </head>
     <body>
         <div class="w3-top">
@@ -28,36 +27,7 @@
           </div>
         </div>
 
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-            <h2 class="w3-wide w3-center">Contact us</h2>
-            <p class="w3-opacity w3-center"><i>For further information, please leave a message!</i></p>
-            <div class="w3-row w3-padding-32">
-              <div class="w3-col m6 w3-large w3-margin-bottom">
-                <i class="fa fa-envelope" style="width:30px"></i>Email: sin-ma.feifei@hotmail.com<br>
-                <i class="fa fa-map-marker" style="width:30px"></i>Adress: Kuala Lumpur, Malaysia<br>
-                <i class="fa fa-wechat" style="width:30px"></i>Wechat: <br>
-                <img width=200 src="https://raw.githubusercontent.com/Malaysia-Online/site/master/resource/images/info/wechat.jpg"><br>
-                <i class="fa fa-facebook" style="width:30px"></i>Facebook: https://www.facebook.com/Study-in-Malaysia-109935760544778/<br>
-                <i class="fa fa-zhihu" style="width:30px"></i>Zhihu: https://zhuanlan.zhihu.com/malaysiaeducation</i><br>
-                <i class="fa fa-weibo" style="width:30px">Weibo: https://www.weibo.com/a/hot/7583413125060609_1.html</i>
-
-              </div>
-              <div class="w3-col m6">
-                <form onsubmit="greet(); return false;">
-                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                    <div class="w3-half">
-                      <input class="w3-input w3-border" type="text" id="contact-name" placeholder="Name" required="" name="Name">
-                    </div>
-                    <div class="w3-half">
-                      <input class="w3-input w3-border" type="text" placeholder="Email" required="" name="Email">
-                    </div>
-                  </div>
-                  <input class="w3-input w3-border" type="text" placeholder="Message" required="" name="Message">
-                  <button class="w3-button w3-black w3-section w3-right" type="submit">Send</button>
-                </form>
-              </div>
-            </div>
-        </div>
+        {% block main %}{% endblock %}
 
         <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
           <a href="https://www.facebook.com/Just-One-Minute-English-112701477234716/" class="fa fa-facebook-official w3-hover-opacity"></a>
