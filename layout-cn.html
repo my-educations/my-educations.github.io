@@ -11,29 +11,52 @@
         <title>布局模版</title>
     </head>
     <body>
-        <!-- default part-->
-        <div class="w3-top">
-          <div class="w3-bar w3-black w3-card">
-            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">首页</a>
-            <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">留学指导</a>
-            <a href="knowledge-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">实用干活</a>
-            <a href="language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
-            <a href="programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
-            <div class="w3-dropdown-hover w3-hide-small">
-              <button class="w3-padding-large w3-button" title="More">更多<i class="fa fa-caret-down"></i></button>
-              <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a href="about-cn.html" class="w3-bar-item w3-button">关于我们</a>
-                <a href="contact-cn.html" class="w3-bar-item w3-button">联系方式</a>
+      <!-- default part-->
+      <div class="container-fluid">
+        <header class="text-66">
+
+          <div class="bg-FB row justify-content-center shadow fs-12">
+            <div class="w-1200">
+              <div class="login height d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <a class="pointer" data-toggle="modal" data-target="#login">登录/注册</a>
+                </div>
+                <div class="d-flex align-items-center">
+                  <a class="ml-15 online" href="#" data-original-title="" title="">联系客服</a>
+                  <a class="ml-15" href="#" data-original-title="" title="">微信公众号</a>
+                  <span id="language-info" class="ml-15" data-toggle="modal" data-target="#language" style="display: inline-block;">
+                    English
+                    <img class="header-lang m-r-5 m-l-5" src="img/header/lang-en.png" alt="...">
+                    中文
+                  </span>
+                </div>
               </div>
             </div>
-            <!-- <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right"> -->
-            <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-                <input name="q" type="text">
-                <input type="submit" value="Search">
-            </form>
           </div>
-        </div>
+
+          <!-- <div class="w3-top"> -->
+          <div class="row justify-content-center">
+            <!-- <div class="w3-bar w3-black w3-card"> -->
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="index.html" class="w3-bar-item w3-button w3-padding-large">首页</a>
+              <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">留学指导</a>
+              <a href="knowledge-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">实用干货</a>
+              <a href="language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
+              <a href="programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
+              <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">更多<i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                  <a href="about-cn.html" class="w3-bar-item w3-button">关于我们</a>
+                  <a href="contact-cn.html" class="w3-bar-item w3-button">联系方式</a>
+                </div>
+              </div>
+              <!-- <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
+                  <input name="q" type="text">
+                  <input type="submit" value="Search">
+              </form> -->
+              <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+          </div>
+        </header>
 
 
         <!--default footer-->
@@ -45,6 +68,7 @@
           <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity"></a>
           <p class="w3-medium">All rights reserved &copy; 2020 学而至上</p>
         </footer>
-
+        
+      </div>
     </body>
 </html>
