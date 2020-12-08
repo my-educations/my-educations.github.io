@@ -5,3 +5,7 @@ body {
 .about-h3 {
     text-align: center;
 }
+
+.w-1200 {
+    width: 1200px;
+}
