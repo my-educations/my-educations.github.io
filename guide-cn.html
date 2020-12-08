@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="/static/styles.css" rel="stylesheet">
-        <title>留学指导</title>
+        <title>干货指南</title>
     </head>
     <body>
       <!-- default part-->
@@ -39,8 +39,8 @@
             <!-- <div class="w3-bar w3-black w3-card"> -->
               <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
               <a href="index.html" class="w3-bar-item w3-button w3-padding-large">首页</a>
-              <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">留学指导</a>
-              <a href="knowledge-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">实用干货</a>
+              <a href="school-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">学校列表</a>
+              <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">干货指南</a>
               <a href="language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
               <a href="programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
               <div class="w3-dropdown-hover w3-hide-small">
@@ -59,26 +59,72 @@
         </header>
 
 
-       <!-- function part-->
-       <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-            <h2 class="w3-wide">公立大学</h2>
-            <p class="w3-opacity"><i>马来西亚</i></p>
-            <p class="w3-justify"></p>
-            <div class="w3-row w3-padding-32">
-              <div class="w3-third">
-                <p><a href="school_list_public/um-cn.html">马来亚大学</a></p>
-                <img src="img/schools/um.jpg" class="w3-round w3-margin-bottom" alt="Morning" style="width:80%">
+        <!-- function part-->
+        <div class="w3-black" id="guide">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+              <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                <div class="w3-third w3-margin-bottom">
+                  <img src="img/guide/offer.png" alt="Offeer Evaluator" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>录取评估</b></p>
+                    <p class="w3-opacity">评估你被某一所大学录取的概率</p>
+                    <p>输入你的相关数据，了解你能进入某所大学学习的成功率</p>
+                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">进入</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                  <img src="img/guide/gpa.png" alt="GPA Calculator" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>绩点转换</b></p>
+                    <p class="w3-opacity">各种类型的绩点转换</p>
+                    <p>输入你的相关数据，了解在各种标准下你的真实绩点</p>
+                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">进入</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                  <img src="img/guide/life-expense.png" alt="Life Expense Calculator" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>开销预估</b></p>
+                    <p class="w3-opacity">预估你在某所大学学习的费用开支</p>
+                    <p>输入你的相关数据，了解你在某所大学学习阶段的所有费用开销</p>
+                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">进入</button>
+                  </div>
+                </div>
               </div>
-              <div class="w3-third">
-                <p><a href="school_list_public/usm-cn.html">马来西亚理科大学</a></p>
-                <img src="img/schools/usm.jpg" class="w3-round w3-margin-bottom" alt="Afternoon" style="width:80%">
-              </div>
-              <div class="w3-third">
-                <p><a href="school_list_public/utm-cn.html">马来西亚理工大学</a></p>
-                <img src="img/schools/utm.jpg" class="w3-round" alt="Evening" style="width:80%">
+            </div>
+          </div>
+        </div>
+
+        <!-- function part - js tool template -->
+        <div id="recuitTemplate" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+              <header class="w3-container w3-teal w3-center w3-padding-32">
+                <span onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>评测</h2>
+              </header>
+              <div class="w3-container">
+                <p><label><i class="fa fa-shopping-cart"></i> 人民币15元 </label></p>
+                <input class="w3-input w3-border" type="text" placeholder="How long?">
+                <p><label><i class="fa fa-user"></i> 发送至 </label></p>
+                <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">确定 <i class="fa fa-check"></i></button>
+                <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
+                <p class="w3-right">需要 <a href="index.html#" class="w3-text-blue">咨询?</a></p>
               </div>
             </div>
         </div>
+
+
+        <!-- function part - js tool-->
+        <script>
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('recuitTemplate');
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
 
 
         <!--default footer-->

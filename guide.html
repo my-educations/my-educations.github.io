@@ -8,16 +8,16 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="/static/styles.css" rel="stylesheet">
-        <title>Guide</title>
+        <title>Useful guide</title>
     </head>
     <body>
-      <!-- default part-->
-      <div class="w3-top">
+        <!-- default part-->
+        <div class="w3-top">
           <div class="w3-bar w3-black w3-card">
             <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
             <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
             <a href="programs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Programs</a>
-            <a href="knowledge.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Products</a>
+            <a href="guide.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Products</a>
             <div class="w3-dropdown-hover w3-hide-small">
               <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>
               <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -29,27 +29,71 @@
           </div>
         </div>
 
-
-       <!-- function part-->
-       <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-            <h2 class="w3-wide">Program List</h2>
-            <p class="w3-opacity"><i>since 2020</i></p>
-            <p class="w3-justify">A vast range of programs are listed here.</p>
-            <div class="w3-row w3-padding-32">
-              <div class="w3-third">
-                <p><a href="program_list/welcome_letter.html">Welcome Letter from Campus2Campus Edu Tour Team</a></p>
-                <img src="img/programs/welcome_letter.jpg" class="w3-round w3-margin-bottom" alt="Morning" style="width:80%">
-              </div>
-              <div class="w3-third">
-                <p><a href="program_list/campus2campus_tour.html">Campus2Campus Educational Tour - Round 1</a></p>
-                <img src="img/programs/campus2campus.jpg" class="w3-round w3-margin-bottom" alt="Afternoon" style="width:80%">
-              </div>
-              <div class="w3-third">
-                <p>To be announced</p>
-                <img src="img/programs/bg.jpg" class="w3-round" alt="Evening" style="width:80%">
+        <!-- function part-->
+        <div class="w3-black" id="guide">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+              <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                <div class="w3-third w3-margin-bottom">
+                  <img src="img/guide/offer.png" alt="Offeer Evaluator" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>Offer Evaluator</b></p>
+                    <p class="w3-opacity">The opportunity to be offered by universities and colleges in Malaysia.</p>
+                    <p>Input your related data and get feedbacks of the chance to be offered by University of Malaya.</p>
+                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">Start now</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                  <img src="img/guide/gpa.png" alt="GPA Calculator" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>GPA Calculator</b></p>
+                    <p class="w3-opacity">Transfer the percentile to 4.0.</p>
+                    <p>Transfer your percentile scores to standard 4.0 grades for Malaysia universities.</p>
+                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">Start now</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                  <img src="img/guide/life-expense.png" alt="Life Expense Calculator" style="width:100%" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>Life Expense Calculator</b></p>
+                    <p class="w3-opacity">Predict the money you need when study in Malaysia.</p>
+                    <p>Calculate the life expense based on your personal options.</p>
+                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">Start now</button>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
+
+        <!-- product template -->
+        <div id="recuitTemplate" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+              <header class="w3-container w3-teal w3-center w3-padding-32">
+                <span onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Start Now</h2>
+              </header>
+              <div class="w3-container">
+                <p><label><i class="fa fa-shopping-cart"></i> $15 per hour</label></p>
+                <input class="w3-input w3-border" type="text" placeholder="How long?">
+                <p><label><i class="fa fa-user"></i> Send To</label></p>
+                <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Confirm <i class="fa fa-check"></i></button>
+                <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;none&#39;">Close <i class="fa fa-remove"></i></button>
+                <p class="w3-right">Need <a href="index.html#" class="w3-text-blue">help?</a></p>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- function part-->
+        <script>
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('recuitTemplate');
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
 
 
         <!--default footer-->
@@ -61,8 +105,6 @@
           <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity"></a>
           <p class="w3-medium">All rights reserved &copy; 2020 Study Max</p>
         </footer>
-
-
 
     </body>
 </html>
