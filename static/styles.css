@@ -9,3 +9,12 @@ body {
 .w-1200 {
     width: 1200px;
 }
+
+.card.my-3 {
+    width: 390px;
+}
+
+.card {
+    border-radius: 0.5rem !important;
+    overflow: hidden;
+}
