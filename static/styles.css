@@ -22,3 +22,8 @@ body {
 .d-flex {
     display: flex !important;
 }
+
+ul li::marker {
+  color: black;
+  font-size: 1.5em;
+}

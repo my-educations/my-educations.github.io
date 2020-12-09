@@ -8,135 +8,111 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="/static/styles.css" rel="stylesheet">
-        <title>干货指南</title>
+        <title>学习大师</title>
     </head>
     <body>
-      <!-- default part-->
-      <div class="container-fluid">
-        <header class="text-66">
+        <!-- default body-->
+        <div class="container-fluid">
 
-          <div class="bg-FB row justify-content-center shadow fs-12">
+          <!-- default header-->
+          <header class="with-color">
+
+            <div class="bg-FB row justify-content-center shadow fs-12">
+              <div class="w-1200">
+                <div class="login height d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <a class="pointer" data-toggle="modal" data-target="#login">登录/注册</a>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <a class="ml-15 online" href="#" data-original-title="" title="">联系客服</a>
+                    <a class="ml-15" href="#" data-original-title="" title="">微信公众号</a>
+                    <span id="language-info" class="ml-15" data-toggle="modal" data-target="#language" style="display: inline-block;">
+                      English
+                      <img class="header-lang m-r-5 m-l-5" src="img/header/lang-en.png" alt="...">
+                      中文
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center bg-F6">
+              <div class="w-1200">
+                <div class="d-flex justify-content-between">
+                  <a href="/">
+                    <img class="logo" src="img/about/logo.png" style="width:50%">
+                  </a>
+                  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">首页</a>
+                  <a href="school-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">学校列表</a>
+                  <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large">干货指南</a>
+                  <a href="language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
+                  <a href="programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
+                  <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-padding-large w3-button" title="More">更多<i class="fa fa-caret-down"></i></button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="tool-cn.html" class="w3-bar-item w3-button">实用工具</a>
+                      <a href="about-cn.html" class="w3-bar-item w3-button">关于我们</a>
+                      <a href="contact-cn.html" class="w3-bar-item w3-button">联系方式</a>
+                    </div>
+                  </div>
+                  <!-- <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
+                      <input name="q" type="text">
+                      <input type="submit" value="Search">
+                  </form> -->
+                  <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </header>
+
+
+          <!--body main-->
+          <div id="page-m-h" class="row justify-content-center pb-5 bg-F7 bg-shade" style="min-height: 198px;">
+
             <div class="w-1200">
-              <div class="login height d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <a class="pointer" data-toggle="modal" data-target="#login">登录/注册</a>
-                </div>
-                <div class="d-flex align-items-center">
-                  <a class="ml-15 online" href="#" data-original-title="" title="">联系客服</a>
-                  <a class="ml-15" href="#" data-original-title="" title="">微信公众号</a>
-                  <span id="language-info" class="ml-15" data-toggle="modal" data-target="#language" style="display: inline-block;">
-                    English
-                    <img class="header-lang m-r-5 m-l-5" src="img/header/lang-en.png" alt="...">
-                    中文
-                  </span>
-                </div>
+              <div id="ListGroup" class="relative w-245 d-inline-block align-top rounded border overflow-hidden text-FF mr-4 mt-5 pb-3 bg-FF tree">
+                <ul class="nav flex-column">
+                  <li class="title bg-F6 py-3 px-4 fs-18 bg-en">
+                    推荐文章
+                  </li>
+                  <li class="px-4 py-2 pt-3">
+                    <span class="text-33 medium">学校排名</span>
+                  </li>
+                  <a class="my-1 mx-3 px-2 py-1 d-flex text-66 fs-14" href="">
+                    - QS大学排名
+                  </a>
+                </ul>
               </div>
+
+              <div class="d-inline-block align-top">
+                <div class="m-b-10 text-right fs-14 mt-5">
+                  排序:
+                  <div class="d-inline-block  border bg-white" style="width: 120px;border-radius: 5px;padding:3px;">
+                    <select class="border-0 w-100 text-33 fs-14 py-1" name="order_by">
+                      <option value="new_update">最近更新</option>
+                      <option value="hot">最受欢迎</option>
+                    </select>
+                  </div>
+                </div>
+                <ul class="content rounded border m-t-20 p-0 bg-FF">
+                  <a class="d-flex mx-3 py-4 justify-content-between" href="">
+                </ul>
+
             </div>
           </div>
 
-          <!-- <div class="w3-top"> -->
-          <div class="row justify-content-center">
-            <!-- <div class="w3-bar w3-black w3-card"> -->
-              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-              <a href="index.html" class="w3-bar-item w3-button w3-padding-large">首页</a>
-              <a href="school-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">学校列表</a>
-              <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">干货指南</a>
-              <a href="language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
-              <a href="programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
-              <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-padding-large w3-button" title="More">更多<i class="fa fa-caret-down"></i></button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                  <a href="about-cn.html" class="w3-bar-item w3-button">关于我们</a>
-                  <a href="contact-cn.html" class="w3-bar-item w3-button">联系方式</a>
-                </div>
-              </div>
-              <!-- <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
-                  <input name="q" type="text">
-                  <input type="submit" value="Search">
-              </form> -->
-              <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-          </div>
-        </header>
+          <!--default footer-->
+          <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+            <a href="https://www.facebook.com/Just-One-Minute-English-112701477234716/" class="fa fa-facebook-official w3-hover-opacity"></a>
+            <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity"></a>
+            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube w3-hover-opacity"></a>
+            <a href="https://linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
+            <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity"></a>
+            <p class="w3-medium">All rights reserved &copy; 2020 学习大师</p>
+          </footer>
 
-
-        <!-- function part-->
-        <div class="w3-black" id="guide">
-            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-              <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-                <div class="w3-third w3-margin-bottom">
-                  <img src="img/guide/offer.png" alt="录取评估" style="width:100%" class="w3-hover-opacity">
-                  <div class="w3-container w3-white">
-                    <p><b>录取评估</b></p>
-                    <p class="w3-opacity">评估你被某一所大学录取的概率</p>
-                    <p>输入你的相关数据，了解你能进入某所大学学习的成功率</p>
-                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">进入</button>
-                  </div>
-                </div>
-                <div class="w3-third w3-margin-bottom">
-                  <img src="img/guide/gpa.png" alt="绩点转换" style="width:100%" class="w3-hover-opacity">
-                  <div class="w3-container w3-white">
-                    <p><b>绩点转换</b></p>
-                    <p class="w3-opacity">各种类型的绩点转换</p>
-                    <p>输入你的相关数据，了解在各种标准下你的真实绩点</p>
-                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">进入</button>
-                  </div>
-                </div>
-                <div class="w3-third w3-margin-bottom">
-                  <img src="img/guide/life-expense.png" alt="留学费用" style="width:100%" class="w3-hover-opacity">
-                  <div class="w3-container w3-white">
-                    <p><b>留学费用</b></p>
-                    <p class="w3-opacity">预估你在某所大学学习的费用开支</p>
-                    <p>输入你的相关数据，了解你在某所大学学习阶段的所有费用开销</p>
-                    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;block&#39;">进入</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-
-        <!-- function part - js tool template -->
-        <div id="recuitTemplate" class="w3-modal">
-            <div class="w3-modal-content w3-animate-top w3-card-4">
-              <header class="w3-container w3-teal w3-center w3-padding-32">
-                <span onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-                <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>评测</h2>
-              </header>
-              <div class="w3-container">
-                <p><label><i class="fa fa-shopping-cart"></i> 人民币15元 </label></p>
-                <input class="w3-input w3-border" type="text" placeholder="How long?">
-                <p><label><i class="fa fa-user"></i> 发送至 </label></p>
-                <input class="w3-input w3-border" type="text" placeholder="Enter email">
-                <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">确定 <i class="fa fa-check"></i></button>
-                <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;recuitTemplate&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
-                <p class="w3-right">需要 <a href="index.html#" class="w3-text-blue">咨询?</a></p>
-              </div>
-            </div>
-        </div>
-
-
-        <!-- function part - js tool-->
-        <script>
-        // When the user clicks anywhere outside of the modal, close it
-        var modal = document.getElementById('recuitTemplate');
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-        </script>
-
-
-        <!--default footer-->
-        <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-          <a href="https://www.facebook.com/Just-One-Minute-English-112701477234716/" class="fa fa-facebook-official w3-hover-opacity"></a>
-          <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity"></a>
-          <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube w3-hover-opacity"></a>
-          <a href="https://linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
-          <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity"></a>
-          <p class="w3-medium">All rights reserved &copy; 2020 学习大师</p>
-        </footer>
-
-      </div>
     </body>
 </html>
