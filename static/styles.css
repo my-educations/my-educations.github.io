@@ -18,3 +18,7 @@ body {
     border-radius: 0.5rem !important;
     overflow: hidden;
 }
+
+.d-flex {
+    display: flex !important;
+}
