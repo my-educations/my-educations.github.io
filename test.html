@@ -1,163 +1,190 @@
 <!DOCTYPE html>
 
 <html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <title>学习大师</title>
-  <style>
-    /* Remove the navbar's default rounded borders and increase the bottom margin */
-    .navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
-    }
+  <meta charset="utf-8">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="/static/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>学习大师</title>
+  </head>
 
-    /* Remove the jumbotron's default bottom margin */
-     .jumbotron {
-      margin-bottom: 0;
-    }
+  <body>
+    <!--header-->
+    <header>
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1>学习大师</h1>
+          <p>好好学习，天天向上</p>
+          <img src="img/about/logo.png" style="width:100px">
+        </div>
+      </div>
 
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
-</head>
-<body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">学习大师</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">首页</a></li>
+              <li><a href="school-cn.html">学校列表</a></li>
+              <li><a href="guide-cn.html">干货指南</a></li>
+              <li><a href="language-cn.html">语言学习</a></li>
+              <li><a href="programs-cn.html">专题活动</a></li>
+              <li><a href="tool-cn.html">实用工具</a></li>
+              <li><a href="about-cn.html">关于我们</a></li>
+              <li><a href="contact-cn.html">联系方式</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的账号</a></li>
+              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-language"></span> English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>学习大师</h1>
-    <p>好好学习，天天向上</p>
-    <img src="img/about/logo.png" style="width:100px">
-  </div>
-</div>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">学习大师</a>
+    <!--main-->
+    <div class="col-12 fs-22 text-center text-44 mt-5 mb-4 pt-4">
+      <h2>学校列表</h2>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">首页</a></li>
-        <li><a href="school-cn.html">学校列表</a></li>
-        <li><a href="guide-cn.html">干货指南</a></li>
-        <li><a href="language-cn.html">语言学习</a></li>
-        <li><a href="programs-cn.html">专题活动</a></li>
-        <li><a href="tool-cn.html">实用工具</a></li>
-        <li><a href="about-cn.html">关于我们</a></li>
-        <li><a href="contact-cn.html">联系方式</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的账号</a></li>
-        <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-language"></span> English</a></li>
-      </ul>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">马来亚大学</div>
+              <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">马来西亚理科大学</div>
+              <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">马来西亚理工大学</div>
+              <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
 
-<div class="col-12 fs-22 text-center text-44 mt-5 mb-4 pt-4">
-  <h2>学校列表</h2>
-</div>
-<br>
+    <br>
 
-<div class="container">
-  <div class="row">
-    <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">马来亚大学</div>
-          <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">公立大学</div>
-        </div>
+    <div class="container">
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">马来亚大学</div>
+              <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">马来西亚理科大学</div>
+              <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">马来西亚理工大学</div>
+              <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>
-    <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
-      <div class="col-sm-4">
-        <div class="panel panel-danger">
-          <div class="panel-heading">马来西亚理科大学</div>
-          <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">公立大学</div>
-        </div>
-      </div>
-    </a>
-    <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">马来西亚理工大学</div>
-          <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">公立大学</div>
-        </div>
-      </div>
-    </a>
-  </div>
-</div><br>
+    </div>
 
-<div class="container">
-  <div class="row">
-    <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">马来亚大学</div>
-          <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">公立大学</div>
-        </div>
+    <br>
+
+    <div class="col-12 fs-22 text-center text-44 mt-5 mb-4">
+      <a class="btn btn-danger open" href="school-cn.html">
+        查看更多学校
+      </a>
+    </div>
+
+    <br><br>
+
+    <div class="col-12 fs-22 text-center text-44 mt-5 mb-4">
+      <img class="w-100 my-4 pt-5" src="img/main/line.png" style="width:80%" alt="">
+    </div>
+    <br><br>
+
+    <div class="col-12 fs-22 text-center text-44 mt-5 mb-4">
+      <h2>干货指南</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">马来亚大学</div>
+              <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">马来西亚理科大学</div>
+              <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">马来西亚理工大学</div>
+              <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>
-    <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
-      <div class="col-sm-4">
-        <div class="panel panel-danger">
-          <div class="panel-heading">马来西亚理科大学</div>
-          <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">公立大学</div>
-        </div>
-      </div>
-    </a>
-    <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
-      <div class="col-sm-4">
-        <div class="panel panel-success">
-          <div class="panel-heading">马来西亚理工大学</div>
-          <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div class="panel-footer">公立大学</div>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
+    </div>
 
-<div class="col-12 fs-22 text-center text-44 mt-5 mb-4">
-  <a class="btn btn-danger open" href="school-cn.html">
-    查看更多学校
-  </a>
-</div>
-<br>
-<div class="col-12 fs-22 text-center text-44 mt-5 mb-4">
-  <img class="w-100 my-4 pt-5" src="img/main/line.png" style="width:80%" alt="">
-</div>
-<br><br>
 
-<div class="col-12 fs-22 text-center text-44 mt-5 mb-4">
-  <h2>干货指南</h2>
-</div>
+    <!-- footer-->
+    <footer class="container-fluid text-center">
+      <p>All rights reserved &copy; 2020 学习大师</p>
+      <form class="form-inline">了解详情:
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+        <button type="button" class="btn btn-danger">注册</button>
+      </form>
+    </footer>
 
-<footer class="container-fluid text-center">
-  <p>All rights reserved &copy; 2020 学习大师</p>
-  <form class="form-inline">了解详情:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">注册</button>
-  </form>
-</footer>
-
-</body>
+  </body>
 </html>
