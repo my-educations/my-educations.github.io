@@ -1,108 +1,104 @@
 <!DOCTYPE html>
 
 <html lang="zh-CN">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-        <!--default head-->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="/static/styles.css" rel="stylesheet">
-        <title>语言学习</title>
-    </head>
-    <body>
-      <!-- default part-->
-      <div class="container-fluid">
-        <header class="text-66">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="/static/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>语言学习</title>
+  </head>
 
-          <div class="bg-FB row justify-content-center shadow fs-12">
-            <div class="w-1200">
-              <div class="login height d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <a class="pointer" data-toggle="modal" data-target="#login">登录/注册</a>
-                </div>
-                <div class="d-flex align-items-center">
-                  <a class="ml-15 online" href="#" data-original-title="" title="">联系客服</a>
-                  <a class="ml-15" href="#" data-original-title="" title="">微信公众号</a>
-                  <span id="language-info" class="ml-15" data-toggle="modal" data-target="#language" style="display: inline-block;">
-                    English
-                    <img class="header-lang m-r-5 m-l-5" src="img/header/lang-en.png" alt="...">
-                    中文
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- <div class="w3-top"> -->
-          <div class="row justify-content-center">
-            <!-- <div class="w3-bar w3-black w3-card"> -->
-              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-              <a href="index.html" class="w3-bar-item w3-button w3-padding-large">首页</a>
-              <a href="school-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">学校列表</a>
-              <a href="guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">干货指南</a>
-              <a href="language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
-              <a href="programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
-              <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-padding-large w3-button" title="More">更多<i class="fa fa-caret-down"></i></button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                  <a href="tool-cn.html" class="w3-bar-item w3-button">实用工具</a>
-                  <a href="about-cn.html" class="w3-bar-item w3-button">关于我们</a>
-                  <a href="contact-cn.html" class="w3-bar-item w3-button">联系方式</a>
-                </div>
-              </div>
-              <!-- <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
-                  <input name="q" type="text">
-                  <input type="submit" value="Search">
-              </form> -->
-              <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-          </div>
-        </header>
-
-
-          <!-- function part-->
-          <div class="w3-content" style="max-width:2000px;margin-top:46px">
-            <div class="mySlides w3-display-container w3-center" style="display: block;">
-              <img src="img/main/banner-study.png" style="width:100%">
-                  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                      <h3>学习大师</h3>
-                  </div>
-            </div>
-          </div>
-
-
-          <!-- function part-->
-          <div class="w3-content w3-center" style="max-width:2440px" id="band">
-            <h3>英语学习</h3>
-            <iframe id=sbrxp scrolling="no" border="0" frameborder="no" framespacing="0"
-              allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
-              src="//player.bilibili.com/player.html?aid=797679384&bvid=BV1Ly4y1k7ra&cid=253915187&page=1">
-            </iframe>
-            <iframe id=sbrxp scrolling="no" border="0" frameborder="no" framespacing="0"
-              allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
-              src="//player.bilibili.com/player.html?aid=414988670&bvid=BV1gV411y7UL&cid=244344609&page=1">
-            </iframe>
-            <iframe scrolling="no" border="0" frameborder="no" framespacing="0"
-              allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
-              src="//player.bilibili.com/player.html?aid=797639322&bvid=BV1Ny4y1k7aL&cid=254239292&page=1">
-            </iframe>
-            <iframe scrolling="no" border="0" frameborder="no" framespacing="0"
-              allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
-              src="//player.bilibili.com/player.html?aid=969712113&bvid=BV1qp4y1a7bC&cid=239366129&page=1">
-            </iframe>
-          </div>
-
-
-          <!--default footer-->
-          <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-            <a href="https://www.facebook.com/Just-One-Minute-English-112701477234716/" class="fa fa-facebook-official w3-hover-opacity"></a>
-            <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity"></a>
-            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube w3-hover-opacity"></a>
-            <a href="https://linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
-            <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity"></a>
-            <p class="w3-medium">All rights reserved &copy; 2020 学习大师</p>
-          </footer>
-
+  <body>
+    <!--header-->
+    <header>
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1>学习大师</h1>
+          <p>好好学习，天天向上</p>
+          <img src="img/about/logo.png" style="width:100px">
         </div>
-    </body>
+      </div>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">学习大师</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">首页</a></li>
+              <li><a href="school-cn.html">学校列表</a></li>
+              <li><a href="guide-cn.html">干货指南</a></li>
+              <li class="active"><a href="language-cn.html">语言学习</a></li>
+              <li><a href="programs-cn.html">专题活动</a></li>
+              <li><a href="tool-cn.html">实用工具</a></li>
+              <li><a href="about-cn.html">关于我们</a></li>
+              <li><a href="contact-cn.html">联系方式</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的账号</a></li>
+              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-language"></span> English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--main-->
+    <div class="container">
+      <img src="img/main/banner-study.png" style="width:100%">
+    </div>
+    <br><br>
+
+    <div class="col-12 fs-22 text-center text-44 mt-5 mb-4 pt-4">
+      <h2>英语学习</h2>
+    </div>
+    <br>
+
+    <div class="w3-content w3-center">
+      <iframe id=sbrxp scrolling="no" border="0" frameborder="no" framespacing="0"
+        allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
+        src="//player.bilibili.com/player.html?aid=797679384&bvid=BV1Ly4y1k7ra&cid=253915187&page=1">
+      </iframe>
+      <iframe id=sbrxp scrolling="no" border="0" frameborder="no" framespacing="0"
+        allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
+        src="//player.bilibili.com/player.html?aid=414988670&bvid=BV1gV411y7UL&cid=244344609&page=1">
+      </iframe>
+      <iframe scrolling="no" border="0" frameborder="no" framespacing="0"
+        allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
+        src="//player.bilibili.com/player.html?aid=797639322&bvid=BV1Ny4y1k7aL&cid=254239292&page=1">
+      </iframe>
+      <iframe scrolling="no" border="0" frameborder="no" framespacing="0"
+        allowfullscreen="true" style="width: 480px; height: 320px; max-width: 100%"
+        src="//player.bilibili.com/player.html?aid=969712113&bvid=BV1qp4y1a7bC&cid=239366129&page=1">
+      </iframe>
+    </div>
+
+
+    <br><br>
+
+    <!-- footer-->
+    <footer class="container-fluid text-center">
+      <a href="https://www.facebook.com/Just-One-Minute-English-112701477234716/" class="fa fa-facebook-official w3-hover-opacity">Facebook</a>
+      <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity">Instagram</a>
+      <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube w3-hover-opacity">YouTube</a>
+      <a href="https://linkedin.com" class="fa fa-linkedin w3-hover-opacity">Linkedin</a>
+      <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity">Zhihu</a>
+      <p>All rights reserved &copy; 2020 学习大师</p>
+      <form class="form-inline">了解详情:
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+        <button type="button" class="btn btn-danger">注册</button>
+      </form>
+    </footer>
+
+  </body>
 </html>
