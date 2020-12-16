@@ -1,156 +1,156 @@
 <!DOCTYPE html>
 
 <html lang="zh-CN">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-        <!--default head-->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="/static/styles.css" rel="stylesheet">
-        <title>马来西亚理科大学</title>
-    </head>
-    <body>
-      <!-- default part-->
-      <div class="container-fluid">
-        <header class="text-66">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="/static/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>马来西亚理科大学</title>
+  </head>
 
-          <div class="bg-FB row justify-content-center shadow fs-12">
-            <div class="w-1200">
-              <div class="login height d-flex justify-content-between">
-                <div class="d-flex align-items-center">
-                  <a class="pointer" data-toggle="modal" data-target="#login">登录/注册</a>
-                </div>
-                <div class="d-flex align-items-center">
-                  <a class="ml-15 online" href="#" data-original-title="" title="">联系客服</a>
-                  <a class="ml-15" href="#" data-original-title="" title="">微信公众号</a>
-                  <span id="language-info" class="ml-15" data-toggle="modal" data-target="#language" style="display: inline-block;">
-                    English
-                    <img class="header-lang m-r-5 m-l-5" src="../img/header/lang-en.png" alt="...">
-                    中文
-                  </span>
-                </div>
-              </div>
-            </div>
+  <body>
+    <!--header-->
+    <header>
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1>学习大师</h1>
+          <p>好好学习，天天向上</p>
+          <img src="img/about/logo.png" style="width:100px">
+        </div>
+      </div>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">学习大师</a>
           </div>
-
-          <!-- <div class="w3-top"> -->
-          <div class="row justify-content-center">
-            <!-- <div class="w3-bar w3-black w3-card"> -->
-              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-              <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">首页</a>
-              <a href="../school-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">学校列表</a>
-              <a href="../guide-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">干货指南</a>
-              <a href="../language-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">语言学习</a>
-              <a href="../programs-cn.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">专题活动</a>
-              <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-padding-large w3-button" title="More">更多<i class="fa fa-caret-down"></i></button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                  <a href="../tool-cn.html" class="w3-bar-item w3-button">实用工具</a>
-                  <a href="../about-cn.html" class="w3-bar-item w3-button">关于我们</a>
-                  <a href="../contact-cn.html" class="w3-bar-item w3-button">联系方式</a>
-                </div>
-              </div>
-              <!-- <form action="https://www.google.com/search" method="get" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
-                  <input name="q" type="text">
-                  <input type="submit" value="Search">
-              </form> -->
-              <a href="https://www.google.com/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="../index.html">首页</a></li>
+              <li><a href="../school-cn.html">学校列表</a></li>
+              <li><a href="../guide-cn.html">干货指南</a></li>
+              <li><a href="../language-cn.html">语言学习</a></li>
+              <li><a href="../programs-cn.html">专题活动</a></li>
+              <li><a href="../tool-cn.html">实用工具</a></li>
+              <li><a href="../contact-cn.html">联系我们</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的账号</a></li>
+              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-language"></span> English</a></li>
+            </ul>
           </div>
-        </header>
+        </div>
+      </nav>
+    </header>
 
-        <!-- function part-->
-        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-             <h2 class="w3-wide">马来西亚理科大学</h2>
-             <p class="w3-opacity"><i>2020年12月1日</i></p>
-             <p class="w3-justify">
-               <b>1.基本信息</b><br><br>
-               <table style="width:100%">
-                <tr>
-                  <th>校名</th>
-                  <td>马来西亚理科大学</td>
-                </tr>
-                <tr>
-                  <th>英文校名</th>
-                  <td>University of Science, Malaysia</td>
-                </tr>
-                <tr>
-                  <th>马来文校名</th>
-                  <td>Universiti Sains Malaysia</td>
-                </tr>
-              </table>
-             </p>
+    <!--main-->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+         <h2 class="w3-wide">马来西亚理科大学</h2>
+         <p class="w3-opacity"><i>2020年12月1日</i></p>
+         <p class="w3-justify">
+           <b>1.基本信息</b><br><br>
+           <table style="width:100%">
+            <tr>
+              <th>校名</th>
+              <td>马来西亚理科大学</td>
+            </tr>
+            <tr>
+              <th>英文校名</th>
+              <td>University of Science, Malaysia</td>
+            </tr>
+            <tr>
+              <th>马来文校名</th>
+              <td>Universiti Sains Malaysia</td>
+            </tr>
+          </table>
+         </p>
 
-             <p class="w3-justify">
-               <b>2.学校简介</b><br><br>
-               马来西亚理科大学（马来文：Universiti Sains Malaysia，英文：University of Science，Malaysia，缩写USM，简称理大）是全球排名1%的顶尖大学，亚洲顶尖的综合性研究型国立大学（马来西亚五大国立院校之一，QS世界大学排名150强高校）。2008年9月，马来西亚理科大学被马来西亚教育部列为唯一一所APEX大学，APEX（迈向卓越计划）的目标是推动理大成为世界一流大学。 <br><br>
-               马来西亚理科大学于1969年成立，拥有主校区、工程校区、医学校区三个校区，共28个学院，以及26个研究中心，是一所理工科研究极具特色，人文社会科学综合发展的世界级名校，学校教师多来自美、英、澳、新等世界教育前沿国家 ，现有本科生和研究生共30000多人，  占地面积15,000亩，提供500多个专业领域的硕士和博士学位课程。<br><br>
-             </p>
+         <p class="w3-justify">
+           <b>2.学校简介</b><br><br>
+           马来西亚理科大学（马来文：Universiti Sains Malaysia，英文：University of Science，Malaysia，缩写USM，简称理大）是全球排名1%的顶尖大学，亚洲顶尖的综合性研究型国立大学（马来西亚五大国立院校之一，QS世界大学排名150强高校）。2008年9月，马来西亚理科大学被马来西亚教育部列为唯一一所APEX大学，APEX（迈向卓越计划）的目标是推动理大成为世界一流大学。 <br><br>
+           马来西亚理科大学于1969年成立，拥有主校区、工程校区、医学校区三个校区，共28个学院，以及26个研究中心，是一所理工科研究极具特色，人文社会科学综合发展的世界级名校，学校教师多来自美、英、澳、新等世界教育前沿国家 ，现有本科生和研究生共30000多人，  占地面积15,000亩，提供500多个专业领域的硕士和博士学位课程。<br><br>
+         </p>
 
-             <p class="w3-justify">
-               <b>3.学校设施</b><br><br>
-               1）教学区<br>
-               理科大学的图书馆系统由七个图书馆组成，分别是：主图书馆、第二主图书馆、结构技术与多媒体中心的媒体图书馆、工程类图书馆、医学类图书馆、即将新建的高级医药及牙科图书馆和 2005 年纳入理科大学的图书馆系统的伊斯兰中心图书馆。图书馆藏有超过一百万册图书和其他相关的杂志，6,886 种期刊，220,000 种媒体材料，平均每年新增加 20,000 册图书。<br><br>
-               理科大学的运动设施包罗万象，包括各类球场（网球、壁球、足球、高尔夫球等）、符合国际水准的游泳池、健身中心、田径体育场、跆拳道馆、射箭场等。<br><br>
-               2）住宿区<br>
-               校内宿舍设有单间或双人房、公用浴室、自助餐厅、洗衣房、运动设施、自习室、食品储藏室和杂货店。<br><br>
-               校外住宿是指在步行可达距离或半径3公里内内租用的私人公寓。大部分公寓都有3个卧室、空调、杂货店、健身房、游泳池、网球/羽毛球场和洗衣店。<br><br>
-               每月生活费用约马币1200-2000令吉。（1马币=1.6元人民币）<br><br>
-             </p>
+         <p class="w3-justify">
+           <b>3.学校设施</b><br><br>
+           1）教学区<br>
+           理科大学的图书馆系统由七个图书馆组成，分别是：主图书馆、第二主图书馆、结构技术与多媒体中心的媒体图书馆、工程类图书馆、医学类图书馆、即将新建的高级医药及牙科图书馆和 2005 年纳入理科大学的图书馆系统的伊斯兰中心图书馆。图书馆藏有超过一百万册图书和其他相关的杂志，6,886 种期刊，220,000 种媒体材料，平均每年新增加 20,000 册图书。<br><br>
+           理科大学的运动设施包罗万象，包括各类球场（网球、壁球、足球、高尔夫球等）、符合国际水准的游泳池、健身中心、田径体育场、跆拳道馆、射箭场等。<br><br>
+           2）住宿区<br>
+           校内宿舍设有单间或双人房、公用浴室、自助餐厅、洗衣房、运动设施、自习室、食品储藏室和杂货店。<br><br>
+           校外住宿是指在步行可达距离或半径3公里内内租用的私人公寓。大部分公寓都有3个卧室、空调、杂货店、健身房、游泳池、网球/羽毛球场和洗衣店。<br><br>
+           每月生活费用约马币1200-2000令吉。（1马币=1.6元人民币）<br><br>
+         </p>
 
-             <p class="w3-justify">
-               <b>4.教学环境</b><br><br>
-               <br><br>
-             </p>
+         <p class="w3-justify">
+           <b>4.教学环境</b><br><br>
+           <br><br>
+         </p>
 
-             <p class="w3-justify">
-               <b>5.院系设置</b><br><br>
-               <br><br>
-             </p>
+         <p class="w3-justify">
+           <b>5.院系设置</b><br><br>
+           <br><br>
+         </p>
 
-             <p class="w3-justify">
-               <b>6.本科专业</b><br><br>
-               <br><br>
-             </p>
+         <p class="w3-justify">
+           <b>6.本科专业</b><br><br>
+           <br><br>
+         </p>
 
-             <p class="w3-justify">
-               <b>7.研究生专业</b><br><br>
-               <br>
-             </p>
+         <p class="w3-justify">
+           <b>7.研究生专业</b><br><br>
+           <br>
+         </p>
 
-             <p class="w3-justify">
-               <b>8.申请条件</b><br><br>
-               <br>
-             </p>
+         <p class="w3-justify">
+           <b>8.申请条件</b><br><br>
+           <br>
+         </p>
 
-             <p class="w3-justify">
-               <b>9.毕业条件</b><br><br>
-               <br>
-             </p>
+         <p class="w3-justify">
+           <b>9.毕业条件</b><br><br>
+           <br>
+         </p>
 
-             <p class="w3-justify">
-               <b>10.合作院校</b><br><br>
-               <br>
-             </p>
+         <p class="w3-justify">
+           <b>10.合作院校</b><br><br>
+           <br>
+         </p>
 
-             <p class="w3-justify">
-               <b>11. 著名校友</b><br><br>
-               <br>
-             </p>
+         <p class="w3-justify">
+           <b>11. 著名校友</b><br><br>
+           <br>
+         </p>
 
-         </div>
+     </div>
 
 
-         <!--default footer-->
-         <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-           <a href="https://www.facebook.com/Just-One-Minute-English-112701477234716/" class="fa fa-facebook-official w3-hover-opacity"></a>
-           <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity"></a>
-           <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube w3-hover-opacity"></a>
-           <a href="https://linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
-           <a href="https://zhihu.com" class="fa fa-zhihu w3-hover-opacity"></a>
-           <p class="w3-medium">All rights reserved &copy; 2020 学习大师</p>
-         </footer>
+    <br><br>
 
-       </div>
-     </body>
-  </html>
+    <!-- footer-->
+    <footer class="container-fluid text-center">
+      <a href="https://www.zhihu.com/people/study_in_malaysia" class="">知乎</a>
+      <a href="https://www.linkedin.com/company/73917888/" class="fa fa-linkedin w3-hover-opacity">领英</a>
+      <a href="https://www.facebook.com/Study-in-Malaysia-大马留学僧-107517091185432" class="fa fa-facebook-official w3-hover-opacity">Facebook</a>
+      <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity">Instagram</a>
+      <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="a fa-youtube w3-hover-opacity">YouTube</a>
+
+      <p>All rights reserved &copy; 2020 学习大师</p>
+      <form class="form-inline">了解详情:
+        <input type="email" class="form-control" size="50" placeholder="Email Address">
+        <button type="button" class="btn btn-danger">注册</button>
+      </form>
+    </footer>
+
+  </body>
+</html>
