@@ -18,28 +18,15 @@ body {
     font-family: "Lato", sans-serif
 }
 
-.about-h3 {
-    text-align: center;
-}
-
-.w-1200 {
-    width: 1200px;
-}
-
-.card.my-3 {
-    width: 390px;
-}
-
-.card {
-    border-radius: 0.5rem !important;
-    overflow: hidden;
-}
-
-.d-flex {
-    display: flex !important;
-}
-
 ul li::marker {
   color: black;
   font-size: 1.5em;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
