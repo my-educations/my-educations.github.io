@@ -376,20 +376,28 @@
     </div>
 
     <!-- search -->
-    <div id="search" class="container">
-      <h2>搜索</h2>
-      <p>输入关键字，全网搜索相关信息: </p>
-      <input class="form-control" id="myInput" type="text" placeholder="搜索..">
-      <div id="myDIV">
-        <p></p>
+    <div id="search" class="container-fluid">
+      <div class="text-center">
+        <h2>搜索</h2>
+        <p>输入关键字，搜索相关信息: </p>
+        <input class="form-control" id="myInput" type="text" placeholder="搜索..">
+        <br>
+        <ul class="list-group" id="myList">
+          <li class="list-group-item">马来亚大学</li>
+          <li class="list-group-item">马来西亚理科大学</li>
+          <li class="list-group-item">马来西亚理工大学</li>
+          <li class="list-group-item">马来西亚国立大学</li>
+          <li class="list-group-item">马来西亚博特拉大学</li>
+        </ul>
       </div>
     </div>
+    <br><br>
 
     <script>
       $(document).ready(function(){
         $("#myInput").on("keyup", function() {
           var value = $(this).val().toLowerCase();
-          $("#school *").filter(function() {
+          $("#myList li").filter(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
           });
         });
