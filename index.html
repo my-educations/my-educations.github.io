@@ -10,9 +10,22 @@
     <link href="/static/styles.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- index customized -->
+    <style>
+      body {
+        position: relative;
+      }
+      #school {padding-top:50px;height:500px;color: #fff; background-color: #e54c1e;}
+      #guide {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+      #language {padding-top:50px;height:500px;color: #fff; background-color: #e5a91e;}
+      #programs {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+      #tool {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+      #contact {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+      #search {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+    </style>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--header-->
     <header>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -28,13 +41,20 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html">首页</a></li>
-              <li><a href="school-cn.html">学校列表</a></li>
-              <li><a href="guide-cn.html">干货指南</a></li>
+              <!-- <li><a href="school-cn.html">学校列表</a></li> -->
+              <!-- <li><a href="guide-cn.html">干货指南</a></li>
               <li><a href="language-cn.html">语言学习</a></li>
               <li><a href="programs-cn.html">专题活动</a></li>
               <li><a href="tool-cn.html">实用工具</a></li>
-              <li><a href="contact-cn.html">联系我们</a></li>
-              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
+              <li><a href="contact-cn.html">联系我们</a></li> -->
+              <!-- <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li> -->
+              <li><a href="#school">学校列表</a></li>
+              <li><a href="#guide">干货指南</a></li>
+              <li><a href="#language">语言学习</a></li>
+              <li><a href="#programs">专题活动</a></li>
+              <li><a href="#tool">实用工具</a></li>
+              <li><a href="#contact">联系我们</a></li>
+              <li><a href="#search"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
@@ -109,9 +129,11 @@
     <hr>
     <br>
 
-    <div class="container text-center">
+    <div id="school" class="container text-center">
       <div class="jumbotron">
-        <h2 class="success">学校列表</h2>
+        <a href="school-cn.html">
+          <h2 class="success">学校列表</h2>
+        </a>
       </div>
     </div>
     <br>
@@ -194,7 +216,7 @@
     </div>
     <br><br>
 
-    <div class="container text-center">
+    <div id="guide" class="container text-center">
       <div class="jumbotron">
         <h2 class="success">干货指南</h2>
       </div>
@@ -246,9 +268,9 @@
     </div>
     <br><br>
 
-    <div class="container text-center">
+    <div id="contact" class="container text-center">
       <div class="jumbotron">
-        <h2 class="success">为什么选择《学习大师》？</h2>
+        <h2 class="success">联系我们</h2>
       </div>
     </div>
     <br>
@@ -282,7 +304,7 @@
 
     <div class="text-center mt-5">
       <div class="mt-5">
-        <h3>我们希望</h3>
+        <h3></h3>
       </div>
       <br>
       <div class="text-center">通过我们的引导，让留学更高效，让学生快速融入本地生活，遇见更好的自己！</div>
