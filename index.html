@@ -59,7 +59,7 @@
               <li><a href="#programs">专题活动</a></li>
               <li><a href="#tool">实用工具</a></li>
               <li><a href="#contact">联系我们</a></li>
-              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span>搜索</a></li>
+              <li><a href="#search"><span class="glyphicon glyphicon-search"></span>搜索</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
@@ -124,6 +124,7 @@
     </div>
     <br>
 
+    <!-- school -->
     <div id="school" class="container-fluid">
       <div class="text-center">
         <a href="school-cn.html">
@@ -208,6 +209,7 @@
 
     </div>
 
+    <!-- guide -->
     <div id="guide" class="container-fluid">
       <div class="text-center">
         <a href="guide-cn.html">
@@ -261,6 +263,7 @@
 
     </div>
 
+    <!-- contact -->
     <div id="contact" class="container-fluid">
       <div class="text-center">
         <a href="contact-cn.html">
@@ -311,7 +314,7 @@
 
     </div>
 
-
+    <!-- partner -->
     <div id="partner" class="container-fluid">
       <div class="text-center">
         <h2 class="success">合作伙伴</h2>
@@ -371,6 +374,27 @@
       <br><br>
 
     </div>
+
+    <!-- search -->
+    <div id="search" class="container">
+      <h2>搜索</h2>
+      <p>输入关键字，全网搜索相关信息: </p>
+      <input class="form-control" id="myInput" type="text" placeholder="搜索..">
+      <div id="myDIV">
+        <p></p>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#school *").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+    </script>
 
     <!-- footer-->
     <footer class="container-fluid">
