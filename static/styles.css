@@ -27,6 +27,7 @@
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  background-color: #e0dcdc;
 }
 
 .thumbnail img {
@@ -55,4 +56,10 @@ iframe {
   border: none;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
 }
