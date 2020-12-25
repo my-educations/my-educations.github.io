@@ -4,27 +4,32 @@
     z-index: 9999 !important;
   }
 
-  .affix + .container-fluid {
+.affix + .container-fluid {
       padding-top: 50px;
   }
 
-  .navbar {
+.navbar {
   margin-bottom: 0px;
   border-radius: 0;
 }
 
 /* Remove the jumbotron's default bottom margin */
- .jumbotron {
+.jumbotron {
   margin-bottom: 0;
 }
 
 /* Add a gray background color and some padding to the footer */
-footer {
+.footer {
   background-color: #f2f2f2;
   padding: 25px;
+}
+
+.bg-footer {
+  background-color: #f2f2f2;
+}
 
 
-body {
+.body {
     font-family: "Lato", sans-serif
 }
 
