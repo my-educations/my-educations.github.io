@@ -5,11 +5,11 @@
   }
 
   .affix + .container-fluid {
-      padding-top: 0px;
+      padding-top: 100px;
   }
 
   .navbar {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   border-radius: 0;
 }
 
