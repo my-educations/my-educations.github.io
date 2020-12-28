@@ -165,7 +165,7 @@ footer .glyphicon {
   background-color: #555;
 }
 
-#scroll {
+#go-to-top {
     position:fixed;
     right:10px;
     bottom:10px;
@@ -180,7 +180,7 @@ footer .glyphicon {
     border-radius:60px
 }
 
-#scroll span {
+#go-to-top span {
     position:absolute;
     top:50%;
     left:50%;
@@ -192,7 +192,7 @@ footer .glyphicon {
     border-bottom-color:#ffffff;
 }
 
-#scroll:hover {
+#go-to-top:hover {
     background-color:#e74c3c;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
