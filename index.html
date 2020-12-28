@@ -564,8 +564,23 @@
     </script>
 
     <!-- Go to Top -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">顶部</button>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">顶部</button> -->
+    <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
     <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('#go-to-top').fadeIn();
+            } else {
+                $('#go-to-top').fadeOut();
+            }
+        });
+        $('#go-to-top').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+
     //Get the button
     var mybutton = document.getElementById("myBtn");
 
