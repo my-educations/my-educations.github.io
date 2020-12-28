@@ -66,11 +66,16 @@
   border-bottom-right-radius: 0px;
 }
 
+.panel-body {
+  color: #aaa;
+}
+
 .panel-footer {
   background-color: #fff !important;
 }
 
 .panel-footer h3 {
+  color: #aaa;
   font-size: 32px;
 }
 
