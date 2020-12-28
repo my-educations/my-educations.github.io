@@ -144,3 +144,10 @@ footer .glyphicon {
   margin-bottom: 20px;
   color: #f4511e;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
