@@ -24,7 +24,7 @@
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #f4511e !important;
+  color: #501b1d !important;
   background-color: #fff !important;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .logo-small {
-    color: #f4511e;
+    color: #501b1d;
     font-size: 50px;
   }
 
