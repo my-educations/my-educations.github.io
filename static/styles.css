@@ -10,7 +10,7 @@
 
 .navbar {
   margin-bottom: 0;
-  background-color: #8e8dba;
+  background-color: #29648a;
   z-index: 9999;
   border: 0;
   font-size: 14px !important;
@@ -24,7 +24,7 @@
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #8e8dba !important;
+  color: #29648a !important;
   background-color: #fff !important;
 }
 
