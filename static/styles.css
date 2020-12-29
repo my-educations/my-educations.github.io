@@ -136,13 +136,7 @@ iframe {
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
-  padding: 0px;
-}
-
-footer .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #f4511e;
+  padding: 15px;
 }
 
 /* Style all font awesome icons */
