@@ -520,11 +520,11 @@
         <div class="col-sm-2 text-center">
           <div class="row">
             <a href="index.html">
-              <img src="img/about/logo.png" style="width:50px">
+              <img src="img/about/logo.png" style="width:75px">
             </a>
           </div>
         </div>
-        <div class="col-sm-8 text-center">
+        <div class="col-sm-6 text-center">
           <div class="row">
               <a href="faq-cn.html">常见问题 &nbsp;&nbsp;</a>
               <a href="faq-cn.html">我们是谁 &nbsp;&nbsp;</a>
@@ -540,7 +540,7 @@
             <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="">YouTube</a>
           </div>
         </div>
-        <div class="col-sm-2 text-center">
+        <div class="col-sm-4 text-center">
           <div class="row">
             <p></p>
           </div>
@@ -550,6 +550,25 @@
         </div>
       </div>
     </footer>
+
+
+    <!-- Go to Top -->
+    <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
+    <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('#go-to-top').fadeIn();
+            } else {
+                $('#go-to-top').fadeOut();
+            }
+        });
+        $('#go-to-top').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+    </script>
 
     <!-- Adding Smooth Scrolling -->
     <script>
@@ -578,24 +597,6 @@
         } // End if
       });
     })
-    </script>
-
-    <!-- Go to Top -->
-    <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
-    <script>
-    $(document).ready(function(){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('#go-to-top').fadeIn();
-            } else {
-                $('#go-to-top').fadeOut();
-            }
-        });
-        $('#go-to-top').click(function(){
-            $("html, body").animate({ scrollTop: 0 }, 600);
-            return false;
-        });
-    });
     </script>
 
   </body>
