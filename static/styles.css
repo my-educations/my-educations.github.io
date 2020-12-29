@@ -10,7 +10,7 @@
 
 .navbar {
   margin-bottom: 0;
-  background-color: #501b1d;
+  background-color: #8e8dba;
   z-index: 9999;
   border: 0;
   font-size: 14px !important;
@@ -24,7 +24,7 @@
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #501b1d !important;
+  color: #8e8dba !important;
   background-color: #fff !important;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .logo-small {
-    color: #501b1d;
+    color: #8e8dba;
     font-size: 50px;
   }
 
