@@ -66,11 +66,11 @@
 
 .btn-x {
   color: #fff;
-  background-color: #d8c3a5;
+  background-color: #29648a;
 }
 
 .panel {
-  border: 1px solid #d8c3a5;
+  border: 1px solid #29648a;
   border-radius:0;
   transition: box-shadow 0.5s;
 }
@@ -80,14 +80,14 @@
 }
 
 .panel-footer .btn:hover {
-  border: 1px solid #d8c3a5;
+  border: 1px solid #29648a;
   background-color: #fff !important;
-  color: #d8c3a5;
+  color: #29648a;
 }
 
 .panel-heading {
   color: #fff !important;
-  background-color: #d8c3a5 !important;
+  background-color: #29648a !important;
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0px;
@@ -117,7 +117,7 @@
 
 .panel-footer .btn {
   margin: 15px 0;
-  background-color: #d8c3a5;
+  background-color: #29648a;
   color: #fff;
 }
 
