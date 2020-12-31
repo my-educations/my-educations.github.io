@@ -142,11 +142,11 @@ footer {
 
 /* Style all font awesome icons */
 .fa {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   margin: 2px 5px;
   font-size: 20px;
-  width: 30px;
+  width: 20px;
 }
 
 /* Add a hover effect if you want */
