@@ -145,8 +145,9 @@ footer {
   padding: 10px;
   text-align: center;
   margin: 2px 5px;
-  font-size: 10px;
+  font-size: 20px;
   width: 30px;
+  border-radius: 50%;
 }
 
 /* Add a hover effect if you want */
