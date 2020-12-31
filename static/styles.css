@@ -144,10 +144,9 @@ footer {
 .fa {
   padding: 10px;
   text-align: center;
-  margin: 5px 2px;
+  margin: 2px 5px;
   font-size: 20px;
   width: 30px;
-  border-radius: 50%;
 }
 
 /* Add a hover effect if you want */
