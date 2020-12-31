@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 
 <html lang="zh-CN">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
   <head>
+    <title>学校列表</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="/static/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>2021年QS亚洲大学排名榜有你的母校吗？</title>
+    <!-- index customized -->
+    <style>
+      body {
+        position: relative;
+      }
+      #school {padding-top:50px; color: #fff; background-color: #d8c3a5;}
+      #guide {padding-top:50px; color: #fff; background-color: #88bdbc;}
+      #language {padding-top:50px; color: #fff; background-color: #5da2d5;}
+      #programs {padding-top:50px; color: #fff; background-color: #d8c3a5;}
+      #tool {padding-top:50px; color: #fff; background-color: #88bdbc;}
+      #contact {padding-top:50px; color: #fff; background-color: #5da2d5;}
+      #partner {padding-top:50px; color: #fff; background-color: #d8c3a5;}
+      #map {padding-top:50px; color: #fff; background-color: #88bdbc;}
+    </style>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--header-->
-    <header>
-      <div class="jumbotron">
-        <div class="container text-center">
-          <h1>学习大师</h1>
-          <p>好好学习，天天向上</p>
-          <img src="../img/about/logo.png" style="width:100px">
-        </div>
+    <div class="container-fluid" style="background-color:#d8c3a5;color:#000;height:100px;">
+      <div class="text-center">
+        <img src="img/about/logo.png" style="width:100px">
       </div>
+    </div>
 
-      <nav class="navbar navbar-inverse">
+    <header>
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,18 +47,19 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="../index.html">首页</a></li>
-              <li><a href="../school-cn.html">学校列表</a></li>
-              <li><a href="../guide-cn.html">干货指南</a></li>
-              <li><a href="../language-cn.html">语言学习</a></li>
-              <li><a href="../programs-cn.html">专题活动</a></li>
-              <li><a href="../tool-cn.html">实用工具</a></li>
-              <li><a href="../contact-cn.html">联系我们</a></li>
+              <li><a href="index.html">首页</a></li>
+              <li class="active"><a href="school-cn.html">学校列表</a></li> -->
+              <li><a href="guide-cn.html">干货指南</a></li>
+              <li><a href="language-cn.html">语言学习</a></li>
+              <li><a href="programs-cn.html">专题项目</a></li>
+              <li><a href="tool-cn.html">实用工具</a></li>
+              <li><a href="contact-cn.html">联系我们</a></li>
+              <li><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的账号</a></li>
-              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-language"></span> English</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+              <li><a href="#"><span class="glyphicon"></span> English</a></li>
             </ul>
           </div>
         </div>
@@ -54,78 +67,248 @@
     </header>
 
     <!--main-->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-         <h2 class="w3-wide">2021年QS亚洲大学排名榜有你的母校吗？ </h2>
-         <p class="w3-opacity"><i>2020年12月1日</i></p>
-         <p class="w3-justify">
-           <b>序言</b><br><br>
-           这两天，最新的2021年QS亚洲大学排名榜刚出炉，今年共有650所亚洲大学上榜，是QS教育机构对亚洲高等院校教育体系做出最大规模的一次评估和排名。
-           虽然有不少人质疑QS排名的水分，但是不可否认，她依旧是全球访问量最大的大学排行榜，因此本次QS亚洲大学排名榜对于正在学习或考虑出国留学的学生们来说，可以起到一定的参考作用。结下来就直接看排名吧！
-           <br><br>
-         </p>
+    <!-- school -->
+    <div id="school" class="container-fluid text-center">
+      <div class="">
+        <a href="school-cn.html">
+          <button type="button" class="btn btn-x btn-block">
+            <h2>马来西亚-公立大学</h2>
+          </button>
+        </a>
+      </div>
+      <br>
 
-         <p class="w3-justify">
-           <b>排名小结</b><br><br>
-           本次2021年QS亚洲大学排名，共有亚洲18个不同国家或地区的学校上榜，其中中国大陆有124所高校上榜，香港8所、台湾43所，马来西亚35所、新加坡3所、泰国21所，印度107所、日本105所、韩国88所。
-           排名前三的大学依次是：新加坡国立大学、清华大学、南洋理工大学。
-           <br><br>
-         </p>
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">马来亚大学</div>
+              <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">马来西亚理科大学</div>
+              <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">马来西亚理工大学</div>
+              <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <br>
 
-         <p class="w3-justify">
-           <b>亚洲前20名</b><br><br>
-           亚洲前20名的大学中，中国大陆有5所：清华大学（亚洲第2）、浙江大学（亚洲第5）、复旦大学（亚洲第6）、北京大学（亚洲第7）、上海交通大学（亚洲第10）；
-           香港有4所：香港大学（亚洲第4）、香港科技大学（亚洲第8）、香港中文大学（亚洲第13）、香港城市大学（亚洲第18）；台湾有1所：国立台湾大学（亚洲第19）。
-           <br><br>
-           新加坡有2所：新加坡国立大学（亚洲第1）、南洋理工大学（亚洲第3）；马来西亚有1所：马来亚大学（亚洲第9）。
-           <br><br>
-           日本有3所：东京大学（亚洲第15）、京都大学（亚洲第17）、东京工业大学（亚洲第20）；韩国有4所：高丽大学（亚洲第11）、韩国科学技术院（亚洲第12）、首尔大学（亚洲第14）、成均馆大学（亚洲第16）。
-           <br><br>
-         </p>
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">马来亚大学</div>
+              <div class="panel-body"><img src="img/schools/um.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">马来西亚理科大学</div>
+              <div class="panel-body"><img src="img/schools/usm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">马来西亚理工大学</div>
+              <div class="panel-body"><img src="img/schools/utm.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">公立大学</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <br><br>
 
-         <p class="w3-justify">
-           <b>新加坡排名榜</b><br><br>
-           2021年QS亚洲大学排名榜，新加坡有3所大学上榜：新加坡国立大学（亚洲第1）、南洋理工大学（亚洲第3）、新加坡管理大学（亚洲第99）。
-           <br><br>
-         </p>
+      <div class="text-center">
+        <img class="w-100 my-4 pt-5" src="img/main/line.png" style="width:80%" alt="">
+      </div>
+      <br><br>
 
-         <p class="w3-justify">
-           <b>马来西亚排名榜</b><br><br>
-           2021年QS亚洲大学排名榜，马来西亚有35所大学上榜，其中，马来亚大学（亚洲第9）、马来西亚博特拉大学（亚洲第28）、马来西亚理科大学（亚洲第34）、马来西亚国立大学（亚洲第35）、马来西亚理工大学（亚洲第39）,
-           国油科技大学（亚洲第70）、泰莱大学（亚洲第89）、思特雅大学（亚洲第105）。
-           <br><br>
-         </p>
+      <div class="">
+        <a href="school-cn.html">
+          <button type="button" class="btn btn-x btn-block">
+            <h2>马来西亚-私立大学</h2>
+          </button>
+        </a>
+      </div>
+      <br>
 
-         <p class="w3-justify">
-           <b>泰国排名榜</b><br><br>
-           2021年QS亚洲大学排名榜，泰国有21所大学上榜，其中，朱拉隆功大学（亚洲第43）、玛希隆大学（亚洲第44）、清迈大学（亚洲第102）。
-           <br><br>
-         </p>
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">思特雅大学</div>
+              <div class="panel-body"><img src="img/schools/ucsi.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">私立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">泰莱大学</div>
+              <div class="panel-body"><img src="img/schools/taylor.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">私立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">拉曼大学</div>
+              <div class="panel-body"><img src="img/schools/utar.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">私立大学</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <br>
 
-         <p class="w3-justify">
-           <b>最后</b><br><br>
-           留学排名榜主要有4个：QS、THE、USNews和ARWU，QS排名榜只是参考之一哦！
-           <br><br>
-         </p>
-
-     </div>
-
-
-    <br><br>
+      <div class="row">
+        <a href="school_list_public/um-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">思特雅大学</div>
+              <div class="panel-body"><img src="img/schools/ucsi.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">私立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/usm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-danger">
+              <div class="panel-heading">泰莱大学</div>
+              <div class="panel-body"><img src="img/schools/taylor.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">私立大学</div>
+            </div>
+          </div>
+        </a>
+        <a href="school_list_public/utm-cn.html" class="card my-3 block-hover">
+          <div class="col-sm-4">
+            <div class="panel panel-success">
+              <div class="panel-heading">拉曼大学</div>
+              <div class="panel-body"><img src="img/schools/utar.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">私立大学</div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <br><br>
+      
+    </div>
 
     <!-- footer-->
-    <footer class="container-fluid text-center">
-      <a href="https://www.zhihu.com/people/study_in_malaysia" class="">知乎</a>
-      <a href="https://www.linkedin.com/company/73917888/" class="fa fa-linkedin w3-hover-opacity">领英</a>
-      <a href="https://www.facebook.com/Study-in-Malaysia-大马留学僧-107517091185432" class="fa fa-facebook-official w3-hover-opacity">Facebook</a>
-      <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity">Instagram</a>
-      <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="a fa-youtube w3-hover-opacity">YouTube</a>
-
-      <p>All rights reserved &copy; 2020 学习大师</p>
-      <form class="form-inline">了解详情:
-        <input type="email" class="form-control" size="50" placeholder="Email Address">
-        <button type="button" class="btn btn-danger">注册</button>
-      </form>
+    <footer class="container-fluid bg-footer">
+      <div class="row">
+        <div class="col-sm-3 text-center">
+          <div class="row">
+            <a href="index.html">
+              <img src="img/about/logo.png" style="width:75px">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 text-center">
+          <div class="row">
+            <p>&nbsp;</p>
+          </div>
+          <div class="row">
+              <a href="faq-cn.html">常见问题 &nbsp;&nbsp;</a>
+              <a href="faq-cn.html">合作推广 &nbsp;&nbsp;</a>
+              <a href="faq-cn.html">意见反馈 &nbsp;&nbsp;</a>
+              <a href="faq-cn.html">我们是谁 &nbsp;&nbsp;</a>
+              <a href="faq-cn.html">联系我们</a>
+          </div>
+          <div class="row">
+            <p>&copy; 2020 StudyMax.&nbsp;All rights reserved.</p>
+          </div>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="row">
+            <p>&nbsp;</p>
+          </div>
+          <div class="row">
+            <a href="https://www.zhihu.com/people/study_in_malaysia" class="">微信 &nbsp;</a>
+            <a href="https://www.zhihu.com/people/study_in_malaysia" class="">知乎 &nbsp;</a>
+            <a href="https://www.zhihu.com/people/study_in_malaysia" class="">微博</a>
+          </div>
+          <div class="row">
+            <a href="https://www.linkedin.com/company/study2max/" class="">领英 &nbsp;</a>
+            <a href="https://www.facebook.com/study2max" class="">脸书 &nbsp;</a>
+            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="">油管 &nbsp;</a>
+            <a href="https://www.instagram.com/my.study.max/" class="">IG</a>
+          </div>
+        </div>
+      </div>
     </footer>
+
+
+    <!-- Go to Top -->
+    <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
+    <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('#go-to-top').fadeIn();
+            } else {
+                $('#go-to-top').fadeOut();
+            }
+        });
+        $('#go-to-top').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+    </script>
+
+    <!-- Adding Smooth Scrolling -->
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+       // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+    </script>
 
   </body>
 </html>
