@@ -126,47 +126,50 @@
     </header>
 
     <!--main-->
-    <div id="contact" class="w3-container w3-content w3-padding-64" style="max-width:1024px" >
-      <h2 class="text-center">联系方式</h2>
-      <p class="w3-opacity w3-center"><i>有任何问题，欢迎随时联系我们！</i></p>
-      <br><br>
-      <div class="row">
-        <div class="col-sm-5">
-          <p>有任何问题，请随时联系我们！我们将在12小时内给您答复！</p>
-          <p><span class="glyphicon glyphicon-phone"></span>电话： +60 123456789</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> 电子邮箱: mystudy.max@gmail.com</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span>地址：马来西亚，吉隆坡</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span>咨询微信: angel-emmy</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span>微信公众号: </p>
-          <br><img width=200 src="img/about/wechat.jpg"><br>
-          <p><span class="glyphicon glyphicon-map-marker"></span><a href="https://www.zhihu.com/people/study_in_malaysia">知乎</a></p>
-          <p><span class="glyphicon glyphicon-map-marker"></span><a href="https://www.facebook.com/Study-in-Malaysia-大马留学僧-107517091185432">Facebook</p>
+    <div id="contact" class="container-fluid">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:1024px">
+        <h2 class="text-center">联系方式</h2>
+        <p class="w3-opacity w3-center"><i>有任何问题，欢迎随时联系我们！</i></p>
+        <br><br>
+        <div class="row">
+          <div class="col-sm-5">
+            <p>有任何问题，请随时联系我们！我们将在12小时内给您答复！</p>
+            <p><span class="glyphicon glyphicon-phone"></span>电话： +60 123456789</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> 电子邮箱: mystudy.max@gmail.com</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>地址：马来西亚，吉隆坡</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>咨询微信: angel-emmy</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span>微信公众号: </p>
+            <br><img width=200 src="img/about/wechat.jpg"><br>
+            <p><span class="glyphicon glyphicon-map-marker"></span><a href="https://www.zhihu.com/people/study_in_malaysia">知乎</a></p>
+            <p><span class="glyphicon glyphicon-map-marker"></span><a href="https://www.facebook.com/Study-in-Malaysia-大马留学僧-107517091185432">Facebook</p>
+          </div>
+          <div class="col-sm-7">
+            <form onsubmit="greet(); return false;">
+              <div class="row" style="margin:0 -16px 8px -16px">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" type="text" id="name" placeholder="姓名" required="" name="name">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" type="text" id="email" placeholder="邮箱" required="" name="email">
+                </div>
+              </div>
+              <textarea class="form-control" type="text" id="comments" name="comments" placeholder="内容" rows="5">
+              </textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">发送</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-sm-7">
-          <form onsubmit="greet(); return false;">
-            <div class="row" style="margin:0 -16px 8px -16px">
-              <div class="col-sm-6 form-group">
-                <input class="form-control" type="text" id="name" placeholder="姓名" required="" name="name">
-              </div>
-              <div class="col-sm-6 form-group">
-                <input class="form-control" type="text" id="email" placeholder="邮箱" required="" name="email">
-              </div>
-            </div>
-            <textarea class="form-control" type="text" id="comments" name="comments" placeholder="内容" rows="5">
-            </textarea><br>
-            <div class="row">
-              <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">发送</button>
-              </div>
-            </div>
-          </form>
+        <div class="row text-center">
+          <form class="form-inline">了解更多
+            <input type="email" class="form-control" size="50" placeholder="电子邮箱" required>
+            <button type="button" class="btn btn-danger">订阅</button>
+          </form><br>
         </div>
-      </div>
-      <div class="row text-center">
-        <form class="form-inline">了解更多
-          <input type="email" class="form-control" size="50" placeholder="电子邮箱" required>
-          <button type="button" class="btn btn-danger">订阅</button>
-        </form><br>
+        
       </div>
     </div>
 
