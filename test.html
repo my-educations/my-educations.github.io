@@ -2,7 +2,7 @@
 
 <html lang="zh-CN">
   <head>
-    <title>专题活动</title>
+    <title>实用工具</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
 
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--header-->
-    <div class="container-fluid" style="background-color:#d8c3a5;color:#000;">
+    <div class="container-fluid" style="background-color:#88bdbc;color:#000;">
       <div class="row">
         <div class="col-sm-2">
           <div class="row">
@@ -109,8 +109,8 @@
               <li><a href="school-cn.html">学校列表</a></li>
               <li><a href="guide-cn.html">干货指南</a></li>
               <li><a href="language-cn.html">语言学习</a></li>
-              <li class="active"><a href="programs-cn.html">专题项目</a></li>
-              <li><a href="tool-cn.html">实用工具</a></li>
+              <li><a href="programs-cn.html">专题项目</a></li>
+              <li class="active"><a href="tool-cn.html">实用工具</a></li>
               <li><a href="contact-cn.html">联系我们</a></li>
               <li><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
             </ul>
@@ -126,316 +126,77 @@
 
     <!--main-->
     <!-- school -->
-    <div id="programs" class="container-fluid text-center">
-      <div class="">
-        <h1 style="color:#29648a;">本科学位项目</h1>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
+    <div id="tool" class="container-fluid text-center">
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/tool/offer.jpg" alt="录取评估" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>录取评估</b></p>
+            <p class="w3-opacity">评估你被某一所大学录取的概率</p>
+            <p>输入你的相关数据，了解你能进入某所大学学习的成功率</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;toolTemplate&#39;).style.display=&#39;block&#39;">进入</button>
           </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/tool/gpa.jpg" alt="绩点转换" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>绩点转换</b></p>
+            <p class="w3-opacity">各种类型的绩点转换</p>
+            <p>输入你的相关数据，了解在各种标准下你的真实绩点</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;toolTemplate&#39;).style.display=&#39;block&#39;">进入</button>
           </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/tool/life-fee.jpg" alt="留学费用" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>留学费用</b></p>
+            <p class="w3-opacity">预估你在某所大学学习的费用开支</p>
+            <p>输入你的相关数据，了解你在某所大学学习阶段的所有费用开销</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;toolTemplate&#39;).style.display=&#39;block&#39;">进入</button>
           </div>
-        </a>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="img/tool/life-fee.jpg" alt="留学费用" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>留学费用</b></p>
+            <p class="w3-opacity">预估你在某所大学学习的费用开支</p>
+            <p>输入你的相关数据，了解你在某所大学学习阶段的所有费用开销</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;toolTemplate&#39;).style.display=&#39;block&#39;">进入</button>
           </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br><br>
-
-      <div class="text-center">
-        <img class="w-100 my-4 pt-5" src="img/main/line.png" style="width:80%" alt="">
-      </div>
-      <br><br>
-
-      <div class="">
-        <div class="">
-          <h1 style="color:#29648a;">硕士学位项目</h1>
         </div>
       </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br><br>
-
-      <div class="text-center">
-        <img class="w-100 my-4 pt-5" src="img/main/line.png" style="width:80%" alt="">
-      </div>
-      <br><br>
-
-      <div class="">
-        <div class="">
-          <h1 style="color:#29648a;">博士学位项目</h1>
-        </div>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br>
-
-      <div class="row">
-        <a href="program_list/welcome_letter-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-primary">
-              <div class="panel-heading">欢迎辞</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">通知</div>
-            </div>
-          </div>
-        </a>
-        <a href="program_list/campus2campus_tour-cn.html" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-danger">
-              <div class="panel-heading">环校教育之旅</div>
-              <div class="panel-body"><img src="img/programs/campus2campus.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">游学</div>
-            </div>
-          </div>
-        </a>
-        <a href="img/programs/welcome_letter.png" class="card my-3 block-hover">
-          <div class="col-sm-4">
-            <div class="panel panel-success">
-              <div class="panel-heading">待定</div>
-              <div class="panel-body"><img src="img/programs/welcome_letter.png" class="img-responsive" style="width:100%" alt="Image"></div>
-              <div class="panel-footer">待定</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <br><br>
 
     </div>
+
+    <!-- function part - js tool template -->
+    <div id="toolTemplate" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span onclick="document.getElementById(&#39;toolTemplate&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>评测</h2>
+          </header>
+          <div class="w3-container">
+            <p><label><i class="fa fa-shopping-cart"></i> 人民币15元 </label></p>
+            <input class="w3-input w3-border" type="text" placeholder="How long?">
+            <p><label><i class="fa fa-user"></i> 发送至 </label></p>
+            <input class="w3-input w3-border" type="text" placeholder="Enter email">
+            <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">确定 <i class="fa fa-check"></i></button>
+            <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;toolTemplate&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
+            <p class="w3-right">需要 <a href="index.html#" class="w3-text-blue">咨询?</a></p>
+          </div>
+        </div>
+    </div>
+
+    <!-- function part - js tool-->
+    <script>
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('toolTemplate');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
 
     <!-- footer-->
     <footer class="container-fluid bg-footer">
