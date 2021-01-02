@@ -33,6 +33,10 @@
   color: #fff !important;
 }
 
+.dropdown-menu a{
+    color: #29648a !important;
+}
+
 .jumbotron {
   margin-bottom: 0;
 }
