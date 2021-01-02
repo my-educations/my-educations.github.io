@@ -136,13 +136,23 @@ iframe {
 
 body {
   position: relative;
-  margin:0;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+/* modern clearfix */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+    line-height:0;
+}
+.cf:after {
+    clear:both;
 }
 
 /* Style all font awesome icons */
