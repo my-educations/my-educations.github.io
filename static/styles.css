@@ -33,7 +33,7 @@
   color: #fff !important;
 }
 
-.dropdown-item {
+.dropdown-menu a:hover {
     color: #29648a !important;
 }
 
