@@ -108,7 +108,19 @@
               <li><a href="school-cn.html">学校列表</a></li>
               <li><a href="guide-cn.html">干货指南</a></li>
               <li><a href="language-cn.html">语言学习</a></li>
-              <li class="active"><a href="programs-cn.html">专题项目</a></li>
+              <li class="active dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">专题项目<span class="caret"></span></a>
+                <div class="dropdown-menu">
+                  <div class="text-center">
+                    <a class="dropdown-item" href="programs-cn.html#bachelor">本科项目</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="dropdown-item" href="programs-cn.html#master">硕士项目</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="dropdown-item" href="programs-cn.html#phd">博士项目</a>
+                  </div>
+                </div>
+              </li>
               <li><a href="tool-cn.html">实用工具</a></li>
               <li><a href="contact-cn.html">联系我们</a></li>
               <li><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
@@ -125,8 +137,8 @@
 
     <!--main-->
     <div id="programs" class="container-fluid text-center">
-      <div class="">
-        <h1 style="color:#fff;">本科学位项目</h1>
+      <div id="bachelor" class="">
+        <h1 style="color:#fff;">本科项目</h1>
       </div>
       <br>
 
@@ -228,10 +240,8 @@
       </div>
       <br><br>
 
-      <div class="">
-        <div class="">
-          <h1 style="color:#fff;">硕士学位项目</h1>
-        </div>
+      <div id="master" class="">
+        <h1 style="color:#fff;">硕士项目</h1>
       </div>
       <br>
 
@@ -333,10 +343,8 @@
       </div>
       <br><br>
 
-      <div class="">
-        <div class="">
-          <h1 style="color:#fff;">博士学位项目</h1>
-        </div>
+      <div id="phd" class="">
+        <h1 style="color:#fff;">博士项目</h1>
       </div>
       <br>
 
