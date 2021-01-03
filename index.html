@@ -635,7 +635,7 @@
           </spn>
           <div class="">
             <h3>一线体验</h3>
-            <p>生活在马来西亚的大学生分享一线真实生活体验</p>
+            <p>马来西亚一线大学生分享最真实的生活体验</p>
           </div>
         </div>
       </div>
@@ -922,13 +922,61 @@
         <br>
         <input class="form-control" id="myInput" type="text" placeholder="输入..">
         <br>
-        <ul class="list-group" id="myList">
-          <li class="list-group-item">马来亚大学</li>
-          <li class="list-group-item">马来西亚理科大学</li>
-          <li class="list-group-item">马来西亚理工大学</li>
-          <li class="list-group-item">马来西亚国立大学</li>
-          <li class="list-group-item">马来西亚博特拉大学</li>
-        </ul>
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>周一</th>
+              <th>周二</th>
+              <th>周三</th>
+              <th>周四</th>
+              <th>周五</th>
+              <th>周六</th>
+            </tr>
+          </thead>
+          <tbody id="myTable">
+            <tr>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+            </tr>
+            <tr>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+            </tr>
+            <tr>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+            </tr>
+            <tr>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+            </tr>
+            <tr>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
+              <td>马来西亚留学综合排名 </td>
+              <td>关于马来西亚留学"寒暑假博士"</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>以上内容为最近1个月内的信息，想查看更多历史信息请点击《搜索更多内容》</p>
       </div>
     </div>
     <br><br>
@@ -945,7 +993,7 @@
       $(document).ready(function(){
         $("#myInput").on("keyup", function() {
           var value = $(this).val().toLowerCase();
-          $("#myList li").filter(function() {
+          $("#myTable tr").filter(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
           });
         });
