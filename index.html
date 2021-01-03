@@ -921,61 +921,13 @@
         </a>
         <br>
         <input class="form-control" id="myInput" type="text" placeholder="输入..">
-        <br>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>周一</th>
-              <th>周二</th>
-              <th>周三</th>
-              <th>周四</th>
-              <th>周五</th>
-              <th>周六</th>
-            </tr>
-          </thead>
-          <tbody id="myTable">
-            <tr>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-            </tr>
-            <tr>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-            </tr>
-            <tr>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-            </tr>
-            <tr>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-            </tr>
-            <tr>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-              <td>2021年QS亚洲大学排名榜有你的母校吗？</td>
-              <td>马来西亚留学综合排名 </td>
-              <td>关于马来西亚留学"寒暑假博士"</td>
-            </tr>
-          </tbody>
-        </table>
+        <br>      
+        <div id="LastMonth">
+          <p>2021年QS亚洲大学排名榜有你的母校吗？</p>
+          <p>马来西亚留学综合排名</p>
+          <p>关于马来西亚留学"寒暑假博士"</p>
+        </div>
+        <hr>
         <p>以上内容为最近1个月内的信息，想查看更多历史信息请点击《搜索更多内容》</p>
       </div>
     </div>
@@ -993,7 +945,7 @@
       $(document).ready(function(){
         $("#myInput").on("keyup", function() {
           var value = $(this).val().toLowerCase();
-          $("#myTable tr").filter(function() {
+          $("#LastMonth *").filter(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
           });
         });
