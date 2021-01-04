@@ -2,14 +2,14 @@
 
 <html lang="zh-CN">
   <head>
-    <title>联系我们</title>
+    <title>马来亚大学指导手册</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="static/styles.css">
-    <link rel="icon" href="img/about/logo-icon.png" type="image/png" sizes="18x18">
+    <link rel="icon" href="../img/about/logo-icon.png" type="image/png" sizes="18x18">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- index customized -->
@@ -46,10 +46,10 @@
             <div class="col-sm-2">
             </div>
             <div class="col-sm-4 text-center">
-              <img src="img/about/wechat-sm.jpg" style="width:60px">
+              <img src="../img/about/wechat-sm.jpg" style="width:60px">
             </div>
             <div class="col-sm-4 text-center">
-              <img src="img/about/wechat-bm.jpg" style="width:60px">
+              <img src="../img/about/wechat-bm.jpg" style="width:60px">
             </div>
             <div class="col-sm-2">
             </div>
@@ -58,7 +58,7 @@
 
         <div class="col-sm-8 text-center">
           <div class="row">
-            <img src="img/about/logo.png" style="width:100px">
+            <img src="../img/about/logo.png" style="width:100px">
           </div>
         </div>
 
@@ -79,10 +79,10 @@
             <div class="col-sm-2">
             </div>
             <div class="col-sm-4 text-center">
-              <img src="img/about/wechat.jpg" style="width:60px">
+              <img src="../img/about/wechat.jpg" style="width:60px">
             </div>
             <div class="col-sm-4 text-center">
-              <img src="img/about/qq.jpg" style="width:60px">
+              <img src="../img/about/qq.jpg" style="width:60px">
             </div>
             <div class="col-sm-2">
             </div>
@@ -105,13 +105,21 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
               <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
-              <li><a href="school-cn.html">学校列表</a></li>
+              <li><a href="../school-cn.html">学校列表</a></li>
               <li><a href="guide-cn.html">干货指南</a></li>
               <li><a href="language-cn.html">语言学习</a></li>
               <li><a href="programs-cn.html">专题项目</a></li>
-              <li><a href="tool-cn.html">实用工具</a></li>
               <li><a href="contact-cn.html">联系我们</a></li>
-              <li class="active"><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">更多
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="partner-cn.html">合作伙伴</a></li>
+                  <li><a href="map-cn.html">最新地图</a></li>
+                  <li><a href="tool-cn.html">实用工具</a></li>
+                  <li><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
+                </ul>
+              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
@@ -126,45 +134,120 @@
     <!--main-->
     <div id="school" class="container-fluid text-center">
       <div class="">
-        <h1>搜索</h1>
-        <p>输入关键字，搜索相关信息: </p>
-        <br>
-        <input class="form-control" id="myInput" type="text" placeholder="输入..">
-        <br>
-        <ul class="list-group" id="myList" style="color:#000;">
-          <li class="list-group-item">马来亚大学</li>
-          <li class="list-group-item">马来西亚理科大学</li>
-          <li class="list-group-item">马来西亚理工大学</li>
-          <li class="list-group-item">马来西亚国立大学</li>
-          <li class="list-group-item">马来西亚博特拉大学</li>
-        </ul>
-        <ul class="list-group" style="color:#000;">
-          <li class="list-group-item">马来亚大学</li>
-          <li class="list-group-item">马来西亚理科大学</li>
-          <li class="list-group-item">马来西亚理工大学</li>
-          <li class="list-group-item">马来西亚国立大学</li>
-          <li class="list-group-item">马来西亚博特拉大学</li>
-        </ul>
-        <ul class="list-group" style="color:#000;">
-          <li class="list-group-item">马来亚大学</li>
-          <li class="list-group-item">马来西亚理科大学</li>
-          <li class="list-group-item">马来西亚理工大学</li>
-          <li class="list-group-item">马来西亚国立大学</li>
-          <li class="list-group-item">马来西亚博特拉大学</li>
-        </ul>
+        <h1 style="color:#fff;">马来亚大学指导手册</h1>
+        <p class="w3-opacity"><i>2020年12月1日</i></p>
       </div>
-    </div>
+      <br>
 
-    <script>
-      $(document).ready(function(){
-        $("#myInput").on("keyup", function() {
-          var value = $(this).val().toLowerCase();
-          $("#myList li").filter(function() {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-          });
-        });
-      });
-    </script>
+      <div class="text-center">
+        <iframe id=sbrxp scrolling="no" border="0" frameborder="no" framespacing="0"
+          allowfullscreen="true" style="width: 720px; height: 480px; max-width: 100%"
+          src="//player.bilibili.com/player.html?aid=628044963&bvid=BV1rt4y1Y7TQ&cid=264713604&page=1">
+        </iframe>
+      </div>
+      <br>
+
+      <div class="text-center">
+        <iframe id=sbrxp scrolling="no" border="0" frameborder="no" framespacing="0"
+          allowfullscreen="true" style="width: 720px; height: 480px; max-width: 100%"
+          src="//player.bilibili.com/player.html?aid=73267101&bvid=BV1UE411y7zd&cid=125324149&page=1">
+        </iframe>
+      </div>
+      <br>
+
+      <div class="text-center">
+           <p class="w3-justify">
+             <div class="alert alert-success">
+               <b>1.基本信息</b><br><br>
+             </div>
+             <table class="table table-bordered table-striped">
+              <tr class="success">
+                <th>校名</th>
+                <td>马来亚大学</td>
+              </tr>
+              <tr class="danger">
+                <th>英文校名</th>
+                <td>University of Malaya</td>
+              </tr>
+              <tr class="info">
+                <th>马来文校名</th>
+                <td>Universiti Malaya</td>
+              </tr>
+              <tr class="warning">
+                <th>马来文校名</th>
+                <td>Universiti Malaya</td>
+              </tr>
+              <tr class="active">
+                <th>马来文校名</th>
+                <td>Universiti Malaya</td>
+              </tr>
+            </table>
+           </p>
+
+           <p class="w3-justify">
+             <div class="alert alert-info">
+               <b>2.学校简介</b><br><br>
+             </div>
+             马来亚大学（University of Malaya, 简称UM）是马来西亚首屈一指的研究型综合大学，也是全马历史最悠久的高等教育学府，尤以文理学科和医学著称，在许多学科领域享有世界级的声誉。作为马来西亚规模最大和最著名的大学，马来亚大学是环太平洋大学联盟重要的学术成员。<br><br>
+             马来亚大学的前身是1905年成立的爱德华七世国王医学院和1929年成立的莱佛士学院，并于1949年10月8日合并成立了马来亚大学。这所大学发展很快，于1956年在新加坡和吉隆坡分别设立了两所分院。1960年，马来西亚联邦政府表示两个校区将会分离并成为两所互不隶属的国立大学，位于吉隆坡的校区保留了马大的名称，而位于新加坡的校区则更名为新加坡大学。1965年，新加坡从马来西亚独立后，新加坡大学更名为新加坡国立大学。<br><br>
+             在2021年度QS世界大学排名中，马来亚大学位居全球第59位。其中，学校在社会科学与管理学领域位居世界第74位，图书馆信息系统学科排名世界第38位，电气工程世界第46位，计算机科学、土木工程、化学工程、传媒学、地理学、教育学等一批学科跻身世界百强。此外2021年U.S. News世界大学排名中位居世界第205位，工科位居全球第15位。<br><br>
+           </p>
+
+           <p class="w3-justify">
+             <div class="alert-warning">
+               <b>3.学校设施</b><br><br>
+             </div>
+             1）教学区<br>
+             教学楼、教室设备齐全，装饰美观，有空调；1000多部计算机的计算机室、梯阶教室、藏书百万册的图书馆、实验室、资源中心、展览大厅、咖啡吧、休息室、会议室及操场一应俱全，国际学生事物部为您处理各种问题，并设有学生福利委员会。<br><br>
+             2）住宿区<br>
+             大学设有学生公寓，分为两个区域（校内与校外），有单人间，双人间和三人间，有电扇，亦有电视、洗衣机、沙发、衣橱、窗帘和电热水器等生活设施，还有餐厅和超市，24小时保安，每月生活费用约马币1200-2000令吉。（1马币=1.6元人民币）<br><br>
+           </p>
+
+           <p class="w3-justify">
+             <b>4.教学环境</b><br><br>
+             <br><br>
+           </p>
+
+           <p class="w3-justify">
+             <b>5.院系设置</b><br><br>
+             <br><br>
+           </p>
+
+           <p class="w3-justify">
+             <b>6.本科专业</b><br><br>
+             <br><br>
+           </p>
+
+           <p class="w3-justify">
+             <b>7.研究生专业</b><br><br>
+             <br>
+           </p>
+
+           <p class="w3-justify">
+             <b>8.申请条件</b><br><br>
+             <br>
+           </p>
+
+           <p class="w3-justify">
+             <b>9.毕业条件</b><br><br>
+             <br>
+           </p>
+
+           <p class="w3-justify">
+             <b>10.合作院校</b><br><br>
+             <br>
+           </p>
+
+           <p class="w3-justify">
+             <b>11. 著名校友</b><br><br>
+             <br>
+           </p>
+
+      </div>
+
+      <br><br>
+
+    </div>
 
     <!-- footer-->
     <footer class="container-fluid bg-footer">
@@ -172,16 +255,16 @@
         <div class="col-sm-3 text-center">
           <div class="row">
             <a href="index.html">
-              <img src="img/about/logo.png" style="width:60px">
+              <img src="../img/about/logo.png" style="width:60px">
             </a>
           </div>
         </div>
         <div class="col-sm-6 text-center">
           <div class="row">
             <a href="faq-cn.html">常见问题</a>&nbsp;&nbsp;
-            <a href="about-cn.html">我们是谁</a>&nbsp;&nbsp;
             <a href="cooperation-cn.html">合作推广</a>&nbsp;&nbsp;
-            <a href="suggestion-cn.html">意见反馈</a>
+            <a href="suggestion-cn.html">意见反馈</a>&nbsp;&nbsp;
+            <a href="about-cn.html">关于我们</a>
           </div>
           <div class="row">
             <p>&copy; 2020 StudyMax.&nbsp;All rights reserved.</p>
