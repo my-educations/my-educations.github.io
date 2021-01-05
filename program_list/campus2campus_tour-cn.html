@@ -1,29 +1,102 @@
 <!DOCTYPE html>
 
 <html lang="zh-CN">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
   <head>
+    <title>环校游学项目</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="/static/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="icon" href="../img/about/logo-icon.png" type="image/png" sizes="18x18">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>环校园教育之旅</title>
+    <!-- index customized -->
+    <style>
+      #school {padding-top:50px; color: #fff; background-color: #d8c3a5;}
+      #guide {padding-top:50px; color: #fff; background-color: #88bdbc;}
+      #language {padding-top:50px; color: #fff; background-color: #5da2d5;}
+      #programs {padding-top:50px; color: #fff; background-color: #d8c3a5;}
+      #contact {padding-top:50px; color: #fff; background-color: #88bdbc;}
+      #partner {padding-top:50px; color: #fff; background-color: #5da2d5;}
+      #map {padding-top:50px; color: #fff; background-color: #d8c3a5;}
+      #tool {padding-top:50px; color: #fff; background-color: #88bdbc;}
+    </style>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <video autoplay muted loop id="myVideo">
+      <source src="../img/about/video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
     <!--header-->
-    <header>
-      <div class="jumbotron">
-        <div class="container text-center">
-          <h1>学习大师</h1>
-          <p>好好学习，天天向上</p>
-          <img src="../img/about/logo.png" style="width:100px">
+    <div class="container-fluid" style="background-color:#5da2d5;color:#000;">
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-4 text-center">
+              <p style="font-size:60%;">大马留学僧</p>
+            </div>
+            <div class="col-sm-4 text-center">
+              <p style="font-size:60%;">大马之声</p>
+            </div>
+            <div class="col-sm-2">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-4 text-center">
+              <img src="../img/about/wechat-sm.jpg" style="width:60px">
+            </div>
+            <div class="col-sm-4 text-center">
+              <img src="../img/about/wechat-bm.jpg" style="width:60px">
+            </div>
+            <div class="col-sm-2">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-8 text-center">
+          <div class="row">
+            <img src="../img/about/logo.png" style="width:100px">
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-4 text-center">
+              <p style="font-size:60%;">微信咨询</p>
+            </div>
+            <div class="col-sm-4 text-center">
+              <p style="font-size:60%;">QQ 咨询</p>
+            </div>
+            <div class="col-sm-2">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-4 text-center">
+              <img src="../img/about/wechat.jpg" style="width:60px">
+            </div>
+            <div class="col-sm-4 text-center">
+              <img src="../img/about/qq.jpg" style="width:60px">
+            </div>
+            <div class="col-sm-2">
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
-      <nav class="navbar navbar-inverse">
+    <header>
+      <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,18 +108,27 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="../index.html">首页</a></li>
+              <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
               <li><a href="../school-cn.html">学校列表</a></li>
               <li><a href="../guide-cn.html">干货指南</a></li>
               <li><a href="../language-cn.html">语言学习</a></li>
-              <li><a href="../programs-cn.html">专题活动</a></li>
-              <li><a href="../tool-cn.html">实用工具</a></li>
+              <li><a href="../programs-cn.html">专题项目</a></li>
               <li><a href="../contact-cn.html">联系我们</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">更多
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../partner-cn.html">合作伙伴</a></li>
+                  <li><a href="../map-cn.html">最新地图</a></li>
+                  <li><a href="../tool-cn.html">实用工具</a></li>
+                  <li><a href="../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
+                </ul>
+              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的账号</a></li>
-              <li><a href="https://www.google.com/"><span class="glyphicon glyphicon-search"></span><i class="fa fa-search"></i> 搜索</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-language"></span> English</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+              <li><a href="#"><span class="glyphicon"></span> English</a></li>
             </ul>
           </div>
         </div>
@@ -54,130 +136,233 @@
     </header>
 
     <!--main-->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-         <h2 class="w3-wide">首届马来西亚高校联盟教育游</h2>
-         <p class="w3-opacity"><i>2020年12月1日</i></p>
-         <p class="w3-justify">
-           <b>介绍</b><br><br>
-           加入“环校园教育之旅”马来西亚高校联盟教育游项目，可以让你（学生）亲身体验马来西亚顶尖学府的探索之旅；并在入学注册之前，便可知晓每一所学校所能提供的教育内容！<br><br>
-           本项目重点帮你（学生和家长）发现合适的入读学校，而且Campus2Campus是我们初次在马来西亚发起的跨学校教育观光项目！<br><br>
-           此外，本次教育旅行项目可以让你（学生和家长）从不同层次了解更多关于心仪学校的内容。为了不虚此行，你（学生和家长）可以提前列好关于本次所要拜访学校的任何想问的问题！<br><br>
-         </p>
+    <div id="language">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px;">
+        <div class="w3-opacity-min text-center">
+          <h1 style="color:#fff;">马来西亚大学环校游学</h1>
+          <p class="w3-opacity"><i>2021年1月4日</i></p>
+        </div>
+        <br>
 
-         <p class="w3-justify">
-           <b>教育之旅目的</b><br><br>
-           带领学生参观和拜访目标大学和学院，并与这些学校建立联系，活动主要在吉隆坡和巴生谷附近一带。<br><br>
-         </p>
+        <div class="w3-opacity-min">
+           <p class="w3-justify">
+             <h3 class="text-center">介绍</h3>
+             <br>
+             加入“环校园教育之旅”马来西亚高校联盟教育游项目，可以让你（学生）亲身体验马来西亚顶尖学府的探索之旅；并在入学注册之前，便可知晓每一所学校所能提供的教育内容！
+             <br><br>
+             本项目重点帮你（学生和家长）发现合适的入读学校，而且Campus2Campus是我们初次在马来西亚发起的跨学校教育观光项目！
+             <br><br>
+             此外，本次教育旅行项目可以让你（学生和家长）从不同层次了解更多关于心仪学校的内容。为了不虚此行，你（学生和家长）可以提前列好关于本次所要拜访学校的任何想问的问题！
+             <br><br>
+          </p>
+           <br>
+           <p class="w3-justify">
+             <h3 class="text-center">游学项目目的</h3>
+             <br>
+             带领学生参观和拜访目标大学和学院，并与这些学校建立联系，活动主要在吉隆坡和巴生谷附近一带。
+             <br><br>
+           </p>
+           <br>
+           <p class="w3-justify">
+             <h3 class="text-center">你将收获</h3>
+             <br>
+             在本次教育旅行之后，你（学生）将知道哪所学校更适合你。而且，现场接触相关学校后，你会了解每个学校所能提供的教育。你将不再被各种网站、大学宣传册、教育展览会和中介结构忽悠和左右意见！
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">游学项目安排</h3>
+             <br>
+             在本次教育旅行中，你将收获：<br><br>
+             1) 参加欢迎致辞;<br>
+             2) 与大学老师交流;<br>
+             3) 开启各种大学熟悉之旅;<br>
+             4) 与同胞学长学姐交流;<br>
+             5) 可以现场咨询，甚至直接获得大学录取;<br>
+             6) 体验马来西亚本地文化，以及外国留学生的生活方式和居住条件;<br>
+             7) 了解如何申请本地兼职工作;<br>
+             8) 所有参与本项目的人将游览马来西亚本地的著名景点，开启观光旅游.
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">合作学校</h3>
+             <br>
+             本项目的合作学校如下所示：
+             <br><br>
+             - 马来亚大学<br>
+             - 博特拉大学<br>
+             - 马来西亚国立大学<br>
+             - 马来西亚思特雅大学<br>
+             - 马来亚威尔士国际大学<br>
+             - 莫纳什大学马来西亚分校<br>
+             - 双威大学
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">目标群体</h3>
+             <br>
+             - 大学预科<br>
+             - 交换生<br>
+             - 潜在本科生<br>
+             - 潜在研究生
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">项目周期</h3>
+             <br>
+             本游学项目为期一周，从<b>2021年5月1日至2021年5月10日。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">录取结果</h3>
+             <br>
+             录取结果将以录取信的形式在报名截止日期后的一周之内处理，并向所有被录取的学生发送。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">住宿</h3>
+             <br>
+             为了让本项目的参与者（你）切身体验马来西亚的学生生活，你将被安排在大学宿舍或大学旅馆住宿。如果项目期间，大学旅馆没有多余房间，我们将安排你住在本市的其他经济型酒店。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">交通</h3>
+             <br>
+             本项目的主要交通工具是：学校巴士或者校车，或者我们给你安排的私人大巴，所以交通工具都带有空调。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">餐饮</h3>
+             <br>
+             由于本地马来西亚美食随处可见，好吃又便宜，所以我们将不安排统一就餐。但我们会带你去比较出名的美食店就餐，清真不清真的都有。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">来往机票</h3>
+             <br>
+             你需要自行购买往返机票，推荐买亚航（马来西亚亚洲航空）机票，比较实惠。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">项目费用</h3>
+             <br>
+             整个教育旅行项目的费用是<b>2500马币</b>。
+             如果同意接收本项目通知书，需要先支付不可退款的<b>400马币</b>定金；剩下的<b>2000马币</b>费用需要在项目的第一天支付。
+             所有费用支付将通过微信支付或支付宝完成（1马币约等于1.65人民币）。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">报名方式</h3>
+             <br>
+             先填好<a href="https://www.wjx.cn/jq/54465454.aspx">此表</a>并提交，稍后我们会审查信息并核对你的详细资料，确保信息真实可靠。
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">总结</h3>
+             <br>
+             总而言之，本次Campus2Campus马来西亚高校联盟教育游项目是一次可以体验教育旅行且难能可贵的机会。触手可及，又不超你的预算！<br>
+             <br><br>
+           </p>
+           <p class="w3-justify">
+             <h3 class="text-center">联系我们</h3>
+             <br>
+             <b>微信</b>
+             <img width=200 src="../img/about/wechat.jpg">
+             <br><br>
+             <b>电子邮箱: </b>mystudy.max@gmail.com
+             <br><br>
+           </p>
+        </div>
 
-         <p class="w3-justify">
-           <b>你的收获</b><br><br>
-           在本次教育旅行之后，你（学生）将知道哪所学校更适合你。而且，现场接触相关学校后，你会了解每个学校所能提供的教育。你将不再被各种网站、大学宣传册、教育展览会和中介结构忽悠和左右意见！<br><br>
-         </p>
+        <div class="w3-opacity-min text-center">
+          <a class="btn btn-danger open" href="programs-cn.html">
+            <span class="glyphicon glyphicon-search"></span>
+            查看更多专题
+          </a>
+        </div>
+        <br><br>
 
-         <p class="w3-justify">
-           <b>游学项目主要安排</b><br><br>
-           在本次教育旅行中，你将收获：<br><br>
-           1) 参加欢迎致辞;<br>
-           2) 与大学老师交流;<br>
-           3) 开启各种大学熟悉之旅;<br>
-           4) 与同胞学长学姐交流;<br>
-           5) 可以现场咨询，甚至直接获得大学录取;<br>
-           6) 体验马来西亚本地文化，以及外国留学生的生活方式和居住条件;<br>
-           7) 了解如何申请本地兼职工作;<br>
-           8) 所有参与本项目的人将游览马来西亚本地的著名景点，开启观光旅游.<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>合作学校</b><br><br>
-           本项目的合作学校如下所示：<br><br>
-
-           - 马来亚大学<br>
-           - 博特拉大学<br>
-           - 马来西亚国立大学<br>
-           - 马来西亚思特雅大学<br>
-           - 马来亚威尔士国际大学<br>
-           - 莫纳什大学马来西亚分校<br>
-           - 双威大学<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>目标群体</b><br><br>
-           - 大学预科<br>
-           - 交换生<br>
-           - 未来本科生<br>
-           - 未来研究生<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>游学项目周期</b><br><br>
-           本游学项目为期一周，从<b>2021年5月1日至2021年5月10日</b>。<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>录取通知</b><br><br>
-           录取通知书将在报名截止日期后的一周之内处理，并向所有被录取的学生发送。<br>
-
-         </p>
-
-         <p class="w3-justify">
-           <b>住宿</b><br><br>
-           为了让本项目的参与者（你）切身体验马来西亚的学生生活，你将被安排在大学宿舍或大学旅馆住宿。如果项目期间，大学旅馆没有多余房间，我们将安排你住在本市的其他经济型酒店。<br><br>
-         </p>
-
-         <p class="w3-justify">
-           <b>交通</b><br><br>
-           本项目的主要交通工具是：学校巴士或者校车，或者我们给你安排的私人大巴，所以交通工具都带有空调。
-         </p>
-
-         <p class="w3-justify">
-           <b>饮食</b><br><br>
-           由于本地马来西亚美食随处可见，好吃又便宜，所以我们将不安排统一就餐。但我们会带你去比较出名的美食店就餐，清真不清真的都有。<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>来往机票</b><br><br>
-           你需要自行购买往返机票（推荐买马来西亚亚航机票，比较实惠）。<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>注册费用</b><br><br>
-           整个教育旅行项目的费用是<b>2400马币</b>。如果同意接收本项目通知书，需要先支付不可退款的<b>400马币</b>定金；剩下的<b>2000马币</b>费用需要在项目的第一天支付。所有费用支付将通过微信支付或支付宝完成（1马币约等于1.7人民币）。<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>报名方式</b><br><br>
-           先填好<a href="https://www.wjx.cn/jq/54465454.aspx">此表</a>并提交，稍后我们会审查信息并核对你的详细资料，确保信息真实可靠。<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>总结</b><br><br>
-           总而言之，本次Campus2Campus马来西亚高校联盟教育游项目是一次可以体验教育旅行且难能可贵的机会。触手可及，又不超你的预算！<br>
-         </p>
-
-         <p class="w3-justify">
-           <b>联系我们</b><br><br>
-           <b>微信</b><br><br>
-           <img width=200 src="../img/about/wechat.jpg"><br><br>
-           <b>电子邮箱: </b>mystudy.max@gmail.com<br><br>
-         </p>
-     </div>
-
-    <br><br>
+      </div>
+    </div>
 
     <!-- footer-->
-    <footer class="container-fluid text-center">
-      <a href="https://www.zhihu.com/people/study_in_malaysia" class="">知乎</a>
-      <a href="https://www.linkedin.com/company/73917888/" class="fa fa-linkedin w3-hover-opacity">领英</a>
-      <a href="https://www.facebook.com/Study-in-Malaysia-大马留学僧-107517091185432" class="fa fa-facebook-official w3-hover-opacity">Facebook</a>
-      <a href="https://www.instagram.com/just.one.minute.english/" class="fa fa-instagram w3-hover-opacity">Instagram</a>
-      <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="a fa-youtube w3-hover-opacity">YouTube</a>
-
-      <p>All rights reserved &copy; 2020 学习大师</p>
-      <form class="form-inline">了解详情:
-        <input type="email" class="form-control" size="50" placeholder="Email Address">
-        <button type="button" class="btn btn-danger">注册</button>
-      </form>
+    <footer class="container-fluid bg-footer">
+      <div class="row">
+        <div class="col-sm-3 text-center">
+          <div class="row">
+            <a href="index.html">
+              <img src="../img/about/logo.png" style="width:60px">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 text-center">
+          <div class="row">
+            <a href="../faq-cn.html">常见问题</a>&nbsp;&nbsp;
+            <a href="../cooperation-cn.html">合作推广</a>&nbsp;&nbsp;
+            <a href="../suggestion-cn.html">意见反馈</a>&nbsp;&nbsp;
+            <a href="../about-cn.html">关于我们</a>
+          </div>
+          <div class="row">
+            <p>&copy; 2020 StudyMax.&nbsp;All rights reserved.</p>
+          </div>
+        </div>
+        <div class="col-sm-3 text-center">
+          <div class="row">
+            <a href="https://www.linkedin.com/company/study2max/" class="fa fa-linkedin"></a>
+            <a href="https://www.facebook.com/study2max" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/my.study.max/" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </div>
     </footer>
+
+
+    <!-- Go to Top -->
+    <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
+    <script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('#go-to-top').fadeIn();
+            } else {
+                $('#go-to-top').fadeOut();
+            }
+        });
+        $('#go-to-top').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+    });
+    </script>
+
+    <!-- Adding Smooth Scrolling -->
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+       // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+    </script>
 
   </body>
 </html>
