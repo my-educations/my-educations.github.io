@@ -213,7 +213,7 @@ iframe {
 }
 
 .my-img-close:hover,
-.close:focus {
+.my-img-close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
