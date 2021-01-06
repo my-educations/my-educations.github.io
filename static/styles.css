@@ -32,15 +32,6 @@ body {
     clear:both;
 }
 
-.dropdown-menu li a {
-    color: #29648a !important;
-  }
-
-.dropdown-menu li a:hover {
-  background-color: #d8c3a5 !important;
-}
-
-
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
@@ -240,4 +231,10 @@ iframe {
 ul li::marker {
   color: black;
   font-size: 1.5em;
+}
+.dropdown-menu li a {
+    color: #29648a !important;
+  }
+.dropdown-menu li a:hover {
+  background-color: #d8c3a5 !important;
 }
