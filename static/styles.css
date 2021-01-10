@@ -275,7 +275,7 @@ iframe {
 
 .dropdown:hover .dropbtn {
   background-color: #fff;
-  color: #29648a;
+  color: #29648a !important;;
 }
 
 .dropdown-content {
@@ -289,7 +289,7 @@ iframe {
 }
 
 .dropdown-content a {
-  color: #29648a !important;;
+  color: #29648a;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
