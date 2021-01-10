@@ -249,7 +249,6 @@ iframe {
 .dropdown {
   float: left;
   z-index: 9999;
-  padding: 10px 16px;
 }
 
 .dropdown .dropbtn {
@@ -257,6 +256,7 @@ iframe {
   color: #fff;
   background-color: inherit;
   text-align: center;
+  padding: 1em;
   border: none;
   outline: none;
   margin: 0;
