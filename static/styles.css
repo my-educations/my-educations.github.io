@@ -146,12 +146,12 @@ iframe {
   color: #fff !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover, .navbar-nav li.active button {
   color: #29648a !important;
   background-color: #fff !important;
 }
 
-.navbar-nav li.active a:hover {
+.navbar-nav li.active button:hover {
   background-color: #29648a !important;
   color: #fff !important;
 }
@@ -179,7 +179,7 @@ iframe {
   margin: 0;
 }
 
-.dropdown:hover .dropbtn,  .dropdown active{
+.dropdown:hover .dropbtn{
   background-color: #fff;
   color: #29648a !important;;
 }
