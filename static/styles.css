@@ -151,7 +151,7 @@ iframe {
   background-color: #fff !important;
 }
 
-.navbar-nav li.active a {
+/* .navbar-nav li.active a {
   background-color: #d8c3a5;
   color: #fff;
 }
@@ -159,7 +159,7 @@ iframe {
 .navbar-nav li.active a:hover {
   background-color: #fff;
   color: #d8c3a5;
-}
+} */
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
