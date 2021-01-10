@@ -151,11 +151,6 @@ iframe {
   background-color: #fff !important;
 }
 
-.navbar-nav li.active button:hover {
-  background-color: #29648a !important;
-  color: #fff !important;
-}
-
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
