@@ -274,15 +274,16 @@ iframe {
   min-width: 160px;
 }
 
-.dropdown-content li a {
+.dropdown-content a {
   float: none;
   color: #fff !important;
   padding: 10px 16px;
   text-decoration: none;
+  display: block;
   text-align: left;
 }
 
-.dropdown-content li a:hover {
+.dropdown-content a:hover {
   background-color: #d8c3a5 !important;
 }
 
