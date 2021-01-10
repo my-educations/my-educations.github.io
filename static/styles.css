@@ -154,6 +154,7 @@ iframe {
 }
 
 .navbar-default .navbar-toggle {
+  padding: 14px 16px;
   border-color: transparent;
   color: #fff !important;
 }
