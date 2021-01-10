@@ -272,20 +272,19 @@ iframe {
   position: absolute;
   background-color: #fff;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content li a {
   float: none;
-  color: #29648a !important;
+  color: #29648a;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content li a:hover {
   background-color: #d8c3a5;
 }
 
