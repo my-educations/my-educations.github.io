@@ -238,15 +238,6 @@ iframe {
   background-color: #d8c3a5 !important;
 } */
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  text-decoration: none;
-}
-
 .dropdown {
   float: left;
   z-index: 9999;
