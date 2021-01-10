@@ -146,12 +146,12 @@ iframe {
   color: #fff !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover {
   color: #29648a !important;
   background-color: #fff !important;
 }
 
-/* .navbar-nav li.active a {
+.navbar-nav li.active a {
   background-color: #d8c3a5;
   color: #fff;
 }
@@ -159,7 +159,7 @@ iframe {
 .navbar-nav li.active a:hover {
   background-color: #fff;
   color: #d8c3a5;
-} */
+}
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -177,7 +177,7 @@ iframe {
   color: #fff;
   background-color: inherit;
   text-align: center;
-  padding: 5px 15px;
+  padding: 8px 15px;
   border: none;
   outline: none;
   margin: 0;
