@@ -289,7 +289,7 @@ iframe {
 }
 
 .dropdown-content a {
-  color: #29648a;
+  color: #29648a !important;;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
@@ -297,7 +297,7 @@ iframe {
 }
 
 .dropdown-content a:hover {
-  background-color: #d8c3a5;
+  background-color: #d8c3a5 !important;;
 }
 
 .dropdown:hover .dropdown-content {
