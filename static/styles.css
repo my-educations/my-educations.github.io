@@ -276,9 +276,6 @@ iframe {
   z-index: 1;
 }
 
-ul li::marker {
-  color: white;
-}
 .dropdown-content a {
   float: none;
   color: #29648a !important;
@@ -287,6 +284,7 @@ ul li::marker {
   display: block;
   text-align: left;
 }
+
 .dropdown-content a:hover {
   background-color: #d8c3a5 !important;
 }
