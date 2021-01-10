@@ -238,7 +238,7 @@ iframe {
   background-color: #d8c3a5 !important;
 } */
 
-.navbar a {
+.nav li a {
   float: left;
   font-size: 16px;
   color: white;
