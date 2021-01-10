@@ -137,25 +137,21 @@ iframe {
   background-color: #29648a;
   z-index: 9999;
   text-align: center;
-  padding: 14px 16px;
   border: 0;
   margin-bottom: 0;
   border-radius: 0;
 }
 
 .navbar li a, .navbar .navbar-brand {
-  padding: 14px 16px;
   color: #fff !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  padding: 14px 16px;
   color: #29648a !important;
   background-color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
-  padding: 14px 16px;
   border-color: transparent;
   color: #fff !important;
 }
@@ -260,7 +256,6 @@ iframe {
   font-size: 16px;
   color: #fff;
   background-color: inherit;
-  padding: 14px 16px;
   border: none;
   outline: none;
   margin: 0;
