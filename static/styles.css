@@ -137,14 +137,14 @@ iframe {
   background-color: #29648a;
   z-index: 9999;
   text-align: center;
-  padding: 1em;
   border: 0;
   margin-bottom: 0;
   border-radius: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
+.navbar-nav li a, .navbar .navbar-brand {
   color: #fff !important;
+  padding: 1em;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
