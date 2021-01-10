@@ -144,7 +144,6 @@ iframe {
 
 .navbar-nav li a, .navbar .navbar-brand {
   color: #fff !important;
-  padding: 1em;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -258,7 +257,7 @@ iframe {
   color: #fff;
   background-color: inherit;
   text-align: center;
-  padding: 1em;
+  padding: 10px 16px;
   border: none;
   outline: none;
   margin: 0;
