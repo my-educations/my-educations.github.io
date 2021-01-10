@@ -137,7 +137,7 @@ iframe {
   background-color: #29648a;
   z-index: 9999;
   border: 0;
-  font-size: 14px !important;
+  font-size: 16px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 2px;
   border-radius: 0;
@@ -240,9 +240,17 @@ iframe {
 } */
 
 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 .dropdown {
-  float: left;
+  position: relative;
   overflow: auto;
 }
 
