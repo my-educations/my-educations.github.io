@@ -241,8 +241,8 @@ iframe {
 
 
 .dropbtn {
-  background-color: #fff;
-  color: #29648a;
+  background-color: inherit;
+  color: inherit;
   border: none;
 }
 
