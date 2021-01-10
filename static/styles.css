@@ -137,7 +137,7 @@ iframe {
   background-color: #29648a;
   z-index: 9999;
   border: 0;
-  font-size: 14px !important;
+  font-size: 16px !important;
   border-radius: 0;
 }
 
@@ -247,12 +247,23 @@ iframe {
   text-decoration: none;
 } */
 
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .dropdown {
   color: #fff;
   position: relative;
 }
 
 .dropdown .dropbtn {
+  font-size: 16px;
   background-color: inherit;
   color: #fff;
   border: none;
@@ -271,7 +282,7 @@ iframe {
 
 .dropdown-content a {
   color: #29648a;
-  padding: 12px 16px;
+  padding: 14px 16px;
   text-decoration: none;
   display: block;
 }
