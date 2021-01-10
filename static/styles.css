@@ -146,9 +146,19 @@ iframe {
   color: #fff !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
+.navbar-nav li a:hover, .navbar-nav {
   color: #29648a !important;
   background-color: #fff !important;
+}
+
+.navbar-nav li.active a {
+  background-color: #d8c3a5;
+  color: #fff;
+}
+
+.navbar-nav li.active a:hover {
+  background-color: #fff;
+  color: #d8c3a5;
 }
 
 .navbar-default .navbar-toggle {
@@ -272,14 +282,3 @@ iframe {
   margin-top: 15px;
   color: #555;
 }
-
-/* ul li::marker {
-  color: black;
-  font-size: 1.5em;
-}
-.dropdown-menu li a {
-    color: #29648a !important;
-  }
-.dropdown-menu li a:hover {
-  background-color: #d8c3a5 !important;
-} */
