@@ -143,10 +143,12 @@ iframe {
 }
 
 .navbar li a, .navbar .navbar-brand {
+  padding: 14px 16px;
   color: #fff !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
+  padding: 14px 16px;
   color: #29648a !important;
   background-color: #fff !important;
 }
@@ -238,7 +240,7 @@ iframe {
   background-color: #d8c3a5 !important;
 } */
 
-.nav li a {
+.navbar a {
   float: left;
   font-size: 16px;
   color: white;
