@@ -137,7 +137,7 @@ iframe {
   background-color: #29648a;
   z-index: 9999;
   border: 0;
-  font-size: 16px !important;
+  font-size: 14px !important;
   line-height: 1.42857143 !important;
   letter-spacing: 2px;
   border-radius: 0;
@@ -242,20 +242,21 @@ iframe {
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
 .dropdown {
+  color: #fff;
   position: relative;
 }
 
 .dropdown .dropbtn {
   background-color: inherit;
-  color: inherit;
+  color: #fff;
   border: none;
   outline: none;
   margin: 0;
