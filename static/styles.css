@@ -142,11 +142,11 @@ iframe {
   border-radius: 0;
 }
 
-.navbar a, .navbar .navbar-brand {
+.navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
 
-.navbar-nav a:hover, .navbar-nav div.active a {
+.navbar-nav li a:hover, .navbar-nav li.active a {
   color: #29648a !important;
   background-color: #fff !important;
 }
@@ -270,7 +270,7 @@ iframe {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
+  background-color: #29648a;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -278,7 +278,7 @@ iframe {
 
 .dropdown-content a {
   float: none;
-  color: #29648a !important;
+  color: #fff !important;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
