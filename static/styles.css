@@ -142,18 +142,18 @@ iframe {
   border-radius: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
+.navbar .navbar-brand {
+  color: #fff;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #29648a !important;
-  background-color: #fff !important;
+  color: #29648a;
+  background-color: #fff;
 }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
-  color: #fff !important;
+  color: #fff;
 }
 
 
