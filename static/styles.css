@@ -251,7 +251,6 @@ iframe {
 
 .dropdown {
   position: relative;
-  overflow: auto;
 }
 
 .dropdown .dropbtn {
@@ -259,7 +258,6 @@ iframe {
   color: inherit;
   border: none;
   outline: none;
-  padding: 14px 16px;
   margin: 0;
 }
 
