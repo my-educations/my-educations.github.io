@@ -115,9 +115,9 @@ headerTemplate.innerHTML = `
                 <span class="caret"></span>
               </button>
               <div class="dropdown-content">
-                <a href="guide-cn.html">学校排名</a>
-                <a href="guide-cn.html">本硕博攻略</a>
-                <a href="guide-cn.html">方法技巧</a>
+                <a href="skill-cn.html">学校排名</a>
+                <a href="skill-cn.html">本硕博攻略</a>
+                <a href="skill-cn.html">方法技巧</a>
               </div>
             </li>
             <li class="dropdown">
