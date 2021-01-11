@@ -31,7 +31,7 @@ headerTemplate.innerHTML = `
       color: #fff !important;
     }
 
-    .navbar-nav li a:hover, .navbar-nav li.active a {
+    .navbar-nav li a:hover, .navbar-nav li.active a , navbar-header a:hover {
       color: #29648a !important;
       background-color: #fff !important;
     }
