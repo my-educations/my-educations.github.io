@@ -135,9 +135,9 @@ headerTemplate.innerHTML = `
                 <span class="caret"></span>
               </button>
               <div class="dropdown-content">
-                <a href="programs-cn.html">本科项目</a>
-                <a href="programs-cn.html">硕士项目</a>
                 <a href="programs-cn.html">博士项目</a>
+                <a href="programs-cn.html">硕士项目</a>
+                <a href="programs-cn.html">本科项目</a>
               </div>
             </li>
             <li class="dropdown">
@@ -154,10 +154,9 @@ headerTemplate.innerHTML = `
                 <span class="caret"></span>
               </button>
               <div class="dropdown-content">
-                <a href="partner-cn.html">合作伙伴</a>
+                <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
                 <a href="map-cn.html">最新地图</a>
                 <a href="tool-cn.html">实用工具</a>
-                <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
               </div>
             </li>
           </ul>
