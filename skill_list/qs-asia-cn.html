@@ -13,6 +13,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/my_jquery.js"></script>
+    <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <!-- index customized -->
     <style>
@@ -23,81 +24,7 @@
     <!--header-->
     <header>
       <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="0">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">学习大师</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
-              <li class="dropdown">
-                <button class="dropbtn">学校列表
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-content">
-                  <a href="../school-my-cn.html">马来西亚</a>
-                  <a href="../school-my-cn.html">泰国</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <button class="dropbtn">干货指南
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-content">
-                  <a href="../skill-cn.html">学校排名</a>
-                  <a href="../skill-cn.html">技巧攻略</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <button class="dropbtn">语言学习
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-content">
-                  <a href="../language-cn.html">英语视频</a>
-                  <a href="../language-cn.html">学习方法</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <button class="dropbtn">专题项目
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-content">
-                  <a href="../programs-cn.html">学位项目</a>
-                  <a href="../program_list/campus2campus_tour-cn.html">游学项目</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <button class="dropbtn">联系我们
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-content">
-                  <a href="../contact-cn.html">联系方式</a>
-                  <a href="../about-cn.html">关于我们</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <button class="dropbtn">更多
-                  <span class="caret"></span>
-                </button>
-                <div class="dropdown-content">
-                  <a href="../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
-                  <a href="../map-cn.html">最新地图</a>
-                  <a href="../tool-cn.html">实用工具</a>
-                </div>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-              <li><a href="../index-en.html"><span class="glyphicon"></span> English</a></li>
-            </ul>
-          </div>
-        </div>
+        <header-component></header-component>
       </nav>
     </header>
     <!--main-->

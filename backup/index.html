@@ -28,9 +28,44 @@
     <!--header-->
     <header>
       <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="0">
-        <header-component></header-component>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">学习大师</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+              <li><a href="#school">学校列表</a></li>
+              <li><a href="#skill">干货指南</a></li>
+              <li><a href="#language">语言学习</a></li>
+              <li><a href="#programs">专题项目</a></li>
+              <li><a href="#contact">联系我们</a></li>
+              <li class="dropdown">
+                <button class="dropbtn">更多
+                  <span class="caret"></span>
+                </button>
+                <div class="dropdown-content">
+                  <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
+                  <a href="map-cn.html">最新地图</a>
+                  <a href="tool-cn.html">实用工具</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
+              <li><a href="index-en.html"><span class="glyphicon"></span> English</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
+
     <!--main-->
     <!-- Bootstrap Carousel Plugin -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
