@@ -27,7 +27,7 @@ headerTemplate.innerHTML = `
       border-radius: 0;
     }
 
-    .navbar-nav li a, .navbar .navbar-brand {
+    .navbar-nav li a, .navbar-brand {
       color: #fff !important;
     }
 
