@@ -114,9 +114,6 @@ iframe {
   overflow-x: hidden;
 }
 
-.jumbotron {
-  margin-bottom: 0;
-}
 
 .logo-small {
     color: #f4511e;
@@ -254,22 +251,4 @@ iframe {
   margin: 15px 0;
   background-color: #29648a;
   color: #fff;
-}
-
-.thumbnail {
-  padding: 0 0 5px 0;
-  border: none;
-  border-radius: 0;
-  background-color: #e0dcdc;
-}
-
-.thumbnail img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 10px;
-}
-
-.thumbnail p {
-  margin-top: 15px;
-  color: #555;
 }
