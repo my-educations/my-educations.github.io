@@ -12,6 +12,7 @@
     <link rel="icon" href="../img/about/logo-icon.png" type="image/png" sizes="18x18">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../js/my_jquery.js"></script>
     <script src="../components/header.js" type="text/javascript" defer></script>
     <script src="../components/footer.js" type="text/javascript" defer></script>
     <!-- index customized -->
@@ -71,20 +72,7 @@
              8) 所有参与本项目的人将游览马来西亚本地的著名景点，开启观光旅游.
              <br><br>
            </p>
-           <p class="w3-justify">
-             <h3 class="text-center">合作学校</h3>
-             <br>
-             本项目的合作学校如下所示：
-             <br><br>
-             - 马来亚大学<br>
-             - 博特拉大学<br>
-             - 马来西亚国立大学<br>
-             - 马来西亚思特雅大学<br>
-             - 马来亚威尔士国际大学<br>
-             - 莫纳什大学马来西亚分校<br>
-             - 双威大学
-             <br><br>
-           </p>
+
         </div>
         <br><br>
 
@@ -101,52 +89,8 @@
 
     <!-- Go to Top -->
     <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
-    <script>
-    $(document).ready(function(){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('#go-to-top').fadeIn();
-            } else {
-                $('#go-to-top').fadeOut();
-            }
-        });
-        $('#go-to-top').click(function(){
-            $("html, body").animate({ scrollTop: 0 }, 600);
-            return false;
-        });
-    });
-    </script>
 
-    <!-- Adding Smooth Scrolling -->
-    <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-       // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 900, function(){
-
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-          });
-        } // End if
-      });
-    })
-    </script>
-
-
+  
     <!-- footer-->
     <footer-component></footer-component>
 
