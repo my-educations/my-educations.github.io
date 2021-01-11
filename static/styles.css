@@ -93,17 +93,9 @@
 /* header */
 
 
-.bg-footer {
-  background-color: #f2f2f2;
-}
-
 .btn-x {
   color: #fff;
   background-color: #29648a;
-}
-
-body {
-  position: relative;
 }
 
 /* modern clearfix */
@@ -115,12 +107,6 @@ body {
 }
 .cf:after {
     clear:both;
-}
-
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #f2f2f2;
-  padding: 20px;
 }
 
 /* Style all font awesome icons */
@@ -264,3 +250,17 @@ iframe {
   background-color: #29648a;
   color: #fff;
 }
+
+body {
+  position: relative;
+}
+
+/* footer */
+.bg-footer {
+  background-color: #f2f2f2;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* footer */
