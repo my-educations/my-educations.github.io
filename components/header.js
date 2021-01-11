@@ -116,8 +116,8 @@ headerTemplate.innerHTML = `
               </button>
               <div class="dropdown-content">
                 <a href="skill-cn.html">学校排名</a>
-                <a href="skill-cn.html">本硕博攻略</a>
-                <a href="skill-cn.html">方法技巧</a>
+                <a href="skill-cn.html">本硕博</a>
+                <a href="skill-cn.html">技巧攻略</a>
               </div>
             </li>
             <li class="dropdown">
@@ -125,9 +125,8 @@ headerTemplate.innerHTML = `
                 <span class="caret"></span>
               </button>
               <div class="dropdown-content">
-                <a href="language-cn.html">1分钟英语</a>
-                <a href="language-cn.html">对话与演讲</a>
-                <a href="language-cn.html">明星直播</a>
+                <a href="language-cn.html">英语视频</a>
+                <a href="language-cn.html">学习方法</a>
               </div>
             </li>
             <li class="dropdown">
@@ -135,9 +134,8 @@ headerTemplate.innerHTML = `
                 <span class="caret"></span>
               </button>
               <div class="dropdown-content">
-                <a href="programs-cn.html">博士项目</a>
-                <a href="programs-cn.html">硕士项目</a>
-                <a href="programs-cn.html">本科项目</a>
+                <a href="programs-cn.html">学位项目</a>
+                <a href="programs-cn.html">游学项目</a>
               </div>
             </li>
             <li class="dropdown">
