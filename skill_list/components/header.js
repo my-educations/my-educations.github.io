@@ -104,8 +104,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../school-cn.html">马来西亚</a>
-            <a href="../school-cn.html">泰国</a>
+            <a href="../school/my-cn.html">马来西亚</a>
+            <a href="../school/my-cn.html">泰国</a>
           </div>
         </li>
         <li class="dropdown">
