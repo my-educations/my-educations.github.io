@@ -255,7 +255,7 @@ iframe {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
-    color: #29648a;
+    color: #29648a !important;
   }
   .thumbnail img {
     width: 100%;
