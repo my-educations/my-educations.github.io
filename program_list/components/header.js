@@ -104,8 +104,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../school/my-cn.html">马来西亚</a>
-            <a href="../school/thai-cn.html">泰国</a>
+            <a href="../school_list/my-cn.html">马来西亚</a>
+            <a href="../school_list/thai-cn.html">泰国</a>
           </div>
         </li>
         <li class="dropdown">
@@ -113,8 +113,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../skills/skill-ranking-cn.html">学校排名</a>
-            <a href="../skills/skill-learning-cn.html">学习技巧</a>
+            <a href="../skill_list/skill-ranking-cn.html">学校排名</a>
+            <a href="../skill_list/skill-learning-cn.html">学习技巧</a>
           </div>
         </li>
         <li class="dropdown">
