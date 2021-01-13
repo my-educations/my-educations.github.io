@@ -109,12 +109,12 @@ headerTemplate.innerHTML = `
           </div>
         </li>
         <li class="dropdown">
-          <button class="dropbtn">干货指南
+          <button class="dropbtn">攻略指南
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
             <a href="../../skill-cn.html">学校排名</a>
-            <a href="../../skill-cn.html">技巧攻略</a>
+            <a href="../../skill-cn.html">学习技巧</a>
           </div>
         </li>
         <li class="dropdown">
