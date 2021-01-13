@@ -113,8 +113,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../../skill-cn.html">学校排名</a>
-            <a href="../../skill-cn.html">学习技巧</a>
+            <a href="../../skills/skill-learning-cn.html">学校排名</a>
+            <a href="../../skills/skill-ranking-cn.html">学习技巧</a>
           </div>
         </li>
         <li class="dropdown">

@@ -1,11 +1,11 @@
 const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="../css/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
   <style>
     .affix {
         top: 0;
@@ -113,8 +113,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../skills/skill-learning-cn.html">学校排名</a>
-            <a href="../skills/skill-ranking-cn.html">学习技巧</a>
+            <a href="../skills/skill-ranking-cn.html">学校排名</a>
+            <a href="../skills/skill-learning-cn.html">学习技巧</a>
           </div>
         </li>
         <li class="dropdown">
