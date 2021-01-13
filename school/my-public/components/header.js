@@ -122,8 +122,9 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../../language-cn.html">英语视频</a>
-            <a href="../../language-cn.html">学习方法</a>
+            <a href="../../language/one-min-cn.html">一分钟英语</a>
+            <a href="../../language/talk-speech-cn.html">对话与演讲</a>
+            <a href="../../language/study-method-cn.html">学习方法</a>
           </div>
         </li>
         <li class="dropdown">
