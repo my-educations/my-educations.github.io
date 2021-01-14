@@ -206,6 +206,9 @@ iframe {
   width:90%;
   height:80%;
 }
+.modal-title {
+  color:#000 !important;
+}
 
 
 .panel {
