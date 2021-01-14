@@ -132,7 +132,7 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../programs-cn.html">PhD</a>
+            <a href="../program_list/phd-cn.html">PhD</a>
             <a href="../programs-cn.html">Master</a>
             <a href="../programs-cn.html">Bachelor</a>
             <a href="../program_list/campus2campus_tour-cn.html">Tour</a>
