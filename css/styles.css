@@ -199,7 +199,7 @@ iframe {
   min-height: 100%;
 }
 
-modal-dialog {
+.modal-dialog {
   position:absolute;
   top:50% !important;
   transform: translate(0, -50%) !important;
