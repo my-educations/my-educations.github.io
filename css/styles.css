@@ -200,9 +200,8 @@ iframe {
 }
 
 .modal-dialog {
-  color:#000;
-  position:absolute;
-  top:30% !important;
+  position:relative;
+  top:20% !important;
   margin:auto 5%;
   width:90%;
   height:80%;
