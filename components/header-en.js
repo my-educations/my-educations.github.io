@@ -133,8 +133,8 @@ headerTemplate.innerHTML = `
           </button>
           <div class="dropdown-content">
             <a href="../program_list/phd-cn.html">PhD</a>
-            <a href="../programs-cn.html">Master</a>
-            <a href="../programs-cn.html">Bachelor</a>
+            <a href="../program_list/master-cn.html">Master</a>
+            <a href="../program_list/bachelor-cn.html">Bachelor</a>
             <a href="../program_list/campus2campus_tour-cn.html">Tour</a>
           </div>
         </li>

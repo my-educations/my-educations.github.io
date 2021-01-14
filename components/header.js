@@ -133,8 +133,8 @@ headerTemplate.innerHTML = `
           </button>
           <div class="dropdown-content">
             <a href="../program_list/phd-cn.html">博士项目</a>
-            <a href="../programs-cn.html">硕士项目</a>
-            <a href="../programs-cn.html">本科项目</a>
+            <a href="../program_list/master-cn.html">硕士项目</a>
+            <a href="../program_list/bachelor-cn.html">本科项目</a>
             <a href="../program_list/campus2campus_tour-cn.html">游学项目</a>
           </div>
         </li>
