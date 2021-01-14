@@ -199,6 +199,25 @@ iframe {
   min-height: 100%;
 }
 
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
 .panel {
   border: 1px solid #29648a;
   border-radius:0;
