@@ -192,8 +192,14 @@
             var gpa = 0;
             for (var x = 0; x < 10; x++)
                     {
-                    if (ingr[x] == "") break;
-                    if (isNaN(parseInt(incr[x]))) alert("您输入的学分格式有错误！请输入正确的格式，例如：4.5、3 或 2.0");
+                    if (ingr[x] == "") {
+                      alert("您输入的学分格式有错误！请输入正确的格式，例如：4.5、3 或 2.0");
+                      return 0;
+                    }
+                    if (isNaN(parseInt(incr[x]))) {
+                      alert("您输入的学分格式有错误！请输入正确的格式，例如：4.5、3 或 2.0");
+                      return 0;
+                    }
                     var validgrcheck = 0;
                     for (var xx = 0; xx < grcount; xx++)
                             {
