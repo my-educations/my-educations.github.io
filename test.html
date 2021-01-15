@@ -82,49 +82,49 @@
         <div>
           <center>
             <form name="GPACalculator">
-              <table border=5>
+              <table class="text-center">
                 <th>科目</th>
                 <th>分数</th>
                 <th>学分</th>
                 <tr>
                   <td>科目 1</td>
-                  <td><input type=text size=5 name="gr1" align=top></td>
-                  <td><input type=text size=5 name="cr1" align=top></td>
+                  <td><input type=text name="gr1" align=top></td>
+                  <td><input type=text name="cr1" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 2</td>
-                  <td><input type=text size=5 name="gr2" align=top></td>
-                  <td><input type=text size=5 name="cr2" align=top></td>
+                  <td><input type=text name="gr2" align=top></td>
+                  <td><input type=text name="cr2" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 3</td>
-                  <td><input type=text size=5 name="gr3" align=top></td>
-                  <td><input type=text size=5 name="cr3" align=top></td>
+                  <td><input type=text name="gr3" align=top></td>
+                  <td><input type=text name="cr3" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 4</td>
-                  <td><input type=text size=5 name="gr4" align=top></td>
-                  <td><input type=text size=5 name="cr4" align=top></td>
+                  <td><input type=text name="gr4" align=top></td>
+                  <td><input type=text name="cr4" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 5</td>
-                  <td><input type=text size=5 name="gr5" align=top></td>
-                  <td><input type=text size=5 name="cr5" align=top></td>
+                  <td><input type=text name="gr5" align=top></td>
+                  <td><input type=text name="cr5" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 6</td>
-                  <td><input type=text size=5 name="gr6" align=top></td>
-                  <td><input type=text size=5 name="cr6" align=top></td>
+                  <td><input type=text name="gr6" align=top></td>
+                  <td><input type=text name="cr6" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 7</td>
-                  <td><input type=text size=5 name="gr7" align=top></td>
-                  <td><input type=text size=5 name="cr7" align=top></td>
+                  <td><input type=text name="gr7" align=top></td>
+                  <td><input type=text name="cr7" align=top></td>
                 </tr>
                 <tr>
                   <td>科目 8</td>
-                  <td><input type=text size=5 name="gr8" align=top></td>
-                  <td><input type=text size=5 name="cr8" align=top></td>
+                  <td><input type=text name="gr8" align=top></td>
+                  <td><input type=text name="cr8" align=top></td>
                 </tr>
                 <tr align=center>
                   <td colspan=3><input type="button" value="Calculate" name="Calcbutton" OnClick="gpacalc()">
@@ -193,7 +193,7 @@
             for (var x = 0; x < 5 + 3; x++)
                     {
                     if (ingr[x] == "") break;
-            //      if (isNaN(parseInt(incr[x]))) alert("Error- You did not enter a numeric  credits value for Class If the class is worth 0 credits then enter the number 0 in  the field.");
+                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：3、4.5.");
                     var validgrcheck = 0;
                     for (var xx = 0; xx < grcount; xx++)
                             {
