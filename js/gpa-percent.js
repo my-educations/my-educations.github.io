@@ -1,4 +1,4 @@
-function gpacalc() {
+function gpapercent() {
   //define valid grades and their values
   var gr = new Array(12);
   var cr = new Array(12);
