@@ -53,9 +53,9 @@
           <div class="w3-third w3-margin-bottom">
             <img src="img/tool/gpa.jpg" alt="绩点转换" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
-              <p><b>绩点转换</b></p>
-              <p class="w3-opacity">各种类型的绩点转换</p>
-              <p>输入你的相关数据，了解在各种标准下你的真实绩点</p>
+              <p><b>马来西亚ABC绩点转换器</b></p>
+              <p class="w3-opacity">ABCDEF打分制绩点转换</p>
+              <p>输入课程对应的得分等级，计算出在马来西亚大学标准下你的真实绩点</p>
               <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('gpa-calculator').style.display=&#39;block&#39;">进入</button>
             </div>
           </div>
@@ -190,14 +190,6 @@
     <script>
     // When the user clicks anywhere outside of the modal, close it
     var modal = document.getElementById('toolTemplate');
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    var modal = document.getElementById('gpa-calculator');
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
