@@ -73,7 +73,7 @@
               <br>
               <table>
                 <th>科目</th>
-                <th>分数等级（ABCD）</th>
+                <th>分数等级（A-F）</th>
                 <th>学分（4.0）</th>
                 <tr>
                   <td>科目 1</td>
@@ -114,6 +114,16 @@
                   <td>科目 8</td>
                   <td><input type=text name="gr8" align=top></td>
                   <td><input type=text name="cr8" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 9</td>
+                  <td><input type=text name="gr9" align=top></td>
+                  <td><input type=text name="cr9" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 10</td>
+                  <td><input type=text name="gr10" align=top></td>
+                  <td><input type=text name="cr10" align=top></td>
                 </tr>
               </table>
               <br>
@@ -163,6 +173,8 @@
             ingr[5] = document.GPACalculator.gr6.value;
             ingr[6] = document.GPACalculator.gr7.value;
             ingr[7] = document.GPACalculator.gr8.value;
+            ingr[8] = document.GPACalculator.gr9.value;
+            ingr[9] = document.GPACalculator.gr10.value;
             incr[0] = document.GPACalculator.cr1.value;
             incr[1] = document.GPACalculator.cr2.value;
             incr[2] = document.GPACalculator.cr3.value;
@@ -171,15 +183,17 @@
             incr[5] = document.GPACalculator.cr6.value;
             ingr[6] = document.GPACalculator.gr7.value;
             ingr[7] = document.GPACalculator.gr8.value;
+            ingr[9] = document.GPACalculator.gr9.value;
+            ingr[10] = document.GPACalculator.gr10.value;
 
             // Calculate GPA
             var allgr =0;
             var allcr = 0;
             var gpa = 0;
-            for (var x = 0; x < 5 + 3; x++)
+            for (var x = 0; x < 10; x++)
                     {
                     if (ingr[x] == "") break;
-                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：3、4.5或2.0");
+                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：4.5、3 或 2.0");
                     var validgrcheck = 0;
                     for (var xx = 0; xx < grcount; xx++)
                             {
@@ -193,7 +207,7 @@
                             }
                     if (validgrcheck == 0)
                             {
-                            alert("错位！你输入的分数格式有误 " + eval(x +  1) + "！ 请输入标准的分数等级： A、A- 或 B+");
+                            alert("错位！你输入的分数格式有误 " + eval(x +  1) + "！ 请输入标准的分数等级： A+、A 或 B+");
                             return 0;
                             }
                     }
