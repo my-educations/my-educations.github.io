@@ -104,7 +104,7 @@
               <table>
                 <th>科目</th>
                 <th>分数等级（A-F）</th>
-                <th>学分（4.0）</th>
+                <th>学分（>0）</th>
                 <tr>
                   <td>科目 1</td>
                   <td><input type=text name="gr1" align=top></td>
@@ -158,7 +158,7 @@
               </table>
               <br>
               <!-- <input type="button" value="转换" name="转换" OnClick="gpacalc()"> -->
-              <button class="w3-button w3-red w3-section" value="转换" name="转换" onClick="gpacalc()">
+              <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right" onclick="gpacalc()">转换 <i class="fa fa-check"></i></button>
               <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
             </form>
           </center>
