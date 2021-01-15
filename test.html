@@ -17,6 +17,9 @@
     <script src="../components/footer.js" type="text/javascript" defer></script>
     <!-- index customized -->
     <style>
+      table, th, td {
+        text-align: center;
+      }
       input {
         background-color: #c0c0c0;
       }
@@ -71,57 +74,59 @@
         <br><br>
 
         <div>
-          <form name="GPACalculator" align="center">
-            <table border=2 width=50%>
-              <th>科目</th>
-              <th>分数</th>
-              <th>学分</th>
-              <tr>
-                <td>科目 1</td>
-                <td><input type=text name="gr1" align=top></td>
-                <td><input type=text name="cr1" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 2</td>
-                <td><input type=text name="gr2" align=top></td>
-                <td><input type=text name="cr2" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 3</td>
-                <td><input type=text name="gr3" align=top></td>
-                <td><input type=text name="cr3" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 4</td>
-                <td><input type=text name="gr4" align=top></td>
-                <td><input type=text name="cr4" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 5</td>
-                <td><input type=text name="gr5" align=top></td>
-                <td><input type=text name="cr5" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 6</td>
-                <td><input type=text name="gr6" align=top></td>
-                <td><input type=text name="cr6" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 7</td>
-                <td><input type=text name="gr7" align=top></td>
-                <td><input type=text name="cr7" align=top></td>
-              </tr>
-              <tr>
-                <td>科目 8</td>
-                <td><input type=text name="gr8" align=top></td>
-                <td><input type=text name="cr8" align=top></td>
-              </tr>
-              <tr align=center>
-                <td colspan=3><input type="button" value="计算" name="计算" OnClick="gpacalc()">
-                </td>
-              </tr>
-            </table>
-          </form>
+          <center>
+            <form name="GPACalculator" align="center">
+              <table border=2 width=50%>
+                <th>科目</th>
+                <th>分数</th>
+                <th>学分</th>
+                <tr>
+                  <td>科目 1</td>
+                  <td><input type=text name="gr1" align=top></td>
+                  <td><input type=text name="cr1" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 2</td>
+                  <td><input type=text name="gr2" align=top></td>
+                  <td><input type=text name="cr2" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 3</td>
+                  <td><input type=text name="gr3" align=top></td>
+                  <td><input type=text name="cr3" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 4</td>
+                  <td><input type=text name="gr4" align=top></td>
+                  <td><input type=text name="cr4" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 5</td>
+                  <td><input type=text name="gr5" align=top></td>
+                  <td><input type=text name="cr5" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 6</td>
+                  <td><input type=text name="gr6" align=top></td>
+                  <td><input type=text name="cr6" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 7</td>
+                  <td><input type=text name="gr7" align=top></td>
+                  <td><input type=text name="cr7" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目 8</td>
+                  <td><input type=text name="gr8" align=top></td>
+                  <td><input type=text name="cr8" align=top></td>
+                </tr>
+                <tr align=center>
+                  <td colspan=3><input type="button" value="计算" name="计算" OnClick="gpacalc()">
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </center>
           <br><br>
 
           <script language="JavaScript">
