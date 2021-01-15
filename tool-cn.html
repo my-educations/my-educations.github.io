@@ -17,6 +17,7 @@
     <script src="components/footer.js" type="text/javascript" defer></script>
     <!-- index customized -->
     <script src="js/gpa.js"></script>
+    <script src="js/gpa-percent.js"></script>
     <style>
       table {
         width: 60%;
@@ -51,30 +52,39 @@
         <br>
         <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
           <div class="w3-third w3-margin-bottom">
-            <img src="img/tool/gpa.jpg" alt="绩点转换" style="width:100%" class="w3-hover-opacity">
+            <img src="img/tool/gpa.jpg" alt="绩点转换器" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>马来西亚ABC绩点转换器</b></p>
               <p class="w3-opacity">ABCDEF打分制绩点转换</p>
-              <p>输入课程对应的得分等级，计算出在马来西亚大学标准下你的真实绩点</p>
-              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('gpa-calculator').style.display=&#39;block&#39;">进入</button>
+              <p>输入课程对应的等级得分，计算出在马来西亚大学标准下你的真实绩点</p>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('gpa-calculator').style.display=&#39;block&#39;">开始</button>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <img src="img/tool/gpa2.jpg" alt="绩点转换器" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>马来西亚百分制绩点转换器</b></p>
+              <p class="w3-opacity">百分制绩点转换</p>
+              <p>输入课程对应的百分制得分，计算出在马来西亚大学标准下你的真实绩点</p>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;gpa-percent&#39;).style.display=&#39;block&#39;">开始</button>
             </div>
           </div>
           <div class="w3-third w3-margin-bottom">
             <img src="img/tool/offer.jpg" alt="录取评估" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
-              <p><b>录取评估</b></p>
+              <p><b>录取成功率预估</b></p>
               <p class="w3-opacity">评估你被某一所大学录取的概率</p>
               <p>输入你的相关数据，了解你能进入某所大学学习的成功率</p>
-              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;block&#39;">进入</button>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;block&#39;">开始</button>
             </div>
           </div>
           <div class="w3-third w3-margin-bottom">
             <img src="img/tool/life-fee.jpg" alt="留学费用" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
-              <p><b>留学费用</b></p>
+              <p><b>留学费用预估</b></p>
               <p class="w3-opacity">预估你在某所大学学习的费用开支</p>
               <p>输入你的相关数据，了解你在某所大学学习阶段的所有费用开销</p>
-              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;block&#39;">进入</button>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;block&#39;">开始</button>
             </div>
           </div>
         </div>
@@ -87,7 +97,7 @@
       <div class="w3-modal-content w3-animate-top w3-card-4">
         <header class="w3-container w3-teal w3-center w3-padding-32">
           <span onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-          <h3 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>马来西亚绩点转换器</h3>
+          <h3 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>马来西亚等级制绩点转换器</h3>
         </header>
         <div class="w3-container">
           <center>
@@ -151,6 +161,81 @@
               <!-- <input type="button" value="转换" name="转换" onclick="gpacalc()"> -->
               <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right" onclick="gpacalc()">转换</button>
               <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
+            </form>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <!-- GPA  Percent-->
+    <div id="gpa-percent" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32">
+          <span onclick="document.getElementById(&#39;gpa-percent&#39;).style.display=&#39;none&#39;" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+          <h3 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>马来西亚百分制绩点转换器</h3>
+        </header>
+        <div class="w3-container">
+          <center>
+            <form name="GPAPercent">
+              <table>
+                <th>科目</th>
+                <th>分数（0-100）</th>
+                <th>学分（>0）</th>
+                <tr>
+                  <td>科目A</td>
+                  <td><input type=text name="gr1" align=top></td>
+                  <td><input type=text name="cr1" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目B</td>
+                  <td><input type=text name="gr2" align=top></td>
+                  <td><input type=text name="cr2" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目C</td>
+                  <td><input type=text name="gr3" align=top></td>
+                  <td><input type=text name="cr3" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目D</td>
+                  <td><input type=text name="gr4" align=top></td>
+                  <td><input type=text name="cr4" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目E</td>
+                  <td><input type=text name="gr5" align=top></td>
+                  <td><input type=text name="cr5" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目F</td>
+                  <td><input type=text name="gr6" align=top></td>
+                  <td><input type=text name="cr6" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目F</td>
+                  <td><input type=text name="gr7" align=top></td>
+                  <td><input type=text name="cr7" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目H</td>
+                  <td><input type=text name="gr8" align=top></td>
+                  <td><input type=text name="cr8" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目I</td>
+                  <td><input type=text name="gr9" align=top></td>
+                  <td><input type=text name="cr9" align=top></td>
+                </tr>
+                <tr>
+                  <td>科目J</td>
+                  <td><input type=text name="gr10" align=top></td>
+                  <td><input type=text name="cr10" align=top></td>
+                </tr>
+              </table>
+              <br>
+              <!-- <input type="button" value="转换" name="转换" onclick="gpacalc()"> -->
+              <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right" onclick="gpacalc()">转换</button>
+              <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;gpa-percent&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
             </form>
           </center>
         </div>
