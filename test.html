@@ -114,7 +114,7 @@
                 </tr>
               </table>
               <br>
-              <input type="button" value="计算" name="计算" OnClick="gpacalc()">
+              <input type="button" value="转换" name="转换" OnClick="gpacalc()">
             </form>
           </center>
           <br><br>
@@ -176,7 +176,7 @@
             for (var x = 0; x < 5 + 3; x++)
                     {
                     if (ingr[x] == "") break;
-                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：3、4.5");
+                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：3、4.5或2.0");
                     var validgrcheck = 0;
                     for (var xx = 0; xx < grcount; xx++)
                             {
@@ -190,7 +190,7 @@
                             }
                     if (validgrcheck == 0)
                             {
-                            alert("错位！你输入的分数格式有误 " + eval(x +  1) + "！ 请输入标准的分数等级： A、A- 或 B+。");
+                            alert("错位！你输入的分数格式有误 " + eval(x +  1) + "！ 请输入标准的分数等级： A、A- 或 B+");
                             return 0;
                             }
                     }
