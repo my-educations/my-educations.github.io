@@ -193,7 +193,7 @@
             for (var x = 0; x < 10; x++)
                     {
                     if (ingr[x] == "") break;
-                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：4.5、3 或 2.0");
+                    if (isNaN(parseInt(incr[x]))) alert("您输入的学分格式有错误！请输入正确的格式，例如：4.5、3 或 2.0");
                     var validgrcheck = 0;
                     for (var xx = 0; xx < grcount; xx++)
                             {
@@ -207,7 +207,7 @@
                             }
                     if (validgrcheck == 0)
                             {
-                            alert("错位！科目" + eval(x +  1) + "输入的分数格式有误！ 请输入标准的分数等级： A+、A 或 B+");
+                            alert("科目" + eval(x +  1) + "输入的分数格式有误！ 请输入标准的分数等级： A+、A 或 B+");
                             return 0;
                             }
                     }
@@ -215,13 +215,13 @@
             // this if-check prevents a divide by zero error
             if (isNaN(allcr) || allcr == 0)
                     {
-                    alert("错误！你没有输入学分，GPA值为空！");
+                    alert("错误！您没有输入学分，GPA值为空！");
                     return 0;
                     }
 
             gpa = allgr / allcr;
 
-            alert("GPA值为： " + eval(gpa));
+            alert("GPA值为：" + eval(gpa));
 
             return 0;
           }
