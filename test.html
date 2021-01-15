@@ -65,72 +65,57 @@
             查看更多项目
           </a>
         </div>
+        <br><br>
 
         <div>
           <center>
             <form name="GPACalculator">
-              <table border=5 bgcolcor=#C0C0C0 cellpadding="5" cellspacing="2">
-                <th></th>
-                <th>Grade</th>
-                <th>Credits</th>
+              <table border=5 style="backgroudcolcor=#c0c0c0;cellpadding=5;cellspacing=2;">
+                <th>科目</th>
+                <th>分数</th>
+                <th>学分</th>
                 <tr>
-                  <td>Class 1</td>
-                  <td><input type=text size=5 name="GR1" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR1" align=TOP
-                  maxlength=5></td>
+                  <td>科目 1</td>
+                  <td><input type=text size=5 name="gr1" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr1" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 2</td>
-                  <td><input type=text size=5 name="GR2" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR2" align=TOP
-                  maxlength=5></td>
+                  <td>科目 2</td>
+                  <td><input type=text size=5 name="gr2" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr2" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 3</td>
-                  <td><input type=text size=5 name="GR3" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR3" align=TOP
-                  maxlength=5></td>
+                  <td>科目 3</td>
+                  <td><input type=text size=5 name="gr3" align=top maxlength=5></td
+                  <td><input type=text size=5 name="cr3" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 4</td>
-                  <td><input type=text size=5 name="GR4" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR4" align=TOP
-                  maxlength=5></td>
+                  <td>科目 4</td>
+                  <td><input type=text size=5 name="gr4" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr4" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 5</td>
-                  <td><input type=text size=5 name="GR5" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR5" align=TOP
-                  maxlength=5></td>
+                  <td>科目 5</td>
+                  <td><input type=text size=5 name="gr5" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr5" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 6</td>
-                  <td><input type=text size=5 name="GR6" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR6" align=TOP
-                  maxlength=5></td>
+                  <td>科目 6</td>
+                  <td><input type=text size=5 name="gr6" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr6" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 7</td>
-                  <td><input type=text size=5 name="GR7" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR7" align=TOP
-                  maxlength=5></td>
+                  <td>科目 7</td>
+                  <td><input type=text size=5 name="gr7" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr7" align=top maxlength=5></td>
                 </tr>
                 <tr>
-                  <td>Class 8</td>
-                  <td><input type=text size=5 name="GR8" align=TOP
-                  maxlength=5></td>
-                  <td><input type=text size=5 name="CR8" align=TOP
-                  maxlength=5></td>
+                  <td>科目 8</td>
+                  <td><input type=text size=5 name="gr8" align=top maxlength=5></td>
+                  <td><input type=text size=5 name="cr8" align=top maxlength=5></td>
                 </tr>
                 <tr align=center>
-                  <td COLSPAN=3><input type="BUTTON" VALUE="Calculate" name="CalcButton" OnClick="gpacalc()">
+                  <td colspan=3><input type="button" value="Calculate" name="Calcbutton" OnClick="gpacalc()">
                   </td>
                 </tr>
               </table>
@@ -139,7 +124,7 @@
           </center>
           <br>
 
-          <SCRIPT LANGUAGE="JavaScript">
+          <ScrIPT LANGUAGE="JavaScript">
           function gpacalc() {
             //define valid grades and their values
             var gr = new Array(9);
@@ -172,22 +157,22 @@
             gr[10] = "F";
             cr[10] = 0;
             // retrieve user input
-            ingr[0] = document.GPACalculator.GR1.value;
-            ingr[1] = document.GPACalculator.GR2.value;
-            ingr[2] = document.GPACalculator.GR3.value;
-            ingr[3] = document.GPACalculator.GR4.value;
-            ingr[4] = document.GPACalculator.GR5.value;
-            ingr[5] = document.GPACalculator.GR6.value;
-            ingr[6] = document.GPACalculator.GR7.value;
-            ingr[7] = document.GPACalculator.GR8.value;
-            incr[0] = document.GPACalculator.CR1.value;
-            incr[1] = document.GPACalculator.CR2.value;
-            incr[2] = document.GPACalculator.CR3.value;
-            incr[3] = document.GPACalculator.CR4.value;
-            incr[4] = document.GPACalculator.CR5.value;
-            incr[5] = document.GPACalculator.CR6.value;
-            ingr[6] = document.GPACalculator.GR7.value;
-            ingr[7] = document.GPACalculator.GR8.value;
+            ingr[0] = document.GPACalculator.gr1.value;
+            ingr[1] = document.GPACalculator.gr2.value;
+            ingr[2] = document.GPACalculator.gr3.value;
+            ingr[3] = document.GPACalculator.gr4.value;
+            ingr[4] = document.GPACalculator.gr5.value;
+            ingr[5] = document.GPACalculator.gr6.value;
+            ingr[6] = document.GPACalculator.gr7.value;
+            ingr[7] = document.GPACalculator.gr8.value;
+            incr[0] = document.GPACalculator.cr1.value;
+            incr[1] = document.GPACalculator.cr2.value;
+            incr[2] = document.GPACalculator.cr3.value;
+            incr[3] = document.GPACalculator.cr4.value;
+            incr[4] = document.GPACalculator.cr5.value;
+            incr[5] = document.GPACalculator.cr6.value;
+            ingr[6] = document.GPACalculator.gr7.value;
+            ingr[7] = document.GPACalculator.gr8.value;
 
             // Calculate GPA
             var allgr =0;
@@ -210,7 +195,7 @@
                             }
                     if (validgrcheck == 0)
                             {
-                            alert("Error- Could not recognize the grade entered for Class " + eval(x +  1) + ". Please use standard college grades in the form of A A- B+ ...F.");
+                            alert("错位！你输入的分数格式有误 " + eval(x +  1) + "！ 请输入标准的分数等级： A、A- 或 B+。");
                             return 0;
                             }
                     }
@@ -218,30 +203,24 @@
             // this if-check prevents a divide by zero error
             if (allcr == 0)
                     {
-                    alert("Error- You did not enter any credit values! GPA = N/A");
+                    alert("错误！你没有输入学分，GPA值为空！");
                     return 0;
                     }
 
             gpa = allgr / allcr;
 
-            alert("GPA =  " + eval(gpa));
+            alert("GPA值为： " + eval(gpa));
 
             return 0;
           }
-          </SCRIPT>
+          </ScrIPT>
 
-          <p align="center">
-            <font face="arial" size="-2">this free script provided by</font><br>
-            <font face="arial, helvetica" size="-2">
-              <a href="http://javascriptkit.com">JavaScript Kit</a>
-            </font>
-          </p>
         </div>
 
       </div>
     </div>
 
-    <!-- Go to Top -->
+    <!-- Go to top -->
     <a href="index.html" id="go-to-top" style="display: none;"><span>顶部</span></a>
     <!-- footer-->
     <footer-component></footer-component>
