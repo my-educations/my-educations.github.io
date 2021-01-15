@@ -90,12 +90,3 @@ function gpacalc() {
   alert("GPA值为：" + eval(gpa));
   return 0;
 }
-
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('gpa-calculator');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}

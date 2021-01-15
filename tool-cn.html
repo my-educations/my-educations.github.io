@@ -157,7 +157,9 @@
                 </tr>
               </table>
               <br>
-              <input type="button" value="转换" name="转换" OnClick="gpacalc()">
+              <!-- <input type="button" value="转换" name="转换" OnClick="gpacalc()"> -->
+              <button class="w3-button w3-red w3-section" value="转换" name="转换" onClick="gpacalc()">
+              <button class="w3-button w3-red w3-section" onclick="document.getElementById(&#39;gpa-calculator&#39;).style.display=&#39;none&#39;">关闭 <i class="fa fa-remove"></i></button>
             </form>
           </center>
         </div>
@@ -188,6 +190,14 @@
     <script>
     // When the user clicks anywhere outside of the modal, close it
     var modal = document.getElementById('toolTemplate');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('gpa-calculator');
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
