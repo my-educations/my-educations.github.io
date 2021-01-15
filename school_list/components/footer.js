@@ -22,20 +22,20 @@ footerTemplate.innerHTML = `
           <div class="col-sm-4">
           </div>
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">大马留学僧</p>
+            <p style="font-size:60%;">微信公众号</p>
           </div>
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">大马之声</p>
+            <p style="font-size:60%;">知乎</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
           </div>
           <div class="col-sm-4 text-center">
-            <img src="../img/about/wechat-sm.jpg" style="width:60px">
+            <img src="../img/about/wechat-ms.jpg" style="width:60px">
           </div>
           <div class="col-sm-4 text-center">
-            <img src="../img/about/wechat-bm.jpg" style="width:60px">
+            <img src="../img/about/zhihu.jpg" style="width:60px">
           </div>
         </div>
       </div>
