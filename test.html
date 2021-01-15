@@ -82,7 +82,7 @@
         <div>
           <center>
             <form name="GPACalculator">
-              <table class="text-center">
+              <table class="text-center" border=5>
                 <th>科目</th>
                 <th>分数</th>
                 <th>学分</th>
@@ -193,7 +193,7 @@
             for (var x = 0; x < 5 + 3; x++)
                     {
                     if (ingr[x] == "") break;
-                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：3、4.5.");
+                    if (isNaN(parseInt(incr[x]))) alert("错误！你输入的学分格式有错误！请输入正确的格式，例如：3、4.5");
                     var validgrcheck = 0;
                     for (var xx = 0; xx < grcount; xx++)
                             {
@@ -213,7 +213,7 @@
                     }
 
             // this if-check prevents a divide by zero error
-            if (allcr == 0)
+            if (isNaN(allcr) || allcr == 0)
                     {
                     alert("错误！你没有输入学分，GPA值为空！");
                     return 0;
