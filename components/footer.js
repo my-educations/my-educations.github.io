@@ -91,7 +91,7 @@ footerTemplate.innerHTML = `
           <a href="about-cn.html">关于我们</a>
         </div>
         <div class="row">
-          <p>&copy; <script>document.write(new Date().getFullYear())</script> StudyMax.&nbsp;All rights reserved.</p>
+          <p>&copy; 2021 StudyMax.&nbsp;All rights reserved.</p>
         </div>
       </div>
       <div class="col-sm-3 text-center">
