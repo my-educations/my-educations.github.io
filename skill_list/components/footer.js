@@ -77,7 +77,7 @@ footerTemplate.innerHTML = `
           <div class="col-sm-4">
           </div>
           <div class="col-sm-8">
-            <a href="index.html">
+            <a href="../index.html">
               <img src="../img/about/logo.png" style="width:60px">
             </a>
           </div>
