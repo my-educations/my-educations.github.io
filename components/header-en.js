@@ -98,14 +98,14 @@ headerTemplate.innerHTML = `
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
         <li class="dropdown">
           <button class="dropbtn">School
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../school_list/my-cn.html">Malaysia</a>
-            <a href="../school_list/thai-cn.html">Thailand</a>
+            <a href="school_list/my-cn.html">Malaysia</a>
+            <a href="school_list/thai-cn.html">Thailand</a>
           </div>
         </li>
         <li class="dropdown">
@@ -113,8 +113,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../skill_list/skill-ranking-cn.html">Ranking</a>
-            <a href="../skill_list/skill-learning-cn.html">Tips</a>
+            <a href="skill_list/skill-ranking-cn.html">Ranking</a>
+            <a href="skill_list/skill-learning-cn.html">Tips</a>
           </div>
         </li>
         <li class="dropdown">
@@ -122,9 +122,9 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../language/one-min-cn.html">One Min</a>
-            <a href="../language/talk-speech-cn.html">Talks</a>
-            <a href="../language/study-method-cn.html">Methods</a>
+            <a href="language/one-min-cn.html">One Min</a>
+            <a href="language/talk-speech-cn.html">Talks</a>
+            <a href="language/study-method-cn.html">Methods</a>
           </div>
         </li>
         <li class="dropdown">
@@ -132,10 +132,10 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../program_list/phd-cn.html">PhD</a>
-            <a href="../program_list/master-cn.html">Master</a>
-            <a href="../program_list/bachelor-cn.html">Bachelor</a>
-            <a href="../program_list/campus2campus_tour-cn.html">Tour</a>
+            <a href="program_list/phd-cn.html">PhD</a>
+            <a href="program_list/master-cn.html">Master</a>
+            <a href="program_list/bachelor-cn.html">Bachelor</a>
+            <a href="program_list/campus2campus_tour-cn.html">Tour</a>
           </div>
         </li>
         <li class="dropdown">
@@ -143,8 +143,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../contact-cn.html">Contact us</a>
-            <a href="../about-cn.html">About us</a>
+            <a href="contact-cn.html">Contact us</a>
+            <a href="about-cn.html">About us</a>
           </div>
         </li>
         <li class="dropdown">
@@ -152,16 +152,16 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>
-            <a href="../map-cn.html">Maps</a>
-            <a href="../tool-cn.html">Tools</a>
+            <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>
+            <a href="map-cn.html">Maps</a>
+            <a href="tool-cn.html">Tools</a>
           </div>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-        <li><a href="../index-en.html"><span class="glyphicon"></span> English</a></li>
+        <li><a href="index-en.html"><span class="glyphicon"></span> English</a></li>
       </ul>
     </div>
   </div>

@@ -98,14 +98,14 @@ headerTemplate.innerHTML = `
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
         <li class="dropdown">
           <button class="dropbtn">学校列表
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../school_list/my-cn.html">马来西亚</a>
-            <a href="../school_list/thai-cn.html">泰国</a>
+            <a href="school_list/my-cn.html">马来西亚</a>
+            <a href="school_list/thai-cn.html">泰国</a>
           </div>
         </li>
         <li class="dropdown">
@@ -113,8 +113,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../skill_list/skill-ranking-cn.html">学校排名</a>
-            <a href="../skill_list/skill-learning-cn.html">学习技巧</a>
+            <a href="skill_list/skill-ranking-cn.html">学校排名</a>
+            <a href="skill_list/skill-learning-cn.html">学习技巧</a>
           </div>
         </li>
         <li class="dropdown">
@@ -122,9 +122,9 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../language/one-min-cn.html">一分钟英语</a>
-            <a href="../language/talk-speech-cn.html">对话与演讲</a>
-            <a href="../language/study-method-cn.html">学习方法</a>
+            <a href="language/one-min-cn.html">一分钟英语</a>
+            <a href="language/talk-speech-cn.html">对话与演讲</a>
+            <a href="language/study-method-cn.html">学习方法</a>
           </div>
         </li>
         <li class="dropdown">
@@ -132,10 +132,10 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../program_list/phd-cn.html">博士项目</a>
-            <a href="../program_list/master-cn.html">硕士项目</a>
-            <a href="../program_list/bachelor-cn.html">本科项目</a>
-            <a href="../program_list/campus2campus_tour-cn.html">游学项目</a>
+            <a href="program_list/phd-cn.html">博士项目</a>
+            <a href="program_list/master-cn.html">硕士项目</a>
+            <a href="program_list/bachelor-cn.html">本科项目</a>
+            <a href="program_list/campus2campus_tour-cn.html">游学项目</a>
           </div>
         </li>
         <li class="dropdown">
@@ -143,8 +143,8 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../contact-cn.html">联系方式</a>
-            <a href="../about-cn.html">关于我们</a>
+            <a href="contact-cn.html">联系方式</a>
+            <a href="about-cn.html">关于我们</a>
           </div>
         </li>
         <li class="dropdown">
@@ -152,16 +152,16 @@ headerTemplate.innerHTML = `
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
-            <a href="../map-cn.html">最新地图</a>
-            <a href="../tool-cn.html">实用工具</a>
+            <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
+            <a href="map-cn.html">最新地图</a>
+            <a href="tool-cn.html">实用工具</a>
           </div>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-        <li><a href="../index-en.html"><span class="glyphicon"></span> English</a></li>
+        <li><a href="index-en.html"><span class="glyphicon"></span> English</a></li>
       </ul>
     </div>
   </div>
