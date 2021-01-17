@@ -222,12 +222,6 @@ iframe {
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 
-.panel-footer .btn:hover {
-  border: 1px solid #29648a;
-  background-color: #fff !important;
-  color: #29648a;
-}
-
 .panel-heading {
   color: #fff !important;
   background-color: #29648a !important;
@@ -246,6 +240,7 @@ iframe {
 
 .panel-footer {
   background-color: #fff !important;
+  color: #29648a;
 }
 
 .panel-footer h3 {
@@ -262,6 +257,12 @@ iframe {
   margin: 15px 0;
   background-color: #29648a;
   color: #fff;
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #29648a;
+  background-color: #fff !important;
+  color: #29648a;
 }
 
 .thumbnail {
