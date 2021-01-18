@@ -21,6 +21,7 @@
 }
 
 .navbar {
+  float: left;
   font-size: 16px !important;
   background-color: #29648a;
   z-index: 9999;
@@ -28,6 +29,10 @@
   border: 0;
   margin-bottom: 0;
   border-radius: 0;
+}
+
+.navbar-right {
+  float: right;
 }
 
 .navbar-nav li a, .navbar .navbar-brand {
