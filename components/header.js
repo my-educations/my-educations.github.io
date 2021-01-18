@@ -18,7 +18,6 @@ headerTemplate.innerHTML = `
     }
 
     .navbar {
-      float: left;
       font-size: 16px !important;
       background-color: #29648a;
       z-index: 9999;
@@ -26,10 +25,6 @@ headerTemplate.innerHTML = `
       border: 0;
       margin-bottom: 0;
       border-radius: 0;
-    }
-
-    .navbar-right {
-      float: right;
     }
 
     .navbar-nav li a, .navbar-brand {
@@ -162,11 +157,11 @@ headerTemplate.innerHTML = `
             <a href="tool-cn.html">实用工具</a>
           </div>
         </li>
-        <li class="navbar-right">
-          <!-- <a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a>
-          <a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a> -->
-          <a href="index-en.html"><span class="glyphicon"></span> English</a>
-        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
+        <li><a href="index-en.html"><span class="glyphicon"></span> English</a></li>
       </ul>
     </div>
   </div>
