@@ -7,11 +7,7 @@ footerTemplate.innerHTML = `
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <style>
-    .bg-footer {
-      background-color: #f2f2f2;
-    }
     footer {
-      background-color: #f2f2f2;
       padding: 20px;
     }
   </style>
