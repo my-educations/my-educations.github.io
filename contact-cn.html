@@ -28,42 +28,44 @@
       </nav>
     </header>
     <!--main-->
-    <div id="contact" class="container-fluid w3-container w3-content" style="max-width:800px">
-      <h2 class="text-center">联系方式</h2>
-      <p class="w3-center">有任何意见、建议和各种问题，欢迎随时联系我们！</p>
-      <br><br>
-      <div class="row w3-opacity-min">
-        <div class="col-sm-5">
-          <p><span class="glyphicon glyphicon-map-marker"></span> 地址1：马来西亚, 吉隆坡</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span> 地址2：中国, 上海</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> 邮箱: admin@studymax.org</p>
-          <p><span class="glyphicon glyphicon-phone"></span> 电话：+60-135166826</p>
-          <p><span class="glyphicon glyphicon-education"></span> 助理微信: angel-emmy</p>
-          <p><span class="glyphicon glyphicon-qrcode"></span> 服务微信: </p>
-          <img width=200 src="img/about/wechat.jpg" style="width:80px;"><br>
-          <br><br>
+    <div id="contact">
+      <div class="container-fluid w3-container w3-content" style="max-width:800px">
+        <h2 class="text-center">联系方式</h2>
+        <p class="w3-center">有任何意见、建议和各种问题，欢迎随时联系我们！</p>
+        <br><br>
+        <div class="row w3-opacity-min">
+          <div class="col-sm-5">
+            <p><span class="glyphicon glyphicon-map-marker"></span> 地址1：马来西亚, 吉隆坡</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> 地址2：中国, 上海</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> 邮箱: admin@studymax.org</p>
+            <p><span class="glyphicon glyphicon-phone"></span> 电话：+60-135166826</p>
+            <p><span class="glyphicon glyphicon-education"></span> 助理微信: angel-emmy</p>
+            <p><span class="glyphicon glyphicon-qrcode"></span> 服务微信: </p>
+            <img width=200 src="img/about/wechat.jpg" style="width:80px;"><br>
+            <br><br>
+          </div>
+          <div class="col-sm-7">
+            <form onsubmit="greet(); return false;">
+              <div class="row" style="margin:0 -16px 8px -16px">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" type="text" id="name" placeholder="姓名" required="" name="name">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" type="text" id="email" placeholder="邮箱" required="" name="email">
+                </div>
+              </div>
+              <textarea class="form-control" type="text" id="comments" placeholder="内容" name="comments"  rows="5">
+              </textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">发送</button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="col-sm-7">
-          <form onsubmit="greet(); return false;">
-            <div class="row" style="margin:0 -16px 8px -16px">
-              <div class="col-sm-6 form-group">
-                <input class="form-control" type="text" id="name" placeholder="姓名" required="" name="name">
-              </div>
-              <div class="col-sm-6 form-group">
-                <input class="form-control" type="text" id="email" placeholder="邮箱" required="" name="email">
-              </div>
-            </div>
-            <textarea class="form-control" type="text" id="comments" placeholder="内容" name="comments"  rows="5">
-            </textarea><br>
-            <div class="row">
-              <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">发送</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
 
+      </div>
     </div>
 
     <!-- Go to Top -->
