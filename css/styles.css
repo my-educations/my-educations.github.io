@@ -299,7 +299,7 @@ img {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 20px;
+  bottom: 200px;
   width: 100%;
   text-align: center;
 }
@@ -326,24 +326,6 @@ img {
 
 .active {
   background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
