@@ -114,7 +114,8 @@ headerTemplate.innerHTML = `
           </button>
           <div class="dropdown-content">
             <a href="skill_list/skill-ranking-cn.html">Ranking</a>
-            <a href="skill_list/skill-learning-cn.html">Tips</a>
+            <a href="skill_list/skill-learning-cn.html">Learning</a>
+            <a href="skill_list/skill-working-cn.html">Working</a>
           </div>
         </li>
         <li class="dropdown">
