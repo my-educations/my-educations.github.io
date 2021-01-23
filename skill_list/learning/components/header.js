@@ -116,6 +116,7 @@ headerTemplate.innerHTML = `
             <a href="../../skill_list/skill-ranking-cn.html">学校排名</a>
             <a href="../../skill_list/skill-learning-cn.html">学习技巧</a>
             <a href="../../skill_list/skill-working-cn.html">工作实习</a>
+            <a href="../../skill_list/skill-living-cn.html">生活经历</a>
           </div>
         </li>
         <li class="dropdown">

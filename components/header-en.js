@@ -116,6 +116,7 @@ headerTemplate.innerHTML = `
             <a href="skill_list/skill-ranking-cn.html">Ranking</a>
             <a href="skill_list/skill-learning-cn.html">Learning</a>
             <a href="skill_list/skill-working-cn.html">Working</a>
+            <a href="skill_list/skill-living-cn.html">Living</a>
           </div>
         </li>
         <li class="dropdown">
@@ -162,7 +163,7 @@ headerTemplate.innerHTML = `
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-        <li><a href="index-en.html"><span class="glyphicon"></span> English</a></li>
+        <li><a href="index.html"><span class="glyphicon"></span> 中文</a></li>
       </ul>
     </div>
   </div>
