@@ -51,8 +51,8 @@ function offerphd() {
           return 0;
           }
 
-  offer = allgr / allcr;
-  alert("你能被马来西亚公立大学录取的成功率为：" + eval(offer));
+  offer = allgr / allcr * 100;
+  alert("你能被马来西亚公立大学录取的成功率为：" + eval(offer) + "%");
   return 0;
 }
 
