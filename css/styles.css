@@ -314,7 +314,7 @@ iframe {
   width: 70%;
   border-left: none;
   height: 418px;
-  display: block;
+  display: none;
 }
 
 .thumbnail {
