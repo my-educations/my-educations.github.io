@@ -109,14 +109,14 @@ headerTemplate.innerHTML = `
           </div>
         </li>
         <li class="dropdown">
-          <button class="dropbtn">Skills
+          <button class="dropbtn">Programmes
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="skill_list/skill-ranking-cn.html">Ranking</a>
-            <a href="skill_list/skill-learning-cn.html">Learning</a>
-            <a href="skill_list/skill-working-cn.html">Working</a>
-            <a href="skill_list/skill-living-cn.html">Living</a>
+            <a href="program_list/phd-cn.html">PhD</a>
+            <a href="program_list/master-cn.html">Master</a>
+            <a href="program_list/bachelor-cn.html">Bachelor</a>
+            <a href="program_list/campus2campus_tour-cn.html">Tour</a>
           </div>
         </li>
         <li class="dropdown">
@@ -130,14 +130,14 @@ headerTemplate.innerHTML = `
           </div>
         </li>
         <li class="dropdown">
-          <button class="dropbtn">Programmes
+          <button class="dropbtn">Skills
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="program_list/phd-cn.html">PhD</a>
-            <a href="program_list/master-cn.html">Master</a>
-            <a href="program_list/bachelor-cn.html">Bachelor</a>
-            <a href="program_list/campus2campus_tour-cn.html">Tour</a>
+            <a href="skill_list/skill-ranking-cn.html">Ranking</a>
+            <a href="skill_list/skill-learning-cn.html">Learning</a>
+            <a href="skill_list/skill-working-cn.html">Working</a>
+            <a href="skill_list/skill-living-cn.html">Living</a>
           </div>
         </li>
         <li class="dropdown">
@@ -155,8 +155,8 @@ headerTemplate.innerHTML = `
           </button>
           <div class="dropdown-content">
             <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>
-            <a href="map-cn.html">Maps</a>
-            <a href="tool-cn.html">Tools</a>
+            <a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> Map</a>
+            <a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a>
           </div>
         </li>
       </ul>

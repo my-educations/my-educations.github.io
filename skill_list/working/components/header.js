@@ -109,14 +109,14 @@ headerTemplate.innerHTML = `
           </div>
         </li>
         <li class="dropdown">
-          <button class="dropbtn">攻略指南
+          <button class="dropbtn">专题项目
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../../skill_list/skill-ranking-cn.html">学校排名</a>
-            <a href="../../skill_list/skill-learning-cn.html">学习技巧</a>
-            <a href="../../skill_list/skill-working-cn.html">工作实习</a>
-            <a href="../../skill_list/skill-living-cn.html">生活经历</a>
+            <a href="../../program_list/phd-cn.html">博士项目</a>
+            <a href="../../program_list/master-cn.html">硕士项目</a>
+            <a href="../../program_list/bachelor-cn.html">本科项目</a>
+            <a href="../../program_list/campus2campus_tour-cn.html">游学项目</a>
           </div>
         </li>
         <li class="dropdown">
@@ -130,14 +130,14 @@ headerTemplate.innerHTML = `
           </div>
         </li>
         <li class="dropdown">
-          <button class="dropbtn">专题项目
+          <button class="dropbtn">攻略指南
             <span class="caret"></span>
           </button>
           <div class="dropdown-content">
-            <a href="../../program_list/phd-cn.html">博士项目</a>
-            <a href="../../program_list/master-cn.html">硕士项目</a>
-            <a href="../../program_list/bachelor-cn.html">本科项目</a>
-            <a href="../../program_list/campus2campus_tour-cn.html">游学项目</a>
+            <a href="../../skill_list/skill-ranking-cn.html">学校排名</a>
+            <a href="../../skill_list/skill-learning-cn.html">学习技巧</a>
+            <a href="../../skill_list/skill-working-cn.html">工作实习</a>
+            <a href="../../skill_list/skill-living-cn.html">生活经历</a>
           </div>
         </li>
         <li class="dropdown">
@@ -155,8 +155,8 @@ headerTemplate.innerHTML = `
           </button>
           <div class="dropdown-content">
             <a href="../../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>
-            <a href="../../map-cn.html">最新地图</a>
-            <a href="../../tool-cn.html">实用工具</a>
+            <a href="../../map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> 地图</a>
+            <a href="../../tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a>
           </div>
         </li>
       </ul>
