@@ -139,6 +139,7 @@ headerTemplate.innerHTML = `
             <a href="skill_list/skill-learning-cn.html">Learning</a>
             <a href="skill_list/skill-working-cn.html">Working</a>
             <a href="skill_list/skill-living-cn.html">Living</a>
+            <a href="skill_list/study-abroad-cn.html">Study Abroad</a>
           </div>
         </li>
         <li class="dropdown">
