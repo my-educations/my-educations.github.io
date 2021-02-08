@@ -107,6 +107,7 @@ headerTemplate.innerHTML = `
             <a href="school_list/sg-cn.html">Singapore</a>
             <a href="school_list/my-cn.html">Malaysia</a>
             <a href="school_list/thai-cn.html">Thailand</a>
+            <a href="school_list/au-cn.html">Australia</a>
           </div>
         </li>
         <li class="dropdown">
