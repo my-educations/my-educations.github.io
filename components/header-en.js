@@ -11,20 +11,20 @@ headerTemplate.innerHTML = `
   <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="0">
     <div class="container-fluid">
       <div class="navbar-header">
-        <ul class="nav navbar-nav">
-          <!-- <li>
+        <!-- <ul class="nav navbar-nav">
+          <li>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-          </li> -->
+          </li>
           <li>
             <a href="index.html">StudyMax</a>
           </li>
-        </ul>
+        </ul> -->
         <ul class="nav navbar-nav">
-          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> StudyMax</a></li>
           <li class="dropdown">
             <button class="dropbtn">School
               <span class="caret"></span>
