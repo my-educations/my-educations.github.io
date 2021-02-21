@@ -11,14 +11,18 @@ headerTemplate.innerHTML = `
   <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="0">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../index.html">学习大师</a>
-       </div>
-       <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        <li>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </li>
+          <li>
+            <a class="navbar-brand" href="../index.html">学习大师</a>
+          </li>
+        </ul>
         <ul class="nav navbar-nav">
           <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
           <li class="dropdown">
