@@ -26,7 +26,7 @@ headerTemplate.innerHTML = `
         <ul class="nav navbar-nav">
           <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
           <li class="dropdown">
-            <button class="dropbtn">学校列表
+            <button class="dropbtn">学校
               <span class="caret"></span>
             </button>
              <ul class="dropdown-content">
@@ -37,7 +37,7 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">专题项目
+            <button class="dropbtn">专题
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
@@ -48,7 +48,7 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">语言学习
+            <button class="dropbtn">语言
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
@@ -58,7 +58,7 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">攻略指南
+            <button class="dropbtn">攻略
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
@@ -70,7 +70,7 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">联系我们
+            <button class="dropbtn">咨询
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
