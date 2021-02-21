@@ -12,15 +12,15 @@ headerTemplate.innerHTML = `
     <div class="container-fluid">
       <div class="navbar-header">
         <ul class="nav navbar-nav">
-        <li>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          </li>
+          <!-- <li>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </li> -->
           <li>
-            <a class="navbar-brand" href="index.html">StudyMax</a>
+            <a href="index.html">StudyMax</a>
           </li>
         </ul>
         <ul class="nav navbar-nav">
@@ -70,19 +70,12 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">Contact
+            <button class="dropbtn">More
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
               <li><a href="contact-cn.html">Contact us</a></li>
               <li><a href="about-cn.html">About us</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <button class="dropbtn">More
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-content">
               <li><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
               <li><a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> Maps</a></li>
               <li><a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a></li>

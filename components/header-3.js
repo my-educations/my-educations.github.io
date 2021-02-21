@@ -12,15 +12,15 @@ headerTemplate.innerHTML = `
     <div class="container-fluid">
       <div class="navbar-header">
         <ul class="nav navbar-nav">
-        <li>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          </li>
+          <!-- <li>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </li> -->
           <li>
-            <a class="navbar-brand" href="../../index.html">学习大师</a>
+            <a href="../../index.html">学习大师</a>
           </li>
         </ul>
         <ul class="nav navbar-nav">
@@ -70,19 +70,12 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">咨询
+            <button class="dropbtn">更多
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
               <li><a href="../../contact-cn.html">联系方式</a></li>
               <li><a href="../../about-cn.html">关于我们</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <button class="dropbtn">更多
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-content">
               <li><a href="../../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
               <li><a href="../../map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> 地图</a></li>
               <li><a href="../../tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a></li>
