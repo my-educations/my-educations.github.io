@@ -37,14 +37,14 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">专题
+            <button class="dropbtn">课程
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="../../program_list/phd-cn.html">博士项目</a></li>
-              <li><a href="../../program_list/master-cn.html">硕士项目</a></li>
-              <li><a href="../../program_list/bachelor-cn.html">本科项目</a></li>
-              <li><a href="../../program_list/campus2campus_tour-cn.html">游学项目</a></li>
+              <li><a href="../../program_list/phd-cn.html">博士课程</a></li>
+              <li><a href="../../program_list/master-cn.html">硕士课程</a></li>
+              <li><a href="../../program_list/bachelor-cn.html">本科课程</a></li>
+              <li><a href="../../program_list/campus2campus_tour-cn.html">游学计划</a></li>
             </ul>
           </li>
           <li class="dropdown">

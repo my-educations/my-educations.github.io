@@ -37,7 +37,7 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">Project
+            <button class="dropbtn">Course
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
