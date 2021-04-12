@@ -54,6 +54,7 @@ headerTemplate.innerHTML = `
             <ul class="dropdown-content">
               <li><a href="language/one-min-cn.html">One Min</a></li>
               <li><a href="language/talk-speech-cn.html">Talk & Speech</a></li>
+              <li><a href="language/ai-tech-cn.html">AI & Tech</a></li>
               <li><a href="language/study-method-cn.html">Methods</a></li>
             </ul>
           </li>
