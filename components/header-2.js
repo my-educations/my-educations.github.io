@@ -65,7 +65,7 @@ headerTemplate.innerHTML = `
             </button>
             <ul class="dropdown-content">
               <li><a href="../skill_list/skill-ranking-cn.html">学校排名</a></li>
-              <li><a href="../skill_list/skill-living-cn.html">生活指南</a></li>
+              <li><a href="../skill_list/skill-living-cn.html">学生指南</a></li>
               <li><a href="../skill_list/skill-learning-cn.html">学习技巧</a></li>
               <li><a href="../skill_list/skill-working-cn.html">工作实习</a></li>
               <li><a href="../skill_list/study-abroad-cn.html">留学系列</a></li>
