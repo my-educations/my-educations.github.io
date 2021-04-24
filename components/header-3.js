@@ -53,10 +53,10 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="../../language/learn-english-cn.html">学英语</a></li>
               <li><a href="../../language/one-min-cn.html">一分钟英语</a></li>
               <li><a href="../../language/talk-speech-cn.html">对话与演讲</a></li>
               <li><a href="../../language/ai-tech-cn.html">AI与科技</a></li>
+              <li><a href="../../language/learn-english-cn.html">学英语</a></li>
               <li><a href="../../language/study-method-cn.html">学习方法</a></li>
             </ul>
           </li>
