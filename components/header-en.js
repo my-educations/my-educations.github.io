@@ -44,6 +44,7 @@ headerTemplate.innerHTML = `
               <li><a href="program_list/phd-cn.html">PhD</a></li>
               <li><a href="program_list/master-cn.html">Master</a></li>
               <li><a href="program_list/bachelor-cn.html">Bachelor</a></li>
+              <li><a href="program_list/foundation-cn.html">Foundation</a></li>
               <li><a href="program_list/campus2campus_tour-cn.html">Cam2Cam</a></li>
             </ul>
           </li>
