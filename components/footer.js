@@ -87,6 +87,7 @@ footerTemplate.innerHTML = `
           <a href="partner-cn.html">合作推广</a>
         </div>
         <div class="row">
+          <a href="testimonial-cn.html">感谢留言</a>&nbsp;&nbsp;
           <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>&nbsp;&nbsp;
           <a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> 地图</a>&nbsp;&nbsp;
           <a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a>

@@ -87,6 +87,7 @@ footerTemplate.innerHTML = `
           <a href="partner-cn.html">Partners</a>
         </div>
         <div class="row">
+          <a href="testimonial-cn.html">Testimonial</a>&nbsp;&nbsp;
           <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
           <a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> Maps</a>&nbsp;&nbsp;
           <a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a>
