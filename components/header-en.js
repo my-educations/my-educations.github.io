@@ -49,6 +49,14 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
+            <button class="dropbtn">Teacher
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-content">
+              <li><a href="teacher_list/my-cn.html">Malaysia</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
             <button class="dropbtn">Language
               <span class="caret"></span>
             </button>
@@ -70,18 +78,6 @@ headerTemplate.innerHTML = `
               <li><a href="skill_list/skill-learning-cn.html">Learning</a></li>
               <li><a href="skill_list/skill-working-cn.html">Working</a></li>
               <li><a href="skill_list/study-abroad-cn.html">Study Abroad</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <button class="dropbtn">More
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-content">
-              <li><a href="contact-cn.html">Contact us</a></li>
-              <li><a href="about-cn.html">About us</a></li>
-              <li><a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
-              <li><a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> Maps</a></li>
-              <li><a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a></li>
             </ul>
           </li>
         </ul>

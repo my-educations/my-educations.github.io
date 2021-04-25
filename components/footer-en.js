@@ -81,10 +81,15 @@ footerTemplate.innerHTML = `
       </div>
       <div class="col-sm-6 text-center">
         <div class="row">
+          <a href="contact-cn.html">Contact</a>&nbsp;&nbsp;
+          <a href="about-cn.html">About us</a>&nbsp;&nbsp;
           <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
-          <a href="partner-cn.html">Partner</a>&nbsp;&nbsp;
-          <a href="contact-cn.html">Opinions</a>&nbsp;&nbsp;
-          <a href="about-cn.html">About us</a>
+          <a href="partner-cn.html">Partners</a>
+        </div>
+        <div class="row">
+          <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
+          <a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> Maps</a>&nbsp;&nbsp;
+          <a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a>
         </div>
         <div class="row">
           <p>&copy; <script>document.write(new Date().getFullYear())</script> StudyMax.&nbsp;All rights reserved.</p>

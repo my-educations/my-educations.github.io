@@ -49,6 +49,14 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
+            <button class="dropbtn">导师
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-content">
+              <li><a href="../../teacher_list/my-cn.html">马来西亚</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
             <button class="dropbtn">语言
               <span class="caret"></span>
             </button>
@@ -70,18 +78,6 @@ headerTemplate.innerHTML = `
               <li><a href="../../skill_list/skill-learning-cn.html">学习技巧</a></li>
               <li><a href="../../skill_list/skill-working-cn.html">工作实习</a></li>
               <li><a href="../../skill_list/study-abroad-cn.html">留学系列</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <button class="dropbtn">更多
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-content">
-              <li><a href="../../contact-cn.html">联系方式</a></li>
-              <li><a href="../../about-cn.html">关于我们</a></li>
-              <li><a href="../../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a></li>
-              <li><a href="../../map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> 地图</a></li>
-              <li><a href="../../tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a></li>
             </ul>
           </li>
         </ul>

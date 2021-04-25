@@ -85,10 +85,15 @@ footerTemplate.innerHTML = `
       </div>
       <div class="col-sm-6 text-center">
         <div class="row">
+          <a href="../../contact-cn.html">联系方式</a>&nbsp;&nbsp;
+          <a href="../../about-cn.html">关于我们</a>&nbsp;&nbsp;
           <a href="../../faq-cn.html">常见问题</a>&nbsp;&nbsp;
-          <a href="../../partner-cn.html">合作推广</a>&nbsp;&nbsp;
-          <a href="../../contact-cn.html">意见反馈</a>&nbsp;&nbsp;
-          <a href="../../about-cn.html">关于我们</a>
+          <a href="../../partner-cn.html">合作推广</a>
+        </div>
+        <div class="row">
+          <a href="../../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>&nbsp;&nbsp;
+          <a href="../../map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> 地图</a>&nbsp;&nbsp;
+          <a href="../../tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a>
         </div>
         <div class="row">
           <p>&copy; 2021 StudyMax.&nbsp;All rights reserved.</p>
