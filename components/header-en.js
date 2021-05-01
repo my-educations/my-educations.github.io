@@ -74,10 +74,11 @@ headerTemplate.innerHTML = `
             </button>
             <ul class="dropdown-content">
               <li><a href="skill_list/skill-ranking-cn.html">Ranking</a></li>
+              <li><a href="skill_list/subject-major-cn.html">Major</a></li>
+              <li><a href="skill_list/study-abroad-cn.html">Study Abroad</a></li>
               <li><a href="skill_list/skill-living-cn.html">Guidelines</a></li>
               <li><a href="skill_list/skill-learning-cn.html">Learning</a></li>
               <li><a href="skill_list/skill-working-cn.html">Working</a></li>
-              <li><a href="skill_list/study-abroad-cn.html">Study Abroad</a></li>
             </ul>
           </li>
         </ul>
