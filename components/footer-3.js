@@ -85,9 +85,9 @@ footerTemplate.innerHTML = `
       </div>
       <div class="col-sm-6 text-center">
         <div class="row">
+          <a href="../../faq-cn.html">常见问题</a>&nbsp;&nbsp;
           <a href="../../contact-cn.html">联系方式</a>&nbsp;&nbsp;
           <a href="../../about-cn.html">关于我们</a>&nbsp;&nbsp;
-          <a href="../../faq-cn.html">常见问题</a>&nbsp;&nbsp;
           <a href="../../partner-cn.html">合作推广</a>
         </div>
         <div class="row">

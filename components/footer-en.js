@@ -81,9 +81,9 @@ footerTemplate.innerHTML = `
       </div>
       <div class="col-sm-6 text-center">
         <div class="row">
+          <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
           <a href="contact-cn.html">Contact</a>&nbsp;&nbsp;
           <a href="about-cn.html">About us</a>&nbsp;&nbsp;
-          <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
           <a href="partner-cn.html">Partners</a>
         </div>
         <div class="row">
