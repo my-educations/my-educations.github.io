@@ -57,27 +57,13 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">Language
+            <button class="dropbtn">Guide
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="language/one-min-cn.html">One Min</a></li>
-              <li><a href="language/talk-speech-cn.html">Talk & Speech</a></li>
-              <li><a href="language/ai-tech-cn.html">AI & Tech</a></li>
-              <li><a href="language/learn-english-cn.html">Learn English</a></li>
-              <li><a href="language/study-method-cn.html">Methods</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <button class="dropbtn">Tips
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-content">
-              <li><a href="skill_list/skill-living-cn.html">Guidelines</a></li>
+              <li><a href="skill_list/skill-living-cn.html">Tips</a></li>
               <li><a href="skill_list/skill-ranking-cn.html">Ranking</a></li>
-              <li><a href="skill_list/subject-major-cn.html">Major</a></li>
-              <li><a href="skill_list/study-abroad-cn.html">Study Abroad</a></li>
-              <li><a href="skill_list/skill-working-cn.html">Working</a></li>
+              <li><a href="skill_list/language-cn.html">Language</a></li>
             </ul>
           </li>
         </ul>

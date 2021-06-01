@@ -57,27 +57,13 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">语言
+            <button class="dropbtn">指南
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="../../language/one-min-cn.html">一分钟英语</a></li>
-              <li><a href="../../language/talk-speech-cn.html">对话与演讲</a></li>
-              <li><a href="../../language/ai-tech-cn.html">AI与科技</a></li>
-              <li><a href="../../language/learn-english-cn.html">学英语</a></li>
-              <li><a href="../../language/study-method-cn.html">学习方法</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <button class="dropbtn">攻略
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-content">
-              <li><a href="../../skill_list/skill-living-cn.html">学生指南</a></li>
+              <li><a href="../../skill_list/skill-living-cn.html">学生攻略</a></li>
               <li><a href="../../skill_list/skill-ranking-cn.html">学校排名</a></li>
-              <li><a href="../../skill_list/subject-major-cn.html">学科专业</a></li>
-              <li><a href="../../skill_list/study-abroad-cn.html">留学系列</a></li>
-              <li><a href="../../skill_list/skill-working-cn.html">工作实习</a></li>
+              <li><a href="../../skill_list/language-cn.html">语言学习</a></li>
             </ul>
           </li>
         </ul>
