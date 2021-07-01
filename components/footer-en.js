@@ -82,12 +82,12 @@ footerTemplate.innerHTML = `
       <div class="col-sm-6 text-center">
         <div class="row">
           <a href="contact-cn.html">Contact</a>&nbsp;&nbsp;
-          <a href="about-cn.html">About</a>&nbsp;&nbsp;
-          <a href="partner-cn.html">Partners</a>
-        </div>
-        <div class="row">
           <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
           <a href="testimonial-cn.html">Testimonial</a>&nbsp;&nbsp;
+        </div>
+        <div class="row">
+          <a href="about-cn.html">About</a>&nbsp;&nbsp;
+          <a href="partner-cn.html">Partners</a>
         </div>
         <div class="row">
           <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
