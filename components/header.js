@@ -71,7 +71,6 @@ headerTemplate.innerHTML = `
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-          <li><a href="index-en.html"><span class="glyphicon"></span> English</a></li>
         </ul>
       </div>
     </div>

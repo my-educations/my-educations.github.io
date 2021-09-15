@@ -83,11 +83,12 @@ footerTemplate.innerHTML = `
         <div class="row">
           <a href="contact-cn.html">联系方式</a>&nbsp;&nbsp;
           <a href="faq-cn.html">常见问题</a>&nbsp;&nbsp;
-          <a href="testimonial-cn.html">感谢留言</a>&nbsp;&nbsp;
+          <a href="testimonial-cn.html">感谢留言</a>
         </div>
         <div class="row">
           <a href="about-cn.html">关于我们</a>&nbsp;&nbsp;
-          <a href="partner-cn.html">合作推广</a>
+          <a href="partner-cn.html">合作推广</a>&nbsp;&nbsp;
+          <a href="index-en.html">English</a>
         </div>
         <div class="row">
           <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>&nbsp;&nbsp;

@@ -91,7 +91,8 @@ footerTemplate.innerHTML = `
         </div>
         <div class="row">
           <a href="../../about-cn.html">关于我们</a>&nbsp;&nbsp;
-          <a href="../../partner-cn.html">合作推广</a>
+          <a href="../../partner-cn.html">合作推广</a>&nbsp;&nbsp;
+          <a href="../../index-en.html">English</a>
         </div>
         <div class="row">
           <a href="../../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>&nbsp;&nbsp;
