@@ -57,11 +57,11 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">指南
+            <button class="dropbtn">学生
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="../../skill_list/skill-living-cn.html">学生攻略</a></li>
+              <li><a href="../../skill_list/skill-living-cn.html">攻略指南</a></li>
               <li><a href="../../skill_list/skill-ranking-cn.html">学校排名</a></li>
               <li><a href="../../skill_list/language-cn.html">语言学习</a></li>
             </ul>
