@@ -31,6 +31,7 @@ headerTemplate.innerHTML = `
             </button>
              <ul class="dropdown-content">
                 <li><a href="school_list/au-cn.html">Australia</a></li>
+                <li><a href="school_list/ca-cn.html">Canada</a></li>
                 <li><a href="school_list/my-cn.html">Malaysia</a></li>
                 <li><a href="school_list/sg-cn.html">Singapore</a></li>
                 <li><a href="school_list/thai-cn.html">Thailand</a></li>
