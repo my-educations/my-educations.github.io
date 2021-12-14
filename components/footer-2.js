@@ -100,7 +100,7 @@ footerTemplate.innerHTML = `
           <a href="../tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a>
         </div>
         <div class="row">
-          <p>&copy; 2021 StudyMax.&nbsp;All rights reserved.</p>
+          <p>StudyMax &copy; 2021 StuMax Academy.&nbsp;All rights reserved.</p>
         </div>
       </div>
       <div class="col-sm-3 text-center">

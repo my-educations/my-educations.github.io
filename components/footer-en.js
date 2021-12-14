@@ -96,7 +96,7 @@ footerTemplate.innerHTML = `
           <a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a>
         </div>
         <div class="row">
-          <p>&copy; <script>document.write(new Date().getFullYear())</script> StudyMax.&nbsp;All rights reserved.</p>
+          <p>StudyMax &copy; <script>document.write(new Date().getFullYear())</script> StuMax Academy.&nbsp;All rights reserved.</p>
         </div>
       </div>
       <div class="col-sm-3 text-center">
