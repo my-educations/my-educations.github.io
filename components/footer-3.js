@@ -49,10 +49,10 @@ footerTemplate.innerHTML = `
       <div class="col-sm-3">
         <div class="row">
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">阿超老师微信</p>
+            <p style="font-size:60%;">企业微信</p>
           </div>
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">黄老师</p>
+            <p style="font-size:60%;">抖音</p>
           </div>
           <div class="col-sm-4">
           </div>
@@ -62,7 +62,7 @@ footerTemplate.innerHTML = `
             <img src="../../img/about/wechat.jpg" style="width:60px">
           </div>
           <div class="col-sm-4 text-center">
-            <img src="../../img/about/wechat-huang.jpg" style="width:60px">
+            <img src="../../img/about/douyin.jpg" style="width:60px">
           </div>
           <div class="col-sm-4">
           </div>
