@@ -25,7 +25,7 @@ footerTemplate.innerHTML = `
             <p style="font-size:60%;">微信公众号</p>
           </div>
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">知乎</p>
+            <p style="font-size:60%;">企业微信</p>
           </div>
         </div>
         <div class="row">
@@ -35,7 +35,7 @@ footerTemplate.innerHTML = `
             <img src="../img/about/wechat-ms.jpg" style="width:60px">
           </div>
           <div class="col-sm-4 text-center">
-            <img src="../img/about/zhihu.jpg" style="width:60px">
+            <img src="../img/about/wechat.jpg" style="width:60px">
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ footerTemplate.innerHTML = `
       <div class="col-sm-3">
         <div class="row">
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">企业微信</p>
+            <p style="font-size:60%;">知乎</p>
           </div>
           <div class="col-sm-4 text-center">
             <p style="font-size:60%;">抖音</p>
@@ -59,7 +59,7 @@ footerTemplate.innerHTML = `
         </div>
         <div class="row">
           <div class="col-sm-4 text-center">
-            <img src="../img/about/wechat.jpg" style="width:60px">
+            <img src="../img/about/zhihu.jpg" style="width:60px">
           </div>
           <div class="col-sm-4 text-center">
             <img src="../img/about/douyin.jpg" style="width:60px">
