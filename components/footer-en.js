@@ -48,7 +48,7 @@ footerTemplate.innerHTML = `
             <p style="font-size:60%;">Zhihu</p>
           </div>
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">DouYin</p>
+            <p style="font-size:60%;">Weibo</p>
           </div>
           <div class="col-sm-4">
           </div>
@@ -58,7 +58,7 @@ footerTemplate.innerHTML = `
             <img src="img/about/zhihu.jpg" style="width:60px">
           </div>
           <div class="col-sm-4 text-center">
-            <img src="img/about/douyin.jpg" style="width:60px">
+            <img src="img/about/weibo.jpg" style="width:60px">
           </div>
           <div class="col-sm-4">
           </div>
