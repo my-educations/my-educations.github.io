@@ -86,12 +86,14 @@ footerTemplate.innerHTML = `
       <div class="col-sm-6 text-center">
         <div class="row">
           <a href="../../contact-cn.html">联系方式</a>&nbsp;&nbsp;
+          <a href="../../about-cn.html">关于我们</a>&nbsp;&nbsp;
           <a href="../../faq-cn.html">常见问题</a>&nbsp;&nbsp;
           <a href="../../testimonial-cn.html">感谢留言</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <a href="../../about-cn.html">关于我们</a>&nbsp;&nbsp;
           <a href="../../partner-cn.html">合作推广</a>&nbsp;&nbsp;
+          <a href="http://jsj.moe.gov.cn/" target="_blank">教育监管</a>&nbsp;&nbsp;
+          <a href="https://educationmalaysia.gov.my/" target="_blank">马EMGS</a>&nbsp;&nbsp;
           <a href="../../index-en.html">English</a>
         </div>
         <div class="row">
