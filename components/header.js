@@ -36,6 +36,7 @@ headerTemplate.innerHTML = `
                 <li><a href="school_list/my-cn.html">马来西亚</a></li>
                 <li><a href="school_list/sg-cn.html">新加坡</a></li>
                 <li><a href="school_list/thai-cn.html">泰国</a></li>
+                <li><a href="school_list/usa-cn.html">美国</a></li>
             </ul>
           </li>
           <li class="dropdown">
