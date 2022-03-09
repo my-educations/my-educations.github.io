@@ -66,6 +66,7 @@ headerTemplate.innerHTML = `
               <li><a href="skill_list/skill-living-cn.html">Tips</a></li>
               <li><a href="skill_list/skill-ranking-cn.html">Ranking</a></li>
               <li><a href="skill_list/language-cn.html">Language</a></li>
+              <li><a href="faq-cn.html">FAQ</a></li>
               <li><a href="testimonial-cn.html">Testimonial</a></li>
             </ul>
           </li>

@@ -84,13 +84,13 @@ footerTemplate.innerHTML = `
           <a href="about-cn.html">About</a>&nbsp;&nbsp;
           <a href="contact-cn.html">Contact</a>&nbsp;&nbsp;
           <a href="partner-cn.html">Partners</a>&nbsp;&nbsp;
-          <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
+          <a href="index.html">中文</a>&nbsp;&nbsp;
         </div>
         <div class="row">
+          <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
           <a href="testimonial-cn.html">Testimonial</a>&nbsp;&nbsp;
           <a href="http://jsj.moe.gov.cn/" target="_blank">China</a>&nbsp;&nbsp;
           <a href="https://educationmalaysia.gov.my/" target="_blank">EMGS</a>&nbsp;&nbsp;
-          <a href="index.html">中文</a>&nbsp;&nbsp;
         </div>
         <div class="row">
           <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
