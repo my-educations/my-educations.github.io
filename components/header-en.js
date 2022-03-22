@@ -35,6 +35,7 @@ headerTemplate.innerHTML = `
                 <li><a href="school_list/my-cn.html">Malaysia</a></li>
                 <li><a href="school_list/sg-cn.html">Singapore</a></li>
                 <li><a href="school_list/thai-cn.html">Thailand</a></li>
+                <li><a href="school_list/uk-cn.html">UK</a></li>
                 <li><a href="school_list/usa-cn.html">USA</a></li>
             </ul>
           </li>
