@@ -56,6 +56,8 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
+              <li><a href="teacher_list/au-cn.html">Australia</a></li>
+              <li><a href="teacher_list/ca-cn.html">Canada</a></li>
               <li><a href="teacher_list/my-cn.html">Malaysia</a></li>
             </ul>
           </li>
