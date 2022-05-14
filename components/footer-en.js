@@ -81,21 +81,21 @@ footerTemplate.innerHTML = `
       </div>
       <div class="col-sm-6 text-center">
         <div class="row">
-          <a href="about-cn.html">About</a>&nbsp;&nbsp;
-          <a href="contact-cn.html">Contact</a>&nbsp;&nbsp;
-          <a href="partner-cn.html">Partners</a>&nbsp;&nbsp;
-          <a href="index.html">中文</a>&nbsp;&nbsp;
+          <a href="about-cn.html" target="_blank">About</a>&nbsp;&nbsp;
+          <a href="contact-cn.html" target="_blank">Contact</a>&nbsp;&nbsp;
+          <a href="partner-cn.html" target="_blank">Partners</a>&nbsp;&nbsp;
+          <a href="index.html" target="_blank">中文</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <a href="faq-cn.html">FAQ</a>&nbsp;&nbsp;
-          <a href="testimonial-cn.html">Testimonial</a>&nbsp;&nbsp;
+          <a href="faq-cn.html" target="_blank">FAQ</a>&nbsp;&nbsp;
+          <a href="testimonial-cn.html" target="_blank">Testimonial</a>&nbsp;&nbsp;
           <a href="http://jsj.moe.gov.cn/" target="_blank">China</a>&nbsp;&nbsp;
-          <a href="https://educationmalaysia.gov.my/" target="_blank">EMGS</a>&nbsp;&nbsp;
+          <a href="web-cn.html" target="_blank">Websites</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <a href="search-cn.html"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
-          <a href="map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> Maps</a>&nbsp;&nbsp;
-          <a href="tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> Tools</a>&nbsp;&nbsp;
+          <a href="search-cn.html" target="_blank"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
+          <a href="map-cn.html" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> Maps</a>&nbsp;&nbsp;
+          <a href="tool-cn.html" target="_blank"><span class="glyphicon glyphicon-wrench"></span> Tools</a>&nbsp;&nbsp;
         </div>
         <div class="row">
           <p><a href="https://studymax.org/">StudyMax</a> &copy; <script>document.write(new Date().getFullYear())</script> StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>

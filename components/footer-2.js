@@ -85,21 +85,21 @@ footerTemplate.innerHTML = `
       </div>
       <div class="col-sm-6 text-center">
         <div class="row">
-          <a href="../about-cn.html">关于我们</a>&nbsp;&nbsp;
-          <a href="../contact-cn.html">联系方式</a>&nbsp;&nbsp;
-          <a href="../partner-cn.html">合作推广</a>&nbsp;&nbsp;
-          <a href="../index-en.html">Eng版本</a>&nbsp;&nbsp;
+          <a href="../about-cn.html" target="_blank">关于我们</a>&nbsp;&nbsp;
+          <a href="../contact-cn.html" target="_blank">联系方式</a>&nbsp;&nbsp;
+          <a href="../partner-cn.html" target="_blank">合作推广</a>&nbsp;&nbsp;
+          <a href="../index-en.html" target="_blank">Eng版本</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <a href="../faq-cn.html">常见问题</a>&nbsp;&nbsp;
-          <a href="../testimonial-cn.html">感谢留言</a>&nbsp;&nbsp;
+          <a href="../faq-cn.html" target="_blank">常见问题</a>&nbsp;&nbsp;
+          <a href="../testimonial-cn.html" target="_blank">感谢留言</a>&nbsp;&nbsp;
           <a href="http://jsj.moe.gov.cn/" target="_blank">教育监管</a>&nbsp;&nbsp;
-          <a href="https://educationmalaysia.gov.my/" target="_blank">EMGS网</a>&nbsp;&nbsp;
+          <a href="../web-cn.html" target="_blank">实用网站</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <a href="../search-cn.html"><span class="glyphicon glyphicon-search"></span> 搜索</a>&nbsp;&nbsp;
-          <a href="../map-cn.html"><span class="glyphicon glyphicon-map-marker"></span> 地图</a>&nbsp;&nbsp;
-          <a href="../tool-cn.html"><span class="glyphicon glyphicon-wrench"></span> 工具</a>&nbsp;&nbsp;
+          <a href="../search-cn.html" target="_blank"><span class="glyphicon glyphicon-search"></span> 搜索</a>&nbsp;&nbsp;
+          <a href="../map-cn.html" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> 地图</a>&nbsp;&nbsp;
+          <a href="../tool-cn.html" target="_blank"><span class="glyphicon glyphicon-wrench"></span> 工具</a>&nbsp;&nbsp;
         </div>
         <div class="row">
           <p><a href="https://studymax.org/">StudyMax</a> &copy; 2022 StuMax Academy.&nbsp;All rights reserved | <a href="../disclaimer-cn.html" target="_blank">Disclaimer</a></p>
