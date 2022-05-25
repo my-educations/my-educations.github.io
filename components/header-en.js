@@ -33,6 +33,7 @@ headerTemplate.innerHTML = `
                 <li><a href="school_list/au-cn.html">Australia</a></li>
                 <li><a href="school_list/ca-cn.html">Canada</a></li>
                 <li><a href="school_list/my-cn.html">Malaysia</a></li>
+                <li><a href="school_list/nz-cn.html">New Zealand</a></li>
                 <li><a href="school_list/sg-cn.html">Singapore</a></li>
                 <li><a href="school_list/thai-cn.html">Thailand</a></li>
                 <li><a href="school_list/uk-cn.html">UK</a></li>
