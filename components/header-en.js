@@ -60,6 +60,7 @@ headerTemplate.innerHTML = `
               <li><a href="teacher_list/au-cn.html">Australia</a></li>
               <li><a href="teacher_list/ca-cn.html">Canada</a></li>
               <li><a href="teacher_list/my-cn.html">Malaysia</a></li>
+              <li><a href="teacher_list/nz-cn.html">New Zealand</a></li>
             </ul>
           </li>
           <li class="dropdown">
