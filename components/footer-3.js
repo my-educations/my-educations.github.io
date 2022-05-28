@@ -108,10 +108,10 @@ footerTemplate.innerHTML = `
       <div class="col-sm-3 text-center">
         <div class="row">
           <div class="col-sm-8">
-            <a href="https://www.linkedin.com/company/study2max/" class="fa fa-linkedin"></a>
-            <a href="https://www.facebook.com/study2max" class="fa fa-facebook"></a>
-            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube"></a>
-            <a href="https://www.instagram.com/studymax.malaysia/" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/study2max" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube" target="_blank"></a>
+            <a href="https://www.instagram.com/studymax.malaysia/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/study2max/" class="fa fa-linkedin" target="_blank"></a>
           </div>
           <div class="col-sm-4">
           </div>
