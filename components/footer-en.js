@@ -107,7 +107,7 @@ footerTemplate.innerHTML = `
             <a href="https://www.linkedin.com/company/study2max/" class="fa fa-linkedin"></a>
             <a href="https://www.facebook.com/study2max" class="fa fa-facebook"></a>
             <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube"></a>
-            <a href="https://www.instagram.com/my.study.max/" class="fa fa-instagram"></a>
+            <a href="https://www.instagram.com/studymax.malaysia/" class="fa fa-instagram"></a>
           </div>
           <div class="col-sm-4">
           </div>
