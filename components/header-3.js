@@ -68,10 +68,10 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
+              <li><a href="../../testimonial-cn.html">offer榜</a></li>
               <li><a href="../../skill_list/skill-living-cn.html">本地指南</a></li>
               <li><a href="../../skill_list/skill-ranking-cn.html">学校排名</a></li>
               <li><a href="../../skill_list/language-cn.html">语言学习</a></li>
-              <li><a href="../../testimonial-cn.html">offer榜</a></li>
               <li><a href="../../faq-cn.html">常见问题</a></li>
             </ul>
           </li>
