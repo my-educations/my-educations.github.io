@@ -24,7 +24,7 @@ headerTemplate.innerHTML = `
           </li>
         </ul> -->
         <ul class="nav navbar-nav">
-          <li><a href="../../index.html"><span class="glyphicon glyphicon-home"></span> 留学僧</a></li>
+          <li><a href="../../index.html"><span class="glyphicon glyphicon-home"></span> StudyMax留学僧</a></li>
           <li class="dropdown">
             <button class="dropbtn">学校
               <span class="caret"></span>
