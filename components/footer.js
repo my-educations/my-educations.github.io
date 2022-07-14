@@ -84,7 +84,7 @@ footerTemplate.innerHTML = `
           <a href="about-cn.html" target="_blank">关于我们</a>&nbsp;&nbsp;
           <a href="contact-cn.html" target="_blank">联系方式</a>&nbsp;&nbsp;
           <a href="partner-cn.html" target="_blank">合作推广</a>&nbsp;&nbsp;
-          <a href="index-en.html" target="_blank">Eng版本</a>&nbsp;&nbsp;
+          <a href="index.html" target="_blank">Eng版本</a>&nbsp;&nbsp;
         </div>
         <div class="row">
           <a href="faq-cn.html" target="_blank">常见问题</a>&nbsp;&nbsp;
