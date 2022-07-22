@@ -64,7 +64,7 @@ headerTemplate.innerHTML = `
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">Student
+            <button class="dropbtn">Guide
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
