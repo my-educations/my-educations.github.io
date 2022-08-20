@@ -86,7 +86,7 @@ footerTemplate.innerHTML = `
       <div class="col-sm-6 text-center">
         <div class="row">
           <a href="../about-cn.html" target="_blank">关于我们</a>&nbsp;&nbsp;
-          <a href="../contact-cn.html" target="_blank">联系方式</a>&nbsp;&nbsp;
+          <a href="../contact-cn.html" target="_blank">联系我们</a>&nbsp;&nbsp;
           <a href="../partner-cn.html" target="_blank">合作推广</a>&nbsp;&nbsp;
           <a href="../index.html" target="_blank">Eng版本</a>&nbsp;&nbsp;
         </div>
