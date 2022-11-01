@@ -34,6 +34,7 @@ headerTemplate.innerHTML = `
                 <li><a href="../../school_list/ca-cn.html">加拿大</a></li>
                 <li><a href="../../school_list/cn-cn.html">中国</a></li>
                 <li><a href="../../school_list/hk-cn.html">香港</a></li>
+                <li><a href="../../school_list/mo-cn.html">澳门</a></li>
                 <li><a href="../../school_list/my-cn.html">马来西亚</a></li>
                 <li><a href="../../school_list/nz-cn.html">新西兰</a></li>
                 <li><a href="../../school_list/sg-cn.html">新加坡</a></li>
