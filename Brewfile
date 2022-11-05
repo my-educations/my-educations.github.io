@@ -1,6 +1,0 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-brew "node"
-brew "node@12"
-brew "node@14"
