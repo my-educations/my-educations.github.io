@@ -49,20 +49,20 @@ footerTemplate.innerHTML = `
       <div class="col-sm-3">
         <div class="row">
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">WeChat Customer Service1</p>
+            <p style="font-size:60%;">WeChat Public3</p>
           </div>
           <div class="col-sm-4 text-center">
-            <p style="font-size:60%;">WeChat Customer Service2</p>
+            <p style="font-size:60%;">WeChat Public4</p>
           </div>
           <div class="col-sm-4">
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4 text-center">
-            <img src="img/about/wechat.jpg" style="width:60px">
+            <img src="img/about/wechat3.jpg" style="width:60px">
           </div>
           <div class="col-sm-4 text-center">
-            <img src="img/about/wechat2.jpg" style="width:60px">
+            <img src="img/about/wechat4.jpg" style="width:60px">
           </div>
           <div class="col-sm-4">
           </div>
