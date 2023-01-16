@@ -103,7 +103,7 @@ footerTemplate.innerHTML = `
           <a href="tool-cn.html" target="_blank"><span class="glyphicon glyphicon-wrench"></span> Tools</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <p><a href="https://studymax.org/">StudyMax</a> &copy; 2022 StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
+          <p><a href="https://studymax.org/">StudyMax</a> &copy; 2023 StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
         </div>
       </div>
       <div class="col-sm-3 text-center">
