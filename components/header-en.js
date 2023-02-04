@@ -62,9 +62,9 @@ headerTemplate.innerHTML = `
             <ul class="dropdown-content">
               <li><a href="testimonial-cn.html">Offer</a></li>
               <li><a href="skill_list/skill-living-cn.html">Local</a></li>
+              <li><a href="skill_list/skills-cn.html">Skills</a></li>
               <li><a href="skill_list/skill-ranking-cn.html">Ranking</a></li>
               <li><a href="skill_list/language-cn.html">Language</a></li>
-              <li><a href="skill_list/skills-cn.html">Skills</a></li>
               <li><a href="web-cn.html">Websites</a></li>
               <li><a href="faq-cn.html">FAQ</a></li>
               <li><a href="contact-cn.html" target="_blank">Contact us</a></li>
