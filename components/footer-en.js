@@ -101,7 +101,7 @@ footerTemplate.innerHTML = `
           <a href="search-cn.html" target="_blank"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
           <a href="map-cn.html" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> Maps</a>&nbsp;&nbsp;
           <a href="tool-cn.html" target="_blank"><span class="glyphicon glyphicon-wrench"></span> Tools</a>&nbsp;&nbsp;
-          <a href="https://discord.com/invite/YPKu6eakHs" target="_blank"><span class="glyphicon glyphicon-user"></span> 社区</a>&nbsp;&nbsp;
+          <a href="https://discord.com/invite/YPKu6eakHs" target="_blank"><span class="glyphicon glyphicon-user"></span> Community</a>&nbsp;&nbsp;
         </div>
         <div class="row">
           <p><a href="https://studymax.org/">StudyMax</a> &copy; 2023 StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
