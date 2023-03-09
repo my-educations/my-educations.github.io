@@ -42,7 +42,9 @@ footerTemplate.innerHTML = `
 
       <div class="col-sm-6 text-center">
         <div class="row">
-          <img src="img/about/logo.png" style="width:100px">
+          <a href="index.html">
+            <img src="img/about/logo.png" style="width:80px">
+          </a>
         </div>
       </div>
 
@@ -78,9 +80,10 @@ footerTemplate.innerHTML = `
           <div class="col-sm-4">
           </div>
           <div class="col-sm-8">
-            <a href="index.html">
-              <img src="img/about/logo.png" style="width:60px">
-            </a>
+            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube" target="_blank"></a>
+            <a href="https://www.facebook.com/study2max" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/stumax.academy/" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/study2max/" class="fa fa-linkedin" target="_blank"></a>
           </div>
         </div>
       </div>
@@ -110,11 +113,10 @@ footerTemplate.innerHTML = `
       <div class="col-sm-3 text-center">
         <div class="row">
           <div class="col-sm-8">
-            <a href="https://www.youtube.com/channel/UCasfXLwDL6xoDfF-00co9tQ" class="fa fa-youtube" target="_blank"></a>
-            <a href="https://www.facebook.com/study2max" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://www.instagram.com/stumax.academy/" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://www.linkedin.com/company/study2max/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.tiktok.com/@study2max" class="fa fa-music" target="_blank"></a>
+            <a href="https://space.bilibili.com/1249671191" class="fa fa-video-camera" target="_blank"></a>
             <a href="https://twitter.com/study2max/" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://weibo.com/u/7515227275" class="fa fa-weibo" target="_blank"></a>
           </div>
           <div class="col-sm-4">
           </div>
