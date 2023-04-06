@@ -20,12 +20,12 @@ headerTemplate.innerHTML = `
             </button>
           </li>
           <li>
-            <a class="navbar-brand" href="index.html">留学僧</a>
-            <a href="index.html">留学僧</a>
+            <a class="navbar-brand" href="index.html">StudyMax</a>
+            <a href="index.html">StudyMax</a>
           </li>
         </ul> -->
         <ul class="nav navbar-nav">
-          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 留学僧</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> StudyMax</a></li>
           <li class="dropdown">
             <button class="dropbtn">学校
               <span class="caret"></span>
