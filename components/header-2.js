@@ -61,14 +61,14 @@ headerTemplate.innerHTML = `
             </button>
             <ul class="dropdown-content">
               <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">在线社区</a></li>
-              <li><a href="../testimonial-cn.html">offer榜</a></li>
-              <li><a href="../web-cn.html">实用网站</a></li>
-              <li><a href="../skill_list/skill-living-cn.html">本地指南</a></li>
-              <li><a href="../skill_list/university-major-cn.html">学校专业</a></li>
-              <li><a href="../skill_list/skills-cn.html">技能技巧</a></li>
-              <li><a href="../skill_list/language-cn.html">语言学习</a></li>
-              <li><a href="../faq-cn.html">常见问题</a></li>
               <li><a href="../contact-cn.html" target="_blank">联系我们</a></li>
+              <li><a href="../faq-cn.html">常见问题</a></li>
+              <li><a href="../skill_list/skill-living-cn.html">本地指南</a></li>
+              <li><a href="../skill_list/language-cn.html">语言学习</a></li>
+              <li><a href="../testimonial-cn.html">offer榜</a></li>
+              <li><a href="../skill_list/skills-cn.html">技能技巧</a></li>
+              <li><a href="../skill_list/university-major-cn.html">学校专业</a></li>
+              <li><a href="../web-cn.html">实用网站</a></li>
             </ul>
           </li>
         </ul>
