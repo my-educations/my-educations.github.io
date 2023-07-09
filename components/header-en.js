@@ -65,7 +65,7 @@ headerTemplate.innerHTML = `
               <li><a href="faq-cn.html">FAQ</a></li>
               <li><a href="skill_list/language-cn.html">Language</a></li>
               <li><a href="skill_list/skill-living-cn.html">Local Guide</a></li>
-              <li><a href="https://east-west-life.github.io/" target="_blank">Local Life</a></li>
+              <li><a href="https://eastwestlife.com/" target="_blank">Local Life</a></li>
               <li><a href="testimonial-cn.html">Offer</a></li>
               <li><a href="skill_list/skills-cn.html">Skills</a></li>
               <li><a href="skill_list/university-major-cn.html">Univ/Major</a></li>

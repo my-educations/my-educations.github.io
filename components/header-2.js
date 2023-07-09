@@ -65,7 +65,7 @@ headerTemplate.innerHTML = `
               <li><a href="../faq-cn.html">常见问题</a></li>
               <li><a href="../skill_list/language-cn.html">语言学习</a></li>
               <li><a href="../skill_list/skill-living-cn.html">本地指南</a></li>
-              <li><a href="https://east-west-life.github.io/" target="_blank">本地生活</a></li>
+              <li><a href="https://eastwestlife.com/" target="_blank">本地生活</a></li>
               <li><a href="../testimonial-cn.html">offer榜</a></li>
               <li><a href="../skill_list/skills-cn.html">技能技巧</a></li>
               <li><a href="../skill_list/university-major-cn.html">学校专业</a></li>
