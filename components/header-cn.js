@@ -20,63 +20,64 @@ headerTemplate.innerHTML = `
             </button>
           </li>
           <li>
+            <a class="navbar-brand" href="index.html">StudyMax</a>
             <a href="index.html">StudyMax</a>
           </li>
         </ul> -->
         <ul class="nav navbar-nav">
           <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> StudyMax</a></li>
           <li class="dropdown">
-            <button class="dropbtn">School
+            <button class="dropbtn">学校
               <span class="caret"></span>
             </button>
              <ul class="dropdown-content">
-                <li><a href="school_list/au-cn.html">Australia</a></li>
-                <li><a href="school_list/ca-cn.html">Canada</a></li>
-                <li><a href="school_list/cn-cn.html">China</a></li>
-                <li><a href="school_list/hk-cn.html">Hong Kong</a></li>
-                <li><a href="school_list/mo-cn.html">Macau</a></li>
-                <li><a href="school_list/my-cn.html">Malaysia</a></li>
-                <li><a href="school_list/nz-cn.html">New Zealand</a></li>
-                <li><a href="school_list/sg-cn.html">Singapore</a></li>
-                <li><a href="school_list/thai-cn.html">Thailand</a></li>
-                <li><a href="school_list/uk-cn.html">UK</a></li>
-                <li><a href="school_list/usa-cn.html">USA</a></li>
+                <li><a href="school_list/au-cn.html">澳大利亚</a></li>
+                <li><a href="school_list/ca-cn.html">加拿大</a></li>
+                <li><a href="school_list/cn-cn.html">中国</a></li>
+                <li><a href="school_list/hk-cn.html">香港</a></li>
+                <li><a href="school_list/mo-cn.html">澳门</a></li>
+                <li><a href="school_list/my-cn.html">马来西亚</a></li>
+                <li><a href="school_list/nz-cn.html">新西兰</a></li>
+                <li><a href="school_list/sg-cn.html">新加坡</a></li>
+                <li><a href="school_list/thai-cn.html">泰国</a></li>
+                <li><a href="school_list/uk-cn.html">英国</a></li>
+                <li><a href="school_list/usa-cn.html">美国</a></li>
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">Program
+            <button class="dropbtn">项目
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="program_list/foundation-cn.html">Foundation</a></li>
-              <li><a href="program_list/bachelor-cn.html">Bachelor</a></li>
-              <li><a href="program_list/master-cn.html">Master</a></li>
-              <li><a href="program_list/phd-cn.html">PhD</a></li>
-              <li><a href="program_list/campus2campus_tour-cn.html">Cam2Cam</a></li>
+              <li><a href="program_list/foundation-cn.html">预科课程</a></li>
+              <li><a href="program_list/bachelor-cn.html">本科课程</a></li>
+              <li><a href="program_list/master-cn.html">硕士课程</a></li>
+              <li><a href="program_list/phd-cn.html">博士课程</a></li>
+              <li><a href="program_list/campus2campus_tour-cn.html">游学项目</a></li>
             </ul>
           </li>
           <li class="dropdown">
-            <button class="dropbtn">Info
+            <button class="dropbtn">资讯
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">Community</a></li>
-              <li><a href="contact-cn.html" target="_blank">Contact us</a></li>
-              <li><a href="faq-cn.html">FAQ</a></li>
-              <li><a href="skill_list/language-cn.html">Language</a></li>
-              <li><a href="skill_list/skill-living-cn.html">Local Guide</a></li>
-              <li><a href="https://eastwestlife.com/" target="_blank">Local Life</a></li>
-              <li><a href="testimonial-cn.html">Offer</a></li>
-              <li><a href="skill_list/skills-cn.html">Skills</a></li>
-              <li><a href="skill_list/university-major-cn.html">Univ/Major</a></li>
-              <li><a href="web-cn.html">Websites</a></li>
+              <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">在线社区</a></li>
+              <li><a href="contact-cn.html" target="_blank">联系我们</a></li>
+              <li><a href="faq-cn.html">常见问题</a></li>
+              <li><a href="skill_list/language-cn.html">语言学习</a></li>
+              <li><a href="skill_list/skill-living-cn.html">本地指南</a></li>
+              <li><a href="https://eastwestlife.com/" target="_blank">本地生活</a></li>
+              <li><a href="testimonial-cn.html">offer榜</a></li>
+              <li><a href="skill_list/skills-cn.html">技能技巧</a></li>
+              <li><a href="skill_list/university-major-cn.html">学校专业</a></li>
+              <li><a href="web-cn.html">实用网站</a></li>
             </ul>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-          <li><a href="index-cn.html"><span class="glyphicon"></span> 中文</a></li>
+          <li><a href="index.html"><span class="glyphicon"></span> English</a></li>
         </ul>
       </div>
     </div>
