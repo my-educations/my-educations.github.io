@@ -62,7 +62,7 @@ headerTemplate.innerHTML = `
             <ul class="dropdown-content">
               <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">Community</a></li>
               <li><a href="../skill_list/skill-living-cn.html">Local Guide</a></li>
-              <li><a href="https://eastwestlife.com/" target="_blank">Explore World</a></li>
+              <li><a href="https://eastwestlife.com/" target="_blank">Explore</a></li>
               <li><a href="../testimonial-cn.html">offer</a></li>
               <li><a href="../skill_list/skills-cn.html">Skills</a></li>
               <li><a href="../skill_list/university-major-cn.html">Univ/Major</a></li>
