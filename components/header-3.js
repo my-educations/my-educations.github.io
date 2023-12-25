@@ -34,6 +34,7 @@ headerTemplate.innerHTML = `
                 <li><a href="../../school_list/ca-cn.html">Canada</a></li>
                 <li><a href="../../school_list/cn-cn.html">China</a></li>
                 <li><a href="../../school_list/hk-cn.html">Hong Kong</a></li>
+                <li><a href="../../school_list/ie-cn.html">Ireland</a></li>
                 <li><a href="../../school_list/mo-cn.html">Macau</a></li>
                 <li><a href="../../school_list/my-cn.html">Malaysia</a></li>
                 <li><a href="../../school_list/nz-cn.html">New Zealand</a></li>
@@ -53,6 +54,7 @@ headerTemplate.innerHTML = `
               <li><a href="../../program_list/master-cn.html">Master</a></li>
               <li><a href="../../program_list/phd-cn.html">PhD</a></li>
               <li><a href="../../program_list/campus2campus_tour-cn.html">Cam2Cam</a></li>
+              <li><a href="../../testimonial-cn.html">Offer</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -61,11 +63,10 @@ headerTemplate.innerHTML = `
             </button>
             <ul class="dropdown-content">
               <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">Community</a></li>
-              <li><a href="../../skill_list/skill-living-cn.html">Local Guide</a></li>
               <li><a href="https://eastwestlife.com/" target="_blank">Explore</a></li>
-              <li><a href="../../testimonial-cn.html">offer</a></li>
+              <li><a href="../../skill_list/skill-living-cn.html">Local Guide</a></li>
+              <li><a href="../../skill_list/university-major-cn.html">Univ & Major</a></li>
               <li><a href="../../skill_list/skills-cn.html">Skills</a></li>
-              <li><a href="../../skill_list/university-major-cn.html">Univ/Major</a></li>
               <li><a href="../../skill_list/language-cn.html">Language</a></li>
               <li><a href="../../web-cn.html">Websites</a></li>
               <li><a href="../../faq-cn.html">FAQ</a></li>

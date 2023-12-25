@@ -35,6 +35,7 @@ headerTemplate.innerHTML = `
                 <li><a href="school_list/ca-cn.html">加拿大</a></li>
                 <li><a href="school_list/cn-cn.html">中国</a></li>
                 <li><a href="school_list/hk-cn.html">香港</a></li>
+                <li><a href="school_list/ie-cn.html">爱尔兰</a></li>
                 <li><a href="school_list/mo-cn.html">澳门</a></li>
                 <li><a href="school_list/my-cn.html">马来西亚</a></li>
                 <li><a href="school_list/nz-cn.html">新西兰</a></li>
@@ -54,6 +55,7 @@ headerTemplate.innerHTML = `
               <li><a href="program_list/master-cn.html">硕士课程</a></li>
               <li><a href="program_list/phd-cn.html">博士课程</a></li>
               <li><a href="program_list/campus2campus_tour-cn.html">游学项目</a></li>
+              <li><a href="testimonial-cn.html">录取榜</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -62,11 +64,10 @@ headerTemplate.innerHTML = `
             </button>
             <ul class="dropdown-content">
               <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">在线社区</a></li>
-              <li><a href="skill_list/skill-living-cn.html">本地指南</a></li>
               <li><a href="https://eastwestlife.com/" target="_blank">探索世界</a></li>
-              <li><a href="testimonial-cn.html">offer榜</a></li>
-              <li><a href="skill_list/skills-cn.html">技能技巧</a></li>
+              <li><a href="skill_list/skill-living-cn.html">本地指南</a></li>
               <li><a href="skill_list/university-major-cn.html">学校专业</a></li>
+              <li><a href="skill_list/skills-cn.html">技能技巧</a></li>
               <li><a href="skill_list/language-cn.html">语言学习</a></li>
               <li><a href="web-cn.html">实用网站</a></li>
               <li><a href="faq-cn.html">常见问题</a></li>
