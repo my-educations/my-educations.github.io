@@ -98,7 +98,7 @@ footerTemplate.innerHTML = `
           <a href="faq-cn.html" target="_blank">FAQ</a>&nbsp;&nbsp;
           <a href="testimonial-cn.html" target="_blank">Testimonial</a>&nbsp;&nbsp;
           <a href="web-cn.html" target="_blank">Websites</a>&nbsp;&nbsp;
-          <a href="disclaimer-cn.html" target="_blank">Disclaimer</a>&nbsp;&nbsp;
+          <a href="info-cn.html" target="_blank">Information</a>&nbsp;&nbsp;
         </div>
         <div class="row">
           <a href="search-cn.html" target="_blank"><span class="glyphicon glyphicon-search"></span> Search</a>&nbsp;&nbsp;
@@ -107,7 +107,7 @@ footerTemplate.innerHTML = `
           <a href="https://discord.com/invite/YPKu6eakHs" target="_blank"><span class="glyphicon glyphicon-user"></span> Community</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <p><a href="https://studymax.org/">StudyMax</a> &copy; 2023 StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
+          <p><a href="https://studymax.org/">StudyMax</a> &copy; 2024 StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
         </div>
       </div>
       <div class="col-sm-3 text-center">
