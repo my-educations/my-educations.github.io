@@ -50,7 +50,7 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="program_list/foundation-cn.html">预科课程</a></li>
+              <li><a href="program_list/foundation-cn.html">大学预科</a></li>
               <li><a href="program_list/bachelor-cn.html">本科课程</a></li>
               <li><a href="program_list/master-cn.html">硕士课程</a></li>
               <li><a href="program_list/phd-cn.html">博士课程</a></li>
@@ -68,7 +68,6 @@ headerTemplate.innerHTML = `
               <li><a href="skill_list/skill-living-cn.html">本地指南</a></li>
               <li><a href="skill_list/university-major-cn.html">学校专业</a></li>
               <li><a href="skill_list/skills-cn.html">技能技巧</a></li>
-              <li><a href="skill_list/language-cn.html">语言学习</a></li>
               <li><a href="web-cn.html">实用网站</a></li>
               <li><a href="faq-cn.html">常见问题</a></li>
               <li><a href="contact-cn.html" target="_blank">联系我们</a></li>

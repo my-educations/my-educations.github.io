@@ -49,7 +49,7 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="../../program_list/foundation-cn.html">Foundation</a></li>
+              <li><a href="../../program_list/foundation-cn.html">Pre-University</a></li>
               <li><a href="../../program_list/bachelor-cn.html">Bachelor</a></li>
               <li><a href="../../program_list/master-cn.html">Master</a></li>
               <li><a href="../../program_list/phd-cn.html">PhD</a></li>
@@ -65,9 +65,8 @@ headerTemplate.innerHTML = `
               <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">Community</a></li>
               <li><a href="https://eastwestlife.com/" target="_blank">Explore</a></li>
               <li><a href="../../skill_list/skill-living-cn.html">Local Guide</a></li>
-              <li><a href="../../skill_list/university-major-cn.html">Univ & Major</a></li>
+              <li><a href="../../skill_list/university-major-cn.html">School & Major</a></li>
               <li><a href="../../skill_list/skills-cn.html">Skills</a></li>
-              <li><a href="../../skill_list/language-cn.html">Language</a></li>
               <li><a href="../../web-cn.html">Websites</a></li>
               <li><a href="../../faq-cn.html">FAQ</a></li>
               <li><a href="../../contact-cn.html" target="_blank">Contact us</a></li>
