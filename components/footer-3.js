@@ -16,7 +16,7 @@ footerTemplate.innerHTML = `
     }
   </style>
   
-  <footer class="container-fluid bg-footer" style="color:#000;background:#fff;">
+  <footer class="container-fluid bg-footer" style="color:#000; background:#fff;">
 
     <hr>
 
