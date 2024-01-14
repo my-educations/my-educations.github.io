@@ -55,7 +55,7 @@ headerTemplate.innerHTML = `
               <li><a href="program_list/master-cn.html">硕士课程</a></li>
               <li><a href="program_list/phd-cn.html">博士课程</a></li>
               <li><a href="program_list/campus2campus_tour-cn.html">游学项目</a></li>
-              <li><a href="testimonial-cn.html">录取榜</a></li>
+              <li><a href="testimonial-cn.html">申请录取榜</a></li>
             </ul>
           </li>
           <li class="dropdown">
