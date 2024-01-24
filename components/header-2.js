@@ -65,8 +65,8 @@ headerTemplate.innerHTML = `
               <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">Community</a></li>
               <li><a href="https://eastwestlife.com/" target="_blank">Explore</a></li>
               <li><a href="../skill_list/skill-living-cn.html">Local Guide</a></li>
-              <li><a href="../skill_list/university-major-cn.html">School & Major</a></li>
-              <li><a href="../skill_list/skills-cn.html">Skills</a></li>
+              <li><a href="../skill_list/university-major-cn.html">School/Major</a></li>
+              <li><a href="../skill_list/skills-cn.html">Tips/Skills</a></li>
               <li><a href="../web-cn.html">Websites</a></li>
               <li><a href="../contact-cn.html" target="_blank">Contact us</a></li>
             </ul>
