@@ -72,11 +72,11 @@ headerTemplate.innerHTML = `
               <li><a href="contact-cn.html" target="_blank">联系我们</a></li>
             </ul>
           </li>
+          <li><a href="index.html"><span class="glyphicon"></span> English</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li> -->
-          <li><a href="index.html"><span class="glyphicon"></span> English</a></li>
         </ul>
       </div>
     </div>

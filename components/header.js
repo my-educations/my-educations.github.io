@@ -71,11 +71,11 @@ headerTemplate.innerHTML = `
               <li><a href="contact-cn.html" target="_blank">Contact us</a></li>
             </ul>
           </li>
+          <li><a href="index-cn.html"><span class="glyphicon"></span> 中文</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
-          <li><a href="index-cn.html"><span class="glyphicon"></span> 中文</a></li>
         </ul>
       </div>
     </div>
