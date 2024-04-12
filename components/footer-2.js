@@ -118,7 +118,7 @@ footerTemplate.innerHTML = `
         <div class="row">
           <div class="col-sm-8">
             <a href="https://twitter.com/study2max/" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.tiktok.com/@study2max" class="fa fa-music" target="_blank"></a>
+            <a href="https://www.zhihu.com/people/study_in_malaysia" class="fa fa-music" target="_blank"></a>
             <a href="https://space.bilibili.com/1249671191" class="fa fa-video-camera" target="_blank"></a>
             <a href="https://weibo.com/u/7515227275" class="fa fa-weibo" target="_blank"></a>
           </div>
