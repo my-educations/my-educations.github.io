@@ -63,7 +63,7 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">在线社区</a></li>
+              <li><a href="https://discord.gg/52pGtfsm" target="_blank">在线社区</a></li>
               <li><a href="https://eastwestlife.com/" target="_blank">探索世界</a></li>
               <li><a href="skill_list/skill-living-cn.html">本地指南</a></li>
               <li><a href="skill_list/university-major-cn.html">学校/专业</a></li>

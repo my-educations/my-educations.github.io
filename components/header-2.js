@@ -62,7 +62,7 @@ headerTemplate.innerHTML = `
               <span class="caret"></span>
             </button>
             <ul class="dropdown-content">
-              <li><a href="https://discord.com/invite/YPKu6eakHs" target="_blank">Community</a></li>
+              <li><a href="https://discord.gg/52pGtfsm" target="_blank">Community</a></li>
               <li><a href="https://eastwestlife.com/" target="_blank">Explore</a></li>
               <li><a href="../skill_list/skill-living-cn.html">Local Guide</a></li>
               <li><a href="../skill_list/university-major-cn.html">School/Major</a></li>
