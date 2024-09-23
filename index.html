@@ -159,11 +159,291 @@
         </a>
       </div>
     </div>
-
     <br><br>
 
-    <!-- skill -->
+    <!-- programs -->
     <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
+      <div class="">
+        <a href="programs-cn.html">
+          <button type="button" class="btn btn-x btn-block">
+            <h2>Programs</h2>
+          </button>
+        </a>
+      </div>
+      <br>
+
+      <div class="tab">
+        <button class="tablinks active" onmouseover="openProgram(event, 'phd')">PhD Program</button>
+        <button class="tablinks" onmouseover="openProgram(event, 'master')">Master Program</button>
+        <button class="tablinks" onmouseover="openProgram(event, 'bachelor')">Bachelor Program</button>
+        <button class="tablinks" onmouseover="openProgram(event, 'english')">English Training</button>
+        <button class="tablinks" onmouseover="openProgram(event, 'paper')">Academic Writing</button>
+        <button class="tablinks" onmouseover="openProgram(event, 'tour')">Cam2Cam</button>
+      </div>
+
+      <div id="phd" class="tabcontent" style="display:inline-block;">
+        <div class="row">
+          <div class="col-sm-7">
+            <a class="btn btn-danger" href="program_list/phd-cn.html"><h4>PhD Program</h4></a>
+            <br><br>
+            <img src="img/programs/phd.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-5">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>PhD Program</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Time:</strong> 2-6 years</p>
+                <p><strong>School:</strong> Public/Private</p>
+              </div>
+              <div class="panel-footer">
+                <h4>High Quality</h4>
+                <h4>High Performance</h4>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="master" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-7">
+            <a class="btn btn-danger" href="program_list/master-cn.html"><h4>Master Program</h4></a>
+            <br><br>
+            <img src="img/programs/master.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-5">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>Master Program</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Time:</strong> 1-3 years</p>
+                <p><strong>School:</strong> Public/Private</p>
+              </div>
+              <div class="panel-footer">
+                <h4>High Quality</h4>
+                <h4>High Performance</h4>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="bachelor" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-7">
+            <a class="btn btn-danger" href="program_list/bachelor-cn.html"><h4>Bachelor Program</h4></a>
+            <br><br>
+            <img src="img/programs/bachelor.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-5">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>Bachelor Program</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Time:</strong> 3-5 years</p>
+                <p><strong>School:</strong> Public/Private</p>
+              </div>
+              <div class="panel-footer">
+                <h4>High Quality</h4>
+                <h4>High Performance</h4>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="english" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-7">
+            <br>
+            <h3>English Training</h3>
+            <br>
+            <img src="img/programs/english.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-5">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>English Training</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Time:</strong> 3-6 months</p>
+                <p><strong>Fee:</strong> USD$ 800-2,000</p>
+                <p><strong>Content:</strong> IELTS/TOEFL/PTE Test</p>
+              </div>
+              <div class="panel-footer">
+                <h4>High Quality</h4>
+                <h4>High Performance</h4>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="paper" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-7">
+            <br>
+            <h3>Academic Writing</h3>
+            <br>
+            <img src="img/programs/proofread.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-5">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>Academic Writing</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Time:</strong> 1-2 weeks</p>
+                <p><strong>Fee:</strong> USD$ 300-400</p>
+                <p><strong>Content:</strong> English Academic Writing Training</p>
+              </div>
+              <div class="panel-footer">
+                <h4>High Quality</h4>
+                <h4>High Performance</h4>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tour" class="tabcontent">
+        <div class="row">
+          <div class="col-sm-7">
+            <a class="btn btn-danger" href="program_list/campus2campus_tour-cn.html"><h4>Cam2Cam</h4></a>
+            <br><br>
+            <img src="img/programs/tour.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-5">
+            <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <h3>Cam2Cam</h3>
+              </div>
+              <div class="panel-body">
+                <p><strong>Time:</strong> 1-2 weeks</p>
+                <p><strong>Fee:</strong> USD$ 500-1,000</p>
+                <p><strong>School:</strong> Public/Private</p>
+              </div>
+              <div class="panel-footer">
+                <h4>High Quality</h4>
+                <h4>High Performance</h4>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <br>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Contact us by WeChat or Email</h4>
+            </div>
+            <div class="modal-body">
+              <img src="img/about/wechat.jpg" style="width:200px;">
+              <br>
+              <p style="color:#000;">Email: mystudy.max@gmail.com</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class=" text-center">
+        <a class="btn btn-danger open" href="programs-cn.html">
+          <span class="glyphicon glyphicon-search"></span>
+          More
+        </a>
+      </div>
+    </div>
+    <br><br>
+
+    <!-- offer -->
+    <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
+      <div class="">
+        <a href="testimonial-cn.html">
+          <button type="button" class="btn btn-x btn-block">
+            <h2>offer</h2>
+          </button>
+        </a>
+      </div>
+      <br>
+
+      <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/testimonial/1.jpg" alt="感谢信" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>PhD in Management</h3>
+                <p>"Thanks to the help of StudyMax, I was finally admitted to the University of Malaya to study for a PhD!"</p>
+                <p><b>(Student Li)</b></p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/testimonial/2.jpg" alt="感谢信" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Master of Computer Science</h3>
+                <p>"I have been preparing for IELTS, preparing various materials and documents, and going to the school 5-6 times. In the end, my efforts have paid off! Thanks to StudyMax for its patient guidance!"</p>
+                <p><b>(Student Zhou)</b></p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/testimonial/4.jpg" alt="感谢信" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Bachelor of Art and Design</h3>
+                <p>"Although I paid a lot to get the offer, I am still very lucky to be able to study in a university ranked in the top 200 by QS! Thank you StudyMax for your company!"</p>
+                <p><b>(Student Xu)</b></p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/testimonial/3.jpg" alt="感谢信" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>Doctor of Medicine</h3>
+                <p>"Thanks to Mr. Zhang from StudyMax, especially during the application period, I revised the documents until midnight every night! When I finally saw the offer from the University of Science Malaysia, I laughed so hard that tears came out of my eyes!"</p>
+                <p><b>(Student Wang)</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </div>
+
+      <div class=" text-center">
+        <a class="btn btn-danger open" href="testimonial-cn.html">
+          <span class="glyphicon glyphicon-search"></span>
+          More
+        </a>
+      </div>
+    </div>
+    <br><br>
+
+     <!-- info -->
+     <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
       <div class="">
         <a href="info-cn.html">
           <button type="button" class="btn btn-x btn-block">
@@ -284,290 +564,6 @@
         </a>
       </div>
     </div>
-
-    <br><br>
-
-    <!-- programs -->
-    <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
-      <div class="">
-        <a href="programs-cn.html">
-          <button type="button" class="btn btn-x btn-block">
-            <h2>Programs</h2>
-          </button>
-        </a>
-      </div>
-      <br>
-
-      <div class="tab">
-        <button class="tablinks active" onmouseover="openProgram(event, 'phd')">PhD Program</button>
-        <button class="tablinks" onmouseover="openProgram(event, 'master')">Master Program</button>
-        <button class="tablinks" onmouseover="openProgram(event, 'bachelor')">Bachelor Program</button>
-        <button class="tablinks" onmouseover="openProgram(event, 'english')">English Training</button>
-        <button class="tablinks" onmouseover="openProgram(event, 'paper')">Academic Writing</button>
-        <button class="tablinks" onmouseover="openProgram(event, 'tour')">Cam2Cam</button>
-      </div>
-
-      <div id="phd" class="tabcontent" style="display:inline-block;">
-        <div class="row">
-          <div class="col-sm-7">
-            <a class="btn btn-danger" href="program_list/phd-cn.html"><h4>PhD Program</h4></a>
-            <br><br>
-            <img src="img/programs/phd.jpg" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-5">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>PhD Program</h3>
-              </div>
-              <div class="panel-body">
-                <p><strong>年限：</strong> 2-6年左右</p>
-                <p><strong>学校：</strong> 公立/私立</p>
-              </div>
-              <div class="panel-footer">
-                <h4>质量保证</h4>
-                <h4>超高性价比</h4>
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="master" class="tabcontent">
-        <div class="row">
-          <div class="col-sm-7">
-            <a class="btn btn-danger" href="program_list/master-cn.html"><h4>Master Program</h4></a>
-            <br><br>
-            <img src="img/programs/master.jpg" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-5">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>Master Program</h3>
-              </div>
-              <div class="panel-body">
-                <p><strong>年限：</strong> 1-3年左右</p>
-                <p><strong>学校：</strong> 公立/私立</p>
-              </div>
-              <div class="panel-footer">
-                <h4>质量保证</h4>
-                <h4>超高性价比</h4>
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="bachelor" class="tabcontent">
-        <div class="row">
-          <div class="col-sm-7">
-            <a class="btn btn-danger" href="program_list/bachelor-cn.html"><h4>Bachelor Program</h4></a>
-            <br><br>
-            <img src="img/programs/bachelor.jpg" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-5">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>Bachelor Program</h3>
-              </div>
-              <div class="panel-body">
-                <p><strong>年限：</strong> 3-5年左右</p>
-                <p><strong>学校：</strong> 公立/私立</p>
-              </div>
-              <div class="panel-footer">
-                <h4>质量保证</h4>
-                <h4>超高性价比</h4>
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="english" class="tabcontent">
-        <div class="row">
-          <div class="col-sm-7">
-            <br>
-            <h3>English Training</h3>
-            <br>
-            <img src="img/programs/english.jpg" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-5">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>English Training</h3>
-              </div>
-              <div class="panel-body">
-                <p><strong>周期：</strong> 3-6个月左右</p>
-                <p><strong>费用：</strong> 5-8千/周期</p>
-                <p><strong>内容：</strong> 雅思托福考试</p>
-              </div>
-              <div class="panel-footer">
-                <h4>质量保证</h4>
-                <h4>超高性价比</h4>
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="paper" class="tabcontent">
-        <div class="row">
-          <div class="col-sm-7">
-            <br>
-            <h3>Academic Writing</h3>
-            <br>
-            <img src="img/programs/proofread.jpg" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-5">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>Academic Writing</h3>
-              </div>
-              <div class="panel-body">
-                <p><strong>时间：</strong> 1-2周左右</p>
-                <p><strong>费用：</strong> 2-3千/次</p>
-                <p><strong>内容：</strong> 英语学术写作训练</p>
-              </div>
-              <div class="panel-footer">
-                <h4>质量保证</h4>
-                <h4>超高性价比</h4>
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="tour" class="tabcontent">
-        <div class="row">
-          <div class="col-sm-7">
-            <a class="btn btn-danger" href="program_list/campus2campus_tour-cn.html"><h4>Cam2Cam</h4></a>
-            <br><br>
-            <img src="img/programs/tour.jpg" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-5">
-            <div class="panel panel-default text-center">
-              <div class="panel-heading">
-                <h3>Cam2Cam</h3>
-              </div>
-              <div class="panel-body">
-                <p><strong>时间：</strong> 1-2周左右</p>
-                <p><strong>费用：</strong> 1-3千/次</p>
-                <p><strong>学校：</strong> 公立/私立</p>
-              </div>
-              <div class="panel-footer">
-                <h4>质量保证</h4>
-                <h4>超高性价比</h4>
-                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Enquiry</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="clearfix"></div>
-      <br>
-
-      <!-- Modal -->
-      <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">咨询请加微信或邮箱联系</h4>
-            </div>
-            <div class="modal-body">
-              <img src="img/about/wechat.jpg" style="width:200px;">
-              <br>
-              <p style="color:#000;">电子邮箱: mystudy.max@gmail.com</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class=" text-center">
-        <a class="btn btn-danger open" href="programs-cn.html">
-          <span class="glyphicon glyphicon-search"></span>
-          More
-        </a>
-      </div>
-    </div>
-
-    <br><br>
-
-    <!-- testimonial -->
-    <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
-      <div class="">
-        <a href="testimonial-cn.html">
-          <button type="button" class="btn btn-x btn-block">
-            <h2>offer & Testimonial</h2>
-          </button>
-        </a>
-      </div>
-      <br>
-
-      <div id="school-0" class="container-fluid text-center w3-container" style="max-width:1080px">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="img/testimonial/1.jpg" alt="感谢信" style="width:100%;">
-              <div class="carousel-caption">
-                <h3>马来亚大学管理学博士</h3>
-                <p>"感谢《StudyMax》帮助，我终于进入马来亚大学读博士了！"</p>
-                <p><b>（李同学）</b></p>
-              </div>
-            </div>
-            <div class="item">
-              <img src="img/testimonial/2.jpg" alt="感谢信" style="width:100%;">
-              <div class="carousel-caption">
-                <h3>理工大学计算机硕士</h3>
-                <p>"一路走过来：准备雅思，准备各种资料和文件，前后跑去学校5-6多次，最后付出总有回报！感谢《留学僧》一直的耐心指导！"</p>
-                <p><b>（周同学）</b></p>
-              </div>
-            </div>
-            <div class="item">
-              <img src="img/testimonial/3.jpg" alt="感谢信" style="width:100%;">
-              <div class="carousel-caption">
-                <h3>理科大学医学博士</h3>
-                <p>"感谢《留学僧》的张老师，尤其申请那段时间，每天晚上修改资料到半夜！最后看到理科大学的offer，顷刻间笑出了泪花！"</p>
-                <p><b>（王同学）</b></p>
-              </div>
-            </div>
-            <div class="item">
-              <img src="img/testimonial/4.jpg" alt="感谢信" style="width:100%;">
-              <div class="carousel-caption">
-                <h3>博特拉大学英语本科</h3>
-                <p>虽然为拿到offer付出了很多，但是能进入QS排名前200的大学学习，还是很幸运！谢谢《StudyMax》的陪伴！</p>
-                <p><b>（徐同学）</b></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br><br>
-      </div>
-
-      <div class=" text-center">
-        <a class="btn btn-danger open" href="testimonial-cn.html">
-          <span class="glyphicon glyphicon-search"></span>
-          More
-        </a>
-      </div>
-    </div>
-
     <br><br>
 
     <!-- contact us-->
@@ -653,11 +649,10 @@
       <div class=" text-center">
         <a class="btn btn-danger open" href="about-cn.html">
           <span class="glyphicon glyphicon-search"></span>
-          More
+          About us
         </a>
       </div>
     </div>
-
     <br><br>
 
     <!-- Go to Top -->
