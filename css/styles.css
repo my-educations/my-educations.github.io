@@ -29,6 +29,17 @@
   border-radius: 0;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
 .navbar-nav li a, .navbar .navbar-brand {
   color: #fff !important;
 }
@@ -36,12 +47,6 @@
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #29648a !important;
   background-color: #fff !important;
-}
-
-
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff !important;
 }
 
 

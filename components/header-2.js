@@ -23,7 +23,7 @@ headerTemplate.innerHTML = `
             <a href="../index.html">StudyMax</a>
           </li>
         </ul> -->
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-center">
           <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> StudyMax</a></li>
           <li class="dropdown">
             <button class="dropbtn">School
