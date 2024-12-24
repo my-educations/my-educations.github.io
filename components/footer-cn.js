@@ -107,7 +107,7 @@ footerTemplate.innerHTML = `
           <a href="https://discord.com/invite/YPKu6eakHs" target="_blank"><span class="glyphicon glyphicon-user"></span> 社区</a>&nbsp;&nbsp;
         </div>
         <div class="row">
-          <p><a href="https://studymax.org/">StudyMax</a> &copy; 2024 StuMax Academy.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
+          <p><a href="https://studymax.org/">StudyMax</a> &copy; 2025 StudyMax.&nbsp;All rights reserved | <a href="disclaimer-cn.html" target="_blank">Disclaimer</a></p>
         </div>
       </div>
       <div class="col-sm-3 text-center">
